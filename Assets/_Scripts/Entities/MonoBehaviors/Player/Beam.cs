@@ -31,12 +31,12 @@ public class Beam : MonoBehaviour {
 		Vector3    start = transform.position + Vector3.up;
 
 		if ( Physics.Raycast(start, transform.forward, out hit, 100.0f) ) {
-			if ( hit.collider.gameObject.transform.parent.name.Contains("Player") ) {
+			if ( hit.collider.gameObject.transform.parent.name.Contains("Player") && hit.collider.gameObject.transform.parent.name != gameObject.name ) {
 				if ( GameController.Instance.IsTesting() ) Debug.Log( gameObject.name + "Hit player: " + hit.collider.gameObject.transform.parent.name);
 				hit.collider.gameObject.transform.parent.gameObject.BroadcastMessage("Kill");				
 			}  
 			_lineRenderer.SetPosition(0, start);
-			_lineRenderer.SetPosition(1, hit.point);
+			_lineRenderer.SetPosition(1, hit.point );
 		} else {
 			_lineRenderer.SetPosition(0, start);
 			_lineRenderer.SetPosition(1, transform.forward * laserLenght);
