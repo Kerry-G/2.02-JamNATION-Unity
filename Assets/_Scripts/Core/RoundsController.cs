@@ -56,9 +56,9 @@ namespace Core {
                     index = Random.Range(0, spawningPositions.Length);
                 } while ( usedSpawn.Contains(index) );
 
-                Debug.Log("Spawn at pos index: "+index);
                 Vector3 pos = spawningPositions[index].transform.position;
-                // player.SpawnAt(pos);
+                PlayerController playerController = player.GetComponent<PlayerController>();
+                playerController.SpawnAt(pos);
                 usedSpawn.Add(index);
             }
 
