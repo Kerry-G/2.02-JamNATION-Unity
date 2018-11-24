@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 using Rewired;
 
@@ -51,6 +51,9 @@ namespace Entities.Player {
                 locVel = new Vector3(0, 0, 0);
 
             _rb.velocity = transform.TransformDirection(locVel);
+
+            // Reset Angular Velocity (Manual movement only)
+            _rb.angularVelocity = Vector3.zero;
         }
 
 
@@ -70,13 +73,12 @@ namespace Entities.Player {
 
             // When moving (Type 1)
             if ( _phase == Core.GamePhase.Moving ) {
-                if(!Mathf.Approximately(horizontal, 0f))
+                if ( !Mathf.Approximately(horizontal, 0f) )
                     transform.Rotate(Vector3.up * movementRotationSpeed * Mathf.Sign(horizontal) * Time.deltaTime);
             } else if ( _phase == Core.GamePhase.Shooting ) {
-                if(!Mathf.Approximately(horizontal, 0f))
+                if ( !Mathf.Approximately(horizontal, 0f) )
                     transform.Rotate(Vector3.up * shootingRotationSpeed * Mathf.Sign(horizontal) * Time.deltaTime);
             }
-            
         }
 
     }
