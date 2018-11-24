@@ -67,7 +67,7 @@ namespace Entities.Player {
         /// <param name="pos"></param>
         public void SpawnAt(Vector3 pos) {
             transform.position = pos;
-            enabled = true;
+            gameObject.SetActive(true);
         }
 
 
@@ -78,7 +78,7 @@ namespace Entities.Player {
         public void Kill() {
             numberOfLives--;
             // Spawn particles ???
-            enabled = false;
+            gameObject.SetActive(false);
         }
 
 
