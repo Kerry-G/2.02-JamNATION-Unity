@@ -209,7 +209,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4928125256499636, guid: 8957774b5e69a4818a9f625a6ea49b13, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.94
+      value: -16.57
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 8957774b5e69a4818a9f625a6ea49b13, type: 2}
       propertyPath: m_LocalPosition.y
@@ -217,7 +217,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 8957774b5e69a4818a9f625a6ea49b13, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -5.31
+      value: 2.87
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 8957774b5e69a4818a9f625a6ea49b13, type: 2}
       propertyPath: m_LocalRotation.x
@@ -242,6 +242,16 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 120333841361285592, guid: 8957774b5e69a4818a9f625a6ea49b13,
+        type: 2}
+      propertyPath: m_UseWorldSpace
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114548893420670846, guid: 8957774b5e69a4818a9f625a6ea49b13,
+        type: 2}
+      propertyPath: walkingSpeed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8957774b5e69a4818a9f625a6ea49b13, type: 2}
@@ -332,7 +342,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4928125256499636, guid: 8f200389aaf11ca42a63acb24eec237f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.98
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 8f200389aaf11ca42a63acb24eec237f, type: 2}
       propertyPath: m_LocalPosition.y
@@ -340,7 +350,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 8f200389aaf11ca42a63acb24eec237f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -6.12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 8f200389aaf11ca42a63acb24eec237f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -376,6 +386,11 @@ Prefab:
         type: 2}
       propertyPath: shootingRotationSpeed
       value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 120479095970161778, guid: 8f200389aaf11ca42a63acb24eec237f,
+        type: 2}
+      propertyPath: m_UseWorldSpace
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f200389aaf11ca42a63acb24eec237f, type: 2}
@@ -558,7 +573,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4928125256499636, guid: 1a19f77dd7b784950917a5b35f8770f2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.86
+      value: 6.01
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 1a19f77dd7b784950917a5b35f8770f2, type: 2}
       propertyPath: m_LocalPosition.y
@@ -566,15 +581,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 1a19f77dd7b784950917a5b35f8770f2, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -9.86
+      value: -18.39
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 1a19f77dd7b784950917a5b35f8770f2, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 1a19f77dd7b784950917a5b35f8770f2, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.86776555
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 1a19f77dd7b784950917a5b35f8770f2, type: 2}
       propertyPath: m_LocalRotation.z
@@ -582,11 +597,38 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 1a19f77dd7b784950917a5b35f8770f2, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -0.4969739
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: 1a19f77dd7b784950917a5b35f8770f2, type: 2}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928125256499636, guid: 1a19f77dd7b784950917a5b35f8770f2, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928125256499636, guid: 1a19f77dd7b784950917a5b35f8770f2, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928125256499636, guid: 1a19f77dd7b784950917a5b35f8770f2, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 120147333026461774, guid: 1a19f77dd7b784950917a5b35f8770f2,
+        type: 2}
+      propertyPath: m_UseWorldSpace
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114548893420670846, guid: 1a19f77dd7b784950917a5b35f8770f2,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114548893420670846, guid: 1a19f77dd7b784950917a5b35f8770f2,
+        type: 2}
+      propertyPath: walkingSpeed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a19f77dd7b784950917a5b35f8770f2, type: 2}
@@ -768,7 +810,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: aa67ff7065978464e9e69d49785a2f7e, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.22
+      value: -27.65
       objectReference: {fileID: 0}
     - target: {fileID: 4928125256499636, guid: aa67ff7065978464e9e69d49785a2f7e, type: 2}
       propertyPath: m_LocalRotation.x
@@ -789,6 +831,16 @@ Prefab:
     - target: {fileID: 4928125256499636, guid: aa67ff7065978464e9e69d49785a2f7e, type: 2}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 120129689766356268, guid: aa67ff7065978464e9e69d49785a2f7e,
+        type: 2}
+      propertyPath: m_UseWorldSpace
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114548893420670846, guid: aa67ff7065978464e9e69d49785a2f7e,
+        type: 2}
+      propertyPath: walkingSpeed
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa67ff7065978464e9e69d49785a2f7e, type: 2}
@@ -870,7 +922,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1924433770}
   m_LocalRotation: {x: 0.67559016, y: 0, z: 0, w: 0.7372774}
-  m_LocalPosition: {x: 0, y: 25.74, z: -3.12}
+  m_LocalPosition: {x: 0, y: 36.74, z: -3.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
