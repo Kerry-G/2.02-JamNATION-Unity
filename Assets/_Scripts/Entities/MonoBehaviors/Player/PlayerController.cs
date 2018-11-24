@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 using Rewired;
 
@@ -9,6 +9,7 @@ namespace Entities.Player {
         [PlayerIdProperty(typeof(RewiredConsts.Player))]
         public int player;
 
+        public int   numberOfLives         = 1;
         public float walkingSpeed          = 5f;
         public int   movementRotationSpeed = 100;
         public int   shootingRotationSpeed = 200;
@@ -18,6 +19,10 @@ namespace Entities.Player {
         private Core.GamePhase _phase;
 
         public Rewired.Player PlayerInputs { get; protected set; }
+
+        public bool HasLives {
+            get { return numberOfLives > 0; }
+        }
 
         // ========================================================
         // ========================================================
@@ -53,6 +58,27 @@ namespace Entities.Player {
 
             // Reset Angular Velocity (Manual movement only)
             _rb.angularVelocity = Vector3.zero;
+        }
+
+
+        /// <summary>
+        /// Spawn Player at given position
+        /// </summary>
+        /// <param name="pos"></param>
+        public void SpawnAt(Vector3 pos) {
+            transform.position = pos;
+            enabled = true;
+        }
+
+
+        /// <summary>
+        /// Kill Event
+        /// External call
+        /// </summary>
+        public void Kill() {
+            numberOfLives--;
+            // Spawn particles ???
+            enabled = false;
         }
 
 

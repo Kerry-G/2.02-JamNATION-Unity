@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 114548893420670846}
   - component: {fileID: 114748948353194830}
   m_Layer: 0
-  m_Name: Player1
+  m_Name: Player2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,10 +216,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8a029c4168037b46a7a26de858e77a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: 0
+  player: 1
+  numberOfLives: 1
   walkingSpeed: 5
-  movementRotationSpeed: 5
-  shootingRotationSpeed: 5
+  movementRotationSpeed: 160
+  shootingRotationSpeed: 300
 --- !u!114 &114748948353194830
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -231,6 +232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fea4d2e2793b2441855853ac574bfb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  laserWidth: 1
+  laserLenght: 100
 --- !u!136 &136366768302090962
 CapsuleCollider:
   m_ObjectHideFlags: 1
