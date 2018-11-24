@@ -29,6 +29,8 @@ namespace Entities.Player {
 
 
         protected void Awake() {
+            Core.GameController.Instance.onChangePhase.AddListener(ChangeGamePhase);
+
             PlayerInputs = ReInput.players.GetPlayer(player); // Get the MainPlayer's inputs
             _rb          = GetComponent<Rigidbody>();
         }

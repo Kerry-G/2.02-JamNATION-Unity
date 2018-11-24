@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Core;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Experimental.PlayerLoop;
 
 [RequireComponent (typeof(LineRenderer))]
@@ -13,6 +14,8 @@ public class Beam : MonoBehaviour {
 	private LineRenderer _lineRenderer;
 	
 	void Start() {
+		GameController.Instance.onChangePhase.AddListener(ChangePhaseListener);
+
 		_lineRenderer = GetComponent<LineRenderer>();
 		_lineRenderer.positionCount = 2; //number of vertices 
 		_lineRenderer.startWidth = laserWidth;
@@ -22,10 +25,12 @@ public class Beam : MonoBehaviour {
 	}
 
 
-	private void FixedUpdate() {
-		if ( GameController.Instance.IsTesting() ) Shoot();
+	private void ChangePhaseListener(GamePhase changedTo) {
+		if(changedTo == GamePhase.Moving)
+			Shoot();
 	}
-	
+
+
 	private void Shoot() {
 		RaycastHit hit;
 		Vector3    start = transform.position + Vector3.up;

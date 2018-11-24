@@ -2,6 +2,7 @@ using System;
 using System.Timers;
 using Core.Inputs;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 namespace Core {
@@ -12,6 +13,9 @@ namespace Core {
         public static GameController Instance {
             get { return _instance; }
         }
+
+        [Serializable]
+        public class PhaseChangeEvent : UnityEvent<GamePhase> { }
 
         public float movementPhaseDuration = 5.0f;
         public float shootingPhaseDuration = 1.0f;
@@ -29,6 +33,8 @@ namespace Core {
 
         [SerializeField] private SceneController _sceneController;
 
+        [HideInInspector]
+        public PhaseChangeEvent onChangePhase;
 
         // ====================================
         // ====================================
@@ -106,12 +112,16 @@ namespace Core {
             if ( _gamePhase == GamePhase.Moving && _timer > movementPhaseDuration ) {
                 setGamePhase(GamePhase.Shooting);
             }  else if ( _gamePhase == GamePhase.Shooting && _timer > shootingPhaseDuration ) {
-                BroadcastToAllPlayers("Shoot");
                 setGamePhase(GamePhase.Moving);
             }
         }
 
 
+        /// <summary>
+        ///
+        /// </summary>
+        /// <param name="gamePhase"></param>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
         private void setGamePhase(GamePhase gamePhase) {
             switch ( gamePhase ) {
                 case GamePhase.Moving:
@@ -123,7 +133,7 @@ namespace Core {
                 default: throw new ArgumentOutOfRangeException("gamePhase", gamePhase, null);
             }
 
-            broadcastGamePhase();
+            onChangePhase.Invoke(_gamePhase);
             resetTimer();
             if ( _testingMode ) {
                 printPhase();
@@ -149,8 +159,6 @@ namespace Core {
         private void printPhase() { Debug.Log("Game Phase is " + _gamePhase); }
 
         private void resetTimer() { _timer = 0f; }
-        
-        private void broadcastGamePhase() { BroadcastToAllPlayers("ChangeGamePhase", _gamePhase); }
 
         private void BroadcastToAllPlayers(string functionCall, object message = null) {
             if ( Player1 != null ) Player1.BroadcastMessage(functionCall, message);
