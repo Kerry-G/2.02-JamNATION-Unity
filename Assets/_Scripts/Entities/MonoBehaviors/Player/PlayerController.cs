@@ -13,9 +13,9 @@ namespace Entities.Player {
         public float shootingRotationSpeed = 5f;
 
 
-        private Rigidbody                     _rb;
-        private Animator                      _animator;
-        private Core.GameController.GamePhase _phase;
+        private Rigidbody      _rb;
+        private Animator       _animator;
+        private Core.GamePhase _phase;
 
         public Rewired.Player PlayerInputs { get; protected set; }
 
@@ -44,8 +44,11 @@ namespace Entities.Player {
         /// </summary>
         private void MoveForward() {
             Vector3 locVel = transform.InverseTransformDirection(_rb.velocity);
-            Debug.Log(locVel);
-            locVel.z     = walkingSpeed; // Move forward in local space
+            if ( _phase == Core.GamePhase.Moving )
+                locVel.z = walkingSpeed; // Move forward in local space
+            else
+                locVel.z = 0;
+
             _rb.velocity = transform.TransformDirection(locVel);
         }
 
@@ -54,7 +57,7 @@ namespace Entities.Player {
         /// Receive message with the current gamePhase
         /// </summary>
         /// <param name="phase"></param>
-        public void ChangeGamePhase(Core.GameController.GamePhase phase) { _phase = phase; }
+        public void ChangeGamePhase(Core.GamePhase phase) { _phase = phase; }
 
 
         /// <summary>
@@ -65,9 +68,9 @@ namespace Entities.Player {
             float vertical   = PlayerInputs.GetAxisRaw(RewiredConsts.Action.Vertical);
 
             // When moving
-            if (_phase == Core.GameController.GamePhase) {
-
-            }
+            if ( _phase == Core.GamePhase.Moving ) {
+                // horizontal;
+            } else if ( _phase == Core.GamePhase.Shooting ) { }
         }
 
     }

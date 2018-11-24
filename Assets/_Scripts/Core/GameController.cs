@@ -156,15 +156,15 @@ namespace Core {
         private void resetTimer() { _timer = 0f; }
 
         private void broadcastGamePhaseToPlayer() {
-            Player1.BroadcastMessage("changeGamePhase", _gamePhase);        
-            Player2.BroadcastMessage("changeGamePhase", _gamePhase);
-            Player3.BroadcastMessage("changeGamePhase", _gamePhase);
-            Player4.BroadcastMessage("changeGamePhase", _gamePhase);
+            Player1.BroadcastMessage("ChangeGamePhase", _gamePhase);
+            Player2.BroadcastMessage("ChangeGamePhase", _gamePhase);
+            Player3.BroadcastMessage("ChangeGamePhase", _gamePhase);
+            Player4.BroadcastMessage("ChangeGamePhase", _gamePhase);
         }
         
     }
 
-    enum GamePhase {
+    public enum GamePhase {
         Moving,
         Shooting
     }
