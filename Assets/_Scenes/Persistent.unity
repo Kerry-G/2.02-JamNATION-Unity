@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementPhaseDuration: 3
-  shootingPhaseDuration: 0.1
+  shootingPhaseDuration: 1
   _sceneController: {fileID: 365038633}
 --- !u!1 &1175752018
 GameObject:
