@@ -12,15 +12,18 @@ namespace Core {
         public static GameController Instance {
             get { return _instance; }
         }
+
         public float movementPhaseDuration = 5.0f;
         public float shootingPhaseDuration = 1.0f;
 
-        private bool _testingMode = false; // Define if we are testing a scene alone or using the SceneController Loader
-        private GamePhase _gamePhase = GamePhase.Moving;
-        
+        private bool      _testingMode = false; // Define if we are testing a scene alone or using the SceneController Loader
+        private GamePhase _gamePhase   = GamePhase.Moving;
+
         private float _timer;
+
         /// References
         private GameObject _player1;
+
         private GameObject _player2;
         private GameObject _player3;
         private GameObject _player4;
@@ -111,12 +114,15 @@ namespace Core {
 
         private void setGamePhase(GamePhase gamePhase) {
             switch ( gamePhase ) {
-                case GamePhase.Moving:   setMovingGamePhase();
+                case GamePhase.Moving:
+                    setMovingGamePhase();
                     break;
-                case GamePhase.Shooting: setShootingGamePhase();
+                case GamePhase.Shooting:
+                    setShootingGamePhase();
                     break;
                 default: throw new ArgumentOutOfRangeException("gamePhase", gamePhase, null);
             }
+
             broadcastGamePhaseToPlayer();
             resetTimer();
             if ( _testingMode ) {
@@ -139,34 +145,31 @@ namespace Core {
         public void KillGame() { Application.Quit(); }
 
 
-        private void setMovingGamePhase() {
-            _gamePhase = GamePhase.Moving;
-        }
+        private void setMovingGamePhase() { _gamePhase = GamePhase.Moving; }
 
 
-        private void setShootingGamePhase() {
-            _gamePhase = GamePhase.Shooting;
-        }
+        private void setShootingGamePhase() { _gamePhase = GamePhase.Shooting; }
 
 
-        private void printPhase() {
-            Debug.Log("Game Phase is " + _gamePhase);
-        }
+        private void printPhase() { Debug.Log("Game Phase is " + _gamePhase); }
 
         private void resetTimer() { _timer = 0f; }
 
+
         private void broadcastGamePhaseToPlayer() {
-            Player1.BroadcastMessage("ChangeGamePhase", _gamePhase);
-            Player2.BroadcastMessage("ChangeGamePhase", _gamePhase);
-            Player3.BroadcastMessage("ChangeGamePhase", _gamePhase);
-            Player4.BroadcastMessage("ChangeGamePhase", _gamePhase);
+            if ( Player1 != null ) Player1.BroadcastMessage("ChangeGamePhase", _gamePhase);
+            if ( Player2 != null ) Player2.BroadcastMessage("ChangeGamePhase", _gamePhase);
+            if ( Player3 != null ) Player3.BroadcastMessage("ChangeGamePhase", _gamePhase);
+            if ( Player4 != null ) Player4.BroadcastMessage("ChangeGamePhase", _gamePhase);
         }
-        
+
     }
 
     public enum GamePhase {
+
         Moving,
         Shooting
+
     }
 
 // Class

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using Rewired;
 
 namespace Entities.Player {
@@ -9,8 +10,8 @@ namespace Entities.Player {
         public int player;
 
         public float walkingSpeed          = 5f;
-        public float movementRotationSpeed = 5f;
-        public float shootingRotationSpeed = 5f;
+        public int   movementRotationSpeed = 100;
+        public int   shootingRotationSpeed = 200;
 
 
         private Rigidbody      _rb;
@@ -45,9 +46,9 @@ namespace Entities.Player {
         private void MoveForward() {
             Vector3 locVel = transform.InverseTransformDirection(_rb.velocity);
             if ( _phase == Core.GamePhase.Moving )
-                locVel.z = walkingSpeed; // Move forward in local space
+                locVel = new Vector3(0, 0, walkingSpeed); // Move forward in local space
             else
-                locVel.z = 0;
+                locVel = new Vector3(0, 0, 0);
 
             _rb.velocity = transform.TransformDirection(locVel);
         }
@@ -67,10 +68,15 @@ namespace Entities.Player {
             float horizontal = PlayerInputs.GetAxisRaw(RewiredConsts.Action.Horizontal);
             float vertical   = PlayerInputs.GetAxisRaw(RewiredConsts.Action.Vertical);
 
-            // When moving
+            // When moving (Type 1)
             if ( _phase == Core.GamePhase.Moving ) {
-                // horizontal;
-            } else if ( _phase == Core.GamePhase.Shooting ) { }
+                if(!Mathf.Approximately(horizontal, 0f))
+                    transform.Rotate(Vector3.up * movementRotationSpeed * Mathf.Sign(horizontal) * Time.deltaTime);
+            } else if ( _phase == Core.GamePhase.Shooting ) {
+                if(!Mathf.Approximately(horizontal, 0f))
+                    transform.Rotate(Vector3.up * shootingRotationSpeed * Mathf.Sign(horizontal) * Time.deltaTime);
+            }
+            
         }
 
     }

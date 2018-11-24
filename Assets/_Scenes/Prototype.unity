@@ -129,7 +129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &83295687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,8 +143,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: 1
   walkingSpeed: 5
-  movementRotationSpeed: 5
-  shootingRotationSpeed: 5
+  movementRotationSpeed: 100
+  shootingRotationSpeed: 100
 --- !u!54 &83295688
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -622,7 +622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &349921745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -636,8 +636,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: 2
   walkingSpeed: 5
-  movementRotationSpeed: 5
-  shootingRotationSpeed: 5
+  movementRotationSpeed: 100
+  shootingRotationSpeed: 100
 --- !u!54 &349921746
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1254,7 +1254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1660886535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1268,8 +1268,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: 3
   walkingSpeed: 5
-  movementRotationSpeed: 5
-  shootingRotationSpeed: 5
+  movementRotationSpeed: 100
+  shootingRotationSpeed: 100
 --- !u!54 &1660886536
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1345,8 +1345,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: 0
   walkingSpeed: 5
-  movementRotationSpeed: 5
-  shootingRotationSpeed: 5
+  movementRotationSpeed: 160
+  shootingRotationSpeed: 400
 --- !u!54 &1747907575
 Rigidbody:
   m_ObjectHideFlags: 0
