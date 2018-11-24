@@ -23,7 +23,6 @@ namespace Core {
 
         /// References
         private GameObject _player1;
-
         private GameObject _player2;
         private GameObject _player3;
         private GameObject _player4;
@@ -106,7 +105,8 @@ namespace Core {
             _timer += Time.deltaTime;
             if ( _gamePhase == GamePhase.Moving && _timer > movementPhaseDuration ) {
                 setGamePhase(GamePhase.Shooting);
-            } else if ( _gamePhase == GamePhase.Shooting && _timer > shootingPhaseDuration ) {
+            }  else if ( _gamePhase == GamePhase.Shooting && _timer > shootingPhaseDuration ) {
+                BroadcastToAllPlayers("Shoot");
                 setGamePhase(GamePhase.Moving);
             }
         }
@@ -123,13 +123,12 @@ namespace Core {
                 default: throw new ArgumentOutOfRangeException("gamePhase", gamePhase, null);
             }
 
-            broadcastGamePhaseToPlayer();
+            broadcastGamePhase();
             resetTimer();
             if ( _testingMode ) {
                 printPhase();
             }
         }
-
 
         // ========================================================
         // ========================================================
@@ -137,39 +136,34 @@ namespace Core {
 
 
         public bool IsTesting() { return _testingMode; }
-
-
+        
         /// <summary>
         /// Quit the entire application (Only in builds)
         /// </summary>
         public void KillGame() { Application.Quit(); }
 
-
         private void setMovingGamePhase() { _gamePhase = GamePhase.Moving; }
 
-
         private void setShootingGamePhase() { _gamePhase = GamePhase.Shooting; }
-
 
         private void printPhase() { Debug.Log("Game Phase is " + _gamePhase); }
 
         private void resetTimer() { _timer = 0f; }
+        
+        private void broadcastGamePhase() { BroadcastToAllPlayers("ChangeGamePhase", _gamePhase); }
 
-
-        private void broadcastGamePhaseToPlayer() {
-            if ( Player1 != null ) Player1.BroadcastMessage("ChangeGamePhase", _gamePhase);
-            if ( Player2 != null ) Player2.BroadcastMessage("ChangeGamePhase", _gamePhase);
-            if ( Player3 != null ) Player3.BroadcastMessage("ChangeGamePhase", _gamePhase);
-            if ( Player4 != null ) Player4.BroadcastMessage("ChangeGamePhase", _gamePhase);
+        private void BroadcastToAllPlayers(string functionCall, object message = null) {
+            if ( Player1 != null ) Player1.BroadcastMessage(functionCall, message);
+            if ( Player2 != null ) Player2.BroadcastMessage(functionCall, message);
+            if ( Player3 != null ) Player3.BroadcastMessage(functionCall, message);
+            if ( Player4 != null ) Player4.BroadcastMessage(functionCall, message);
         }
 
     }
 
-    public enum GamePhase {
-
+    public enum     GamePhase {
         Moving,
         Shooting
-
     }
 
 // Class

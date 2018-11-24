@@ -13,7 +13,6 @@ namespace Entities.Player {
         public int   movementRotationSpeed = 100;
         public int   shootingRotationSpeed = 200;
 
-
         private Rigidbody      _rb;
         private Animator       _animator;
         private Core.GamePhase _phase;
