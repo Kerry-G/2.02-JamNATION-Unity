@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
 using System.Collections.Generic;
-using Entities.Player;
 using UnityEngine;
+using UnityEngine.Events;
+using PlayerController = Entities.Player.PlayerController;
+using Random = UnityEngine.Random;
 
 namespace Core {
     public class RoundsController : MonoBehaviour {
@@ -11,6 +13,12 @@ namespace Core {
 
         public GameObject[] players; // The 4 players prefabs for 4 players
         public GameObject[] spawningPositions;
+
+        [Serializable]
+        public class EndRoundEvent : UnityEvent<PlayerController> { }
+
+        public UnityEvent    beginRound = new UnityEvent();
+        public EndRoundEvent endRound   = new EndRoundEvent();
 
 
         private void Start() {
@@ -56,13 +64,14 @@ namespace Core {
                     index = Random.Range(0, spawningPositions.Length);
                 } while ( usedSpawn.Contains(index) );
 
-                Vector3 pos = spawningPositions[index].transform.position;
+                Vector3          pos              = spawningPositions[index].transform.position;
                 PlayerController playerController = player.GetComponent<PlayerController>();
                 playerController.SpawnAt(pos);
                 usedSpawn.Add(index);
             }
 
             roundRunning = true;
+            beginRound.Invoke();
         }
 
 
@@ -76,6 +85,7 @@ namespace Core {
             }
 
             roundRunning = false;
+            endRound.Invoke(winner);
         }
 
     }
