@@ -1,4 +1,5 @@
 using System;
+using System.Timers;
 using Core.Inputs;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -11,13 +12,18 @@ namespace Core {
         public static GameController Instance {
             get { return _instance; }
         }
-
+        public float movementPhaseDuration = 5.0f;
+        public float shootingPhaseDuration = 1.0f;
 
         private bool _testingMode = false; // Define if we are testing a scene alone or using the SceneController Loader
-
+        private GamePhase _gamePhase = GamePhase.Moving;
+        
+        private float _timer;
         /// References
         private GameObject _player1;
         private GameObject _player2;
+        private GameObject _player3;
+        private GameObject _player4;
 
         [SerializeField] private SceneController _sceneController;
 
@@ -40,6 +46,20 @@ namespace Core {
             get {
                 if ( _player2 == null ) _player2 = GameObject.Find("Player2");
                 return _player2;
+            }
+        }
+
+        public GameObject Player3 {
+            get {
+                if ( _player3 == null ) _player3 = GameObject.Find("Player3");
+                return _player3;
+            }
+        }
+
+        public GameObject Player4 {
+            get {
+                if ( _player4 == null ) _player4 = GameObject.Find("Player4");
+                return _player4;
             }
         }
 
@@ -76,6 +96,35 @@ namespace Core {
         }
 
 
+        private void Update() { gamePhaseManager(); }
+
+
+        private void gamePhaseManager() {
+            _timer += Time.deltaTime;
+            if ( _gamePhase == GamePhase.Moving && _timer > movementPhaseDuration ) {
+                setGamePhase(GamePhase.Shooting);
+            } else if ( _gamePhase == GamePhase.Shooting && _timer > shootingPhaseDuration ) {
+                setGamePhase(GamePhase.Moving);
+            }
+        }
+
+
+        private void setGamePhase(GamePhase gamePhase) {
+            switch ( gamePhase ) {
+                case GamePhase.Moving:   setMovingGamePhase();
+                    break;
+                case GamePhase.Shooting: setShootingGamePhase();
+                    break;
+                default: throw new ArgumentOutOfRangeException("gamePhase", gamePhase, null);
+            }
+            broadcastGamePhaseToPlayer();
+            resetTimer();
+            if ( _testingMode ) {
+                printPhase();
+            }
+        }
+
+
         // ========================================================
         // ========================================================
         // ========================================================
@@ -89,5 +138,36 @@ namespace Core {
         /// </summary>
         public void KillGame() { Application.Quit(); }
 
-    } // Class
+
+        private void setMovingGamePhase() {
+            _gamePhase = GamePhase.Moving;
+        }
+
+
+        private void setShootingGamePhase() {
+            _gamePhase = GamePhase.Shooting;
+        }
+
+
+        private void printPhase() {
+            Debug.Log("Game Phase is " + _gamePhase);
+        }
+
+        private void resetTimer() { _timer = 0f; }
+
+        private void broadcastGamePhaseToPlayer() {
+            Player1.BroadcastMessage("changeGamePhase", _gamePhase);        
+            Player2.BroadcastMessage("changeGamePhase", _gamePhase);
+            Player3.BroadcastMessage("changeGamePhase", _gamePhase);
+            Player4.BroadcastMessage("changeGamePhase", _gamePhase);
+        }
+        
+    }
+
+    enum GamePhase {
+        Moving,
+        Shooting
+    }
+
+// Class
 }
