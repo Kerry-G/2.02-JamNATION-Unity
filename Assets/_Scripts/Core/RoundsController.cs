@@ -8,10 +8,9 @@ using Random = UnityEngine.Random;
 namespace Core {
     public class RoundsController : MonoBehaviour {
 
-        private PlayerController[] _playingPlayers = new PlayerController[4];
-        private bool               roundRunning    = false;
+        private bool roundRunning = false;
 
-        public GameObject[] players; // The 4 players prefabs for 4 players
+        public GameObject[] players; // The 4 players in the scene
         public GameObject[] spawningPositions;
 
         [Serializable]
@@ -36,7 +35,8 @@ namespace Core {
         private void DetectEndRound() {
             int              hasLivesPlayerCount = 0;
             PlayerController winningPlayer       = null;
-            foreach ( PlayerController player in _playingPlayers ) {
+            foreach ( GameObject obj in players ) {
+                PlayerController player = obj.GetComponent<PlayerController>();
                 if ( player.HasLives ) {
                     hasLivesPlayerCount++;
                     winningPlayer = player;

@@ -77,7 +77,6 @@ namespace Entities.Player {
         /// </summary>
         public void Kill() {
             numberOfLives--;
-            Debug.Log(gameObject.name + " has been KILLED.");
             // Spawn particles ???
             gameObject.SetActive(false);
         }
