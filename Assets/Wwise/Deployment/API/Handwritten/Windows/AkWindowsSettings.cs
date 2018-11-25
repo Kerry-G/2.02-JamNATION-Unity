@@ -44,10 +44,10 @@
 
 		public void CopyTo(AkPlatformInitSettings settings)
 		{
-#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN || UNITY_WSA
-			settings.eAudioAPI = (AkAudioAPI)m_AudioAPI;
-			settings.bGlobalFocus = m_GlobalFocus;
-#endif
+//#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN || UNITY_WSA
+//			settings.eAudioAPI = (AkAudioAPI)m_AudioAPI;
+//			settings.bGlobalFocus = m_GlobalFocus;
+//#endif
 		}
 	}
 
