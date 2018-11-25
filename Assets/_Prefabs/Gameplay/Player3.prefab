@@ -340,7 +340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: 2
   numberOfLives: 1
-  walkingSpeed: 7
+  walkingSpeed: 8
   movementRotationSpeed: 240
   shootingRotationSpeed: 500
 --- !u!114 &114748948353194830
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laserWidth: 1
   laserLenght: 100
-  laserFadeTime: 0.002
+  laserFadeTime: 0.3
 --- !u!114 &114806182956612232
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -383,7 +383,7 @@ LineRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: e95953f4b1a1af84f947ea7722da20a9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

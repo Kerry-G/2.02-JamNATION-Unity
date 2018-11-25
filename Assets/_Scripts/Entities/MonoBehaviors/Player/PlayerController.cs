@@ -87,8 +87,16 @@ namespace Entities.Player {
         /// External call
         /// </summary>
         public void Kill() {
-            numberOfLives--;
             // Spawn particles ???
+            StartCoroutine(dd());
+//            gameObject.SetActive(false);
+//            numberOfLives--;
+        }
+
+
+        IEnumerator dd() {
+            yield return new WaitForSeconds(0.1f);
+            numberOfLives--;
             gameObject.SetActive(false);
         }
 

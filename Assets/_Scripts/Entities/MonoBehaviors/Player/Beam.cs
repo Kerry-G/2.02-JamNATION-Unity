@@ -45,7 +45,6 @@ public class Beam : MonoBehaviour {
 		if ( Physics.Raycast(start, transform.forward, out hit, laserLenght) ) {
 			if ( hit.collider.gameObject.transform.parent.name.Contains("Player")
 			     && hit.collider.gameObject.transform.parent.name != gameObject.name ) {
-				if ( GameController.Instance.IsTesting() )
 				hit.collider.gameObject.transform.parent.gameObject.BroadcastMessage("Kill");
 			}
 			_lineRenderer.SetPosition(0, start);

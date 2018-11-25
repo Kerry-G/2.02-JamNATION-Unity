@@ -24,28 +24,45 @@ namespace Core {
         private void Start() {
             //
             StartRound();
+            StartCoroutine(DetectEndRound());
         }
 
 
         private void Update() {
-            //
-            DetectEndRound();
+//            DetectEndRound();
         }
 
-
-        private void DetectEndRound() {
-            int              hasLivesPlayerCount = 0;
-            PlayerController winningPlayer       = null;
-            foreach ( GameObject obj in players ) {
-                PlayerController player = obj.GetComponent<PlayerController>();
-                if ( player.HasLives ) {
-                    hasLivesPlayerCount++;
-                    winningPlayer = player;
+        IEnumerator DetectEndRound() {
+            while ( true ) {
+                yield return new WaitForSeconds(.2f);
+                int              hasLivesPlayerCount = 0;
+                PlayerController winningPlayer       = null;
+                foreach ( GameObject obj in players ) {
+                    PlayerController player = obj.GetComponent<PlayerController>();
+                    if ( player.HasLives ) {
+                        hasLivesPlayerCount++;
+                        winningPlayer = player;
+                    }
                 }
-            }
 
-            if ( hasLivesPlayerCount <= 1 ) EndRound(winningPlayer);
+                if ( hasLivesPlayerCount <= 1 ) EndRound(winningPlayer);
+                
+            }
         }
+
+//        private void DetectEndRound() {
+//                int              hasLivesPlayerCount = 0;
+//                PlayerController winningPlayer       = null;
+//                foreach ( GameObject obj in players ) {
+//                    PlayerController player = obj.GetComponent<PlayerController>();
+//                    if ( player.HasLives ) {
+//                        hasLivesPlayerCount++;
+//                        winningPlayer = player;
+//                    }
+//                }
+//
+//                if ( hasLivesPlayerCount <= 1 ) EndRound(winningPlayer);
+//        }
 
 
         /// <summary>

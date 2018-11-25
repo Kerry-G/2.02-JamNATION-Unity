@@ -263,7 +263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: 0
   numberOfLives: 1
-  walkingSpeed: 7
+  walkingSpeed: 8
   movementRotationSpeed: 240
   shootingRotationSpeed: 500
 --- !u!114 &114748948353194830
