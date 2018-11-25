@@ -19,7 +19,7 @@ public class OnVideoEnd : MonoBehaviour {
 
 
     void EndReached(VideoPlayer vp) {
-        //
+        AkSoundEngine.StopAll();
         GameController.Instance.SceneController.FadeAndLoadScene("Prototype");
     }
 
