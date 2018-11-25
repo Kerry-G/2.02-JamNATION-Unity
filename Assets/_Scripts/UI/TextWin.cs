@@ -15,39 +15,119 @@ public class TextWin : MonoBehaviour {
 	public GameObject lion;
 	public GameObject cow;
 	public GameObject bear;
+	public GameObject draw;
 
+	public GameObject sharkWin;
+	public GameObject lionWin;
+	public GameObject cowWin;
+	public GameObject bearWin;
 
 
 	public void setMenu(int index) {
-				
+
+		
 		if (index == 2) {
-			gameObject.GetComponent<Text> ().text  = "Shark Wins";
-			gameObject.GetComponent<Text> ().color = new Color32 (0x02, 0xE8, 0xFF, 0xFF);
-			for (int i = 0; i <= sharkWins; i++) {
-				shark.transform.GetChild (i).gameObject.SetActive (true);
-			}
+			shark.SetActive (true);
+			lion.SetActive (false);
+			cow.SetActive (false);
+			bear.SetActive (false);
+			draw.SetActive (false);
+//			for (int i = 0; i <= sharkWins; i++) {
+//				shark.transform.GetChild (i).gameObject.SetActive (true);
+//			}
 		} else if (index == 3) {
-			gameObject.GetComponent<Text> ().text  = "Lion Wins";
-			gameObject.GetComponent<Text> ().color = new Color32 (0xE9, 0x6E, 0x14, 0xFF);
-			for (int i = 0; i <= lionWins; i++) {
-				lion.transform.GetChild (i).gameObject.SetActive (true);
-			}
+			shark.SetActive (false);
+			lion.SetActive (true);
+			cow.SetActive (false);
+			bear.SetActive (false);
+			draw.SetActive (false);
+//			for (int i = 0; i <= lionWins; i++) {
+//				lion.transform.GetChild (i).gameObject.SetActive (true);
+//			}
 		} else if (index == 1) {
-			gameObject.GetComponent<Text> ().text  = "Cow Wins";
-			gameObject.GetComponent<Text> ().color = new Color32 (0x81, 0xE9, 0x1D, 0xFF);
-			for (int i = 0; i <= cowWins; i++) {
-				cow.transform.GetChild (i).gameObject.SetActive (true);
-			}
+			shark.SetActive (false);
+			lion.SetActive (false);
+			cow.SetActive (true);
+			bear.SetActive (false);
+			draw.SetActive (false);
+//			for (int i = 0; i <= cowWins; i++) {
+//				cow.transform.GetChild (i).gameObject.SetActive (true);
+//			}
 		} else if (index == 0) {
-			gameObject.GetComponent<Text> ().text  = "Bear Wins";
-			gameObject.GetComponent<Text> ().color = new Color32 (0xA5, 0x25, 0xD3, 0xFF);
-			for (int i = 0; i <= bearWins; i++) {
-				bear.transform.GetChild (i).gameObject.SetActive (true);
-			}
-		} else if (index == -1) {
-			gameObject.GetComponent<Text> ().text  = "Draw";
-			gameObject.GetComponent<Text> ().color = new Color32 (0x32, 0x32, 0x32, 0xFF);
+			shark.SetActive (false);
+			lion.SetActive (false);
+			cow.SetActive (false);
+			bear.SetActive (true);
+			draw.SetActive (false);
+//			for (int i = 0; i <= bearWins; i++) {
+//				bear.transform.GetChild (i).gameObject.SetActive (true);
+//			}
 		}
+		//round draw
+		else if (index == -1) {
+			shark.SetActive (false);
+			lion.SetActive (false);
+			cow.SetActive (false);
+			bear.SetActive (false);
+			draw.SetActive (true);
+		}
+
+		//Final winner
+		else if (index == 12) {
+			shark.SetActive (false);
+			lion.SetActive (false);
+			cow.SetActive (false);
+			bear.SetActive (false);
+			draw.SetActive (false);
+			sharkWin.SetActive (true);
+//			for (int i = 0; i <= sharkWins; i++) {
+//				shark.transform.GetChild (i).gameObject.SetActive (true);
+//			}
+		} else if (index == 13) {
+			shark.SetActive (false);
+			lion.SetActive (false);
+			cow.SetActive (false);
+			bear.SetActive (false);
+			draw.SetActive (false);
+			lionWin.SetActive (true);
+//			for (int i = 0; i <= lionWins; i++) {
+//				lion.transform.GetChild (i).gameObject.SetActive (true);
+//			}
+		} else if (index == 11) {
+			shark.SetActive (false);
+			lion.SetActive (false);
+			cow.SetActive (false);
+			bear.SetActive (false);
+			draw.SetActive (false);
+			cowWin.SetActive (true);
+//			for (int i = 0; i <= cowWins; i++) {
+//				cow.transform.GetChild (i).gameObject.SetActive (true);
+//			}
+		} else if (index == 10) {
+			shark.SetActive (false);
+			lion.SetActive (false);
+			cow.SetActive (false);
+			bear.SetActive (false);
+			draw.SetActive (false);
+			bearWin.SetActive (true);
+//			for (int i = 0; i <= bearWins; i++) {
+//				bear.transform.GetChild (i).gameObject.SetActive (true);
+//			}
+		}
+				
+		for (int i = 0; i <= sharkWins; i++) {
+			shark.transform.GetChild (i).gameObject.SetActive (true);
+		}
+		for (int i = 0; i <= lionWins; i++) {
+			lion.transform.GetChild (i).gameObject.SetActive (true);
+		}
+		for (int i = 0; i <= cowWins; i++) {
+			cow.transform.GetChild (i).gameObject.SetActive (true);
+		}
+		for (int i = 0; i <= bearWins; i++) {
+			bear.transform.GetChild (i).gameObject.SetActive (true);
+		}
+
 	}
 
 	

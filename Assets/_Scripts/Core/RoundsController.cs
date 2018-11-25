@@ -109,7 +109,6 @@ namespace Core {
                 float pauseEndTime = Time.realtimeSinceStartup + duration;
                 while (Time.realtimeSinceStartup < pauseEndTime)
                 {
-                    Debug.Log(Time.realtimeSinceStartup + " : " + pauseEndTime);
                     yield return 0;
                 }
                 Time.timeScale = 1;

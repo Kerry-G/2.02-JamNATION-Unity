@@ -2,6 +2,7 @@
 using Core;
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ScoreController : MonoBehaviour {
@@ -21,14 +22,14 @@ public class ScoreController : MonoBehaviour {
 
     public void onEndRound([CanBeNull] Entities.Player.PlayerController winner) {
 
-        TextWin textCanvas = roundCanvas.transform.Find("Image").Find("t").GetComponent<TextWin>();
+        TextWin textCanvas = roundCanvas.transform.Find("Background").GetComponent<TextWin>();
 
         
         if ( winner ) {
             _playerScore[winner.player]++;
-            roundCanvas.transform.Find("Image").Find("t").GetComponent<TextWin>().setMenu(winner.player);
+            roundCanvas.transform.Find("Background").GetComponent<TextWin>().setMenu(winner.player);
         } else {
-            roundCanvas.transform.Find("Image").Find("t").GetComponent<TextWin>().setMenu(-1);
+            roundCanvas.transform.Find("Background").GetComponent<TextWin>().setMenu(-1);
         }
         
         textCanvas.bearWins  = _playerScore[0];
@@ -44,8 +45,8 @@ public class ScoreController : MonoBehaviour {
             }
         }
 
-        if ( isGameFinish ) {
-            //Game Finish 
+        if ( isGameFinish && winner) {
+            StartCoroutine(EndGame(winner.player));
         } else {
             StartCoroutine(startNewRound());
         }
@@ -54,6 +55,15 @@ public class ScoreController : MonoBehaviour {
     private void resetScore() { _playerScore = new[] {0, 0, 0, 0}; }
 
 
+    IEnumerator EndGame(int winner) {
+        yield return new WaitForSeconds(2f);
+        Debug.Log("OK");
+        roundCanvas.transform.Find("Background").GetComponent<TextWin>().setMenu(10+winner);
+        yield return new WaitForSeconds(3f);
+        Debug.Log("6s");
+        SceneManager.LoadScene(0);
+    }
+    
     IEnumerator startNewRound() {
         yield return new WaitForSeconds(2f);
         roundCanvas.enabled = false;
