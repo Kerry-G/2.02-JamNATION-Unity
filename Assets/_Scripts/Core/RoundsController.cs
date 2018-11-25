@@ -56,18 +56,16 @@ namespace Core {
                 return;
             }
 
+            GameController.Instance.ResetState();
             // Spawn players to starting positions
             List<int> usedSpawn = new List<int>();
+            int index = 0;
             foreach ( GameObject player in players ) {
-                int index;
-                do {
-                    index = Random.Range(0, spawningPositions.Length);
-                } while ( usedSpawn.Contains(index) );
-
                 Vector3          pos              = spawningPositions[index].transform.position;
                 PlayerController playerController = player.GetComponent<PlayerController>();
+                playerController.ResetState();
                 playerController.SpawnAt(pos);
-                usedSpawn.Add(index);
+                usedSpawn.Add(index++);
             }
 
             roundRunning = true;
@@ -76,16 +74,10 @@ namespace Core {
 
 
         public void EndRound(PlayerController winner) {
-            // Find winning player
-            Debug.Log("End Of Round!");
-            if ( winner ) {
-                Debug.Log("Winner is player # : " + winner.player);
-            } else {
-                Debug.Log("Winner is player # : DRAW");
+            if ( roundRunning ) {
+                roundRunning = false;
+                endRound.Invoke(winner);
             }
-
-            roundRunning = false;
-            endRound.Invoke(winner);
         }
 
     }

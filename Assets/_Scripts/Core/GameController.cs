@@ -167,8 +167,13 @@ namespace Core {
             if ( Player4 != null ) Player4.BroadcastMessage(functionCall, message);
         }
 
-    }
 
+        public void ResetState() {
+            _timer = 0f;
+            _gamePhase = GamePhase.Moving;
+        }
+    }
+    
     public enum     GamePhase {
         Moving,
         Shooting

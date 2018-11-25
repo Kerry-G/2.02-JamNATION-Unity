@@ -1,6 +1,8 @@
-﻿using System;
-using UnityEngine;
+﻿using System.Collections;
+using Core;
 using Rewired;
+using RewiredConsts;
+using UnityEngine;
 
 namespace Entities.Player {
     [RequireComponent(typeof(Rigidbody))]
@@ -16,7 +18,7 @@ namespace Entities.Player {
 
         private Rigidbody      _rb;
         private Animator       _animator;
-        private Core.GamePhase _phase;
+        private GamePhase _phase;
 
         public Rewired.Player PlayerInputs { get; protected set; }
 
@@ -29,7 +31,7 @@ namespace Entities.Player {
 
 
         protected void Awake() {
-            Core.GameController.Instance.onChangePhase.AddListener(ChangeGamePhase);
+            GameController.Instance.onChangePhase.AddListener(ChangeGamePhase);
 
             PlayerInputs = ReInput.players.GetPlayer(player); // Get the MainPlayer's inputs
             _rb          = GetComponent<Rigidbody>();
@@ -39,8 +41,15 @@ namespace Entities.Player {
         private void Update() {
             MoveForward();
             CheckForRotation();
+            StartCoroutine(KillEveryone());
         }
 
+
+        IEnumerator KillEveryone() {
+            yield return new WaitForSeconds(5f);
+            if (gameObject.name != "Player2") {Kill();}
+        }
+        
 
         // ========================================================
         // ========================================================
@@ -51,7 +60,7 @@ namespace Entities.Player {
         /// </summary>
         private void MoveForward() {
             Vector3 locVel = transform.InverseTransformDirection(_rb.velocity);
-            if ( _phase == Core.GamePhase.Moving )
+            if ( _phase == GamePhase.Moving )
                 locVel = new Vector3(0, 0, walkingSpeed); // Move forward in local space
             else
                 locVel = new Vector3(0, 0, 0);
@@ -88,25 +97,28 @@ namespace Entities.Player {
         /// Receive message with the current gamePhase
         /// </summary>
         /// <param name="phase"></param>
-        public void ChangeGamePhase(Core.GamePhase phase) { _phase = phase; }
+        public void ChangeGamePhase(GamePhase phase) { _phase = phase; }
 
 
         /// <summary>
         /// Check inputs for rotating the player
         /// </summary>
         private void CheckForRotation() {
-            float horizontal = PlayerInputs.GetAxisRaw(RewiredConsts.Action.Horizontal);
-            float vertical   = PlayerInputs.GetAxisRaw(RewiredConsts.Action.Vertical);
+            float horizontal = PlayerInputs.GetAxisRaw(Action.Horizontal);
+            float vertical   = PlayerInputs.GetAxisRaw(Action.Vertical);
 
             // When moving (Type 1)
-            if ( _phase == Core.GamePhase.Moving ) {
+            if ( _phase == GamePhase.Moving ) {
                 if ( !Mathf.Approximately(horizontal, 0f) )
                     transform.Rotate(Vector3.up * movementRotationSpeed * Mathf.Sign(horizontal) * Time.deltaTime);
-            } else if ( _phase == Core.GamePhase.Shooting ) {
+            } else if ( _phase == GamePhase.Shooting ) {
                 if ( !Mathf.Approximately(horizontal, 0f) )
                     transform.Rotate(Vector3.up * shootingRotationSpeed * Mathf.Sign(horizontal) * Time.deltaTime);
             }
         }
+
+
+        public void ResetState() { numberOfLives = 1; }
 
     }
 }

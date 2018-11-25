@@ -38,8 +38,6 @@ public class Beam : MonoBehaviour {
 
 
 	private void Shoot() {
-		Debug.Log("Player \""+gameObject.name+"\" is shooting.");
-
 		RaycastHit hit;
 		Vector3    start = transform.position + Vector3.up;
 		
@@ -48,8 +46,6 @@ public class Beam : MonoBehaviour {
 			if ( hit.collider.gameObject.transform.parent.name.Contains("Player")
 			     && hit.collider.gameObject.transform.parent.name != gameObject.name ) {
 				if ( GameController.Instance.IsTesting() )
-					Debug.Log(gameObject.name + "Hit player: " + hit.collider.gameObject.transform.parent.name);
-
 				hit.collider.gameObject.transform.parent.gameObject.BroadcastMessage("Kill");
 			}
 			_lineRenderer.SetPosition(0, start);
@@ -66,7 +62,6 @@ public class Beam : MonoBehaviour {
 	IEnumerator BeamLaunch(Vector3 start, Vector3 hit) {
 		while ( true ) {
 			_timerIn += Time.deltaTime;
-			Debug.Log("timerIn: " + _timerIn);
 			Vector3 h = Vector3.Lerp(start, hit, _timerIn*10);
 			_lineRenderer.SetPosition(1, h);
 			if ( _timerIn > inFadeLaser ) {
