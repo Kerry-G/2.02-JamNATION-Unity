@@ -20,11 +20,34 @@ namespace Core {
         public UnityEvent    beginRound = new UnityEvent();
         public EndRoundEvent endRound   = new EndRoundEvent();
 
+        public string[] audioEventsNames = new string[3];
 
         private void Start() {
             //
+            GameController.Instance.onChangePhase.AddListener(ListenChangePhase);
+
             StartRound();
             StartCoroutine(DetectEndRound());
+        }
+
+
+        /// <summary>
+        /// Play audios
+        /// </summary>
+        /// <param name="phase"></param>
+        private void ListenChangePhase(GamePhase phase) {
+            if (phase == GamePhase.Shooting) {
+                // Play Audios
+                int alive = CountAlivePlayers();
+                int index = 0;
+                if ( alive == 3 ) {
+                    index = 1;
+                } else if ( alive < 3 ) {
+                    index = 2;
+                }
+
+                AkSoundEngine.PostEvent(audioEventsNames[index], gameObject);
+            }
         }
 
 
@@ -32,9 +55,24 @@ namespace Core {
 //            DetectEndRound();
         }
 
+
+        public int CountAlivePlayers() {
+            int hasLivesPlayerCount = 0;
+            foreach ( GameObject obj in players ) {
+                PlayerController player = obj.GetComponent<PlayerController>();
+                if ( player.HasLives ) {
+                    hasLivesPlayerCount++;
+                }
+            }
+
+            return hasLivesPlayerCount;
+        }
+
+
         IEnumerator DetectEndRound() {
             while ( true ) {
                 yield return new WaitForSeconds(.2f);
+
                 int              hasLivesPlayerCount = 0;
                 PlayerController winningPlayer       = null;
                 foreach ( GameObject obj in players ) {
@@ -46,9 +84,9 @@ namespace Core {
                 }
 
                 if ( hasLivesPlayerCount <= 1 ) EndRound(winningPlayer);
-                
             }
         }
+
 
 //        private void DetectEndRound() {
 //                int              hasLivesPlayerCount = 0;
@@ -77,7 +115,7 @@ namespace Core {
             GameController.Instance.ResetState();
             // Spawn players to starting positions
             List<int> usedSpawn = new List<int>();
-            int index = 0;
+            int       index     = 0;
             foreach ( GameObject player in players ) {
                 Vector3          pos              = spawningPositions[index].transform.position;
                 PlayerController playerController = player.GetComponent<PlayerController>();
@@ -86,10 +124,10 @@ namespace Core {
                 playerController.transform.LookAt(Vector3.zero);
                 usedSpawn.Add(index++);
             }
-            
-            StartCoroutine(CountDownWithoutTimeScale(1,2));
+
+            StartCoroutine(CountDownWithoutTimeScale(1, 2));
             Time.timeScale = 0;
-            
+
             roundRunning = true;
             beginRound.Invoke();
         }
@@ -101,16 +139,16 @@ namespace Core {
                 endRound.Invoke(winner);
             }
         }
-        
-        public static IEnumerator CountDownWithoutTimeScale(int interval, int duration)
-        {
-            while (true)
-            {
+
+
+        public static IEnumerator CountDownWithoutTimeScale(int interval, int duration) {
+            while ( true ) {
                 float pauseEndTime = Time.realtimeSinceStartup + duration;
                 while (Time.realtimeSinceStartup < pauseEndTime)
                 {
                     yield return 0;
                 }
+
                 Time.timeScale = 1;
                 break;
             }
