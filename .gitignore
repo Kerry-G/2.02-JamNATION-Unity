@@ -124,3 +124,8 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+JamNATION\+Unity_WwiseProject/
+
+Assets/StreamingAssets/
+
+*.zip
