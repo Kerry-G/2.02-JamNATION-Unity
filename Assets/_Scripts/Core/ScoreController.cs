@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Core;
-using Rewired.Components;
+﻿using Core;
 using UnityEngine;
 
 public class ScoreController : MonoBehaviour {
@@ -37,9 +34,6 @@ public class ScoreController : MonoBehaviour {
             roundsController.StartRound();
         }
     }
-    
-    private void updateScore(int index) { _playerScore[index]++; }
-
 
     private void resetScore() { _playerScore = new[] {0, 0, 0, 0}; }
     
