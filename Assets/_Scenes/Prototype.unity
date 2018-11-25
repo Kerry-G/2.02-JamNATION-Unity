@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d74d0a42313bb254bba69082304ee427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roundCanvas: {fileID: 0}
+  roundCanvas: {fileID: 576527433}
   roundsController: {fileID: 1972522272}
   scoreLimit: 5
 --- !u!4 &200022922
@@ -383,6 +383,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1492921926526874, guid: aa67ff7065978464e9e69d49785a2f7e,
     type: 2}
   m_PrefabInternal: {fileID: 471112091}
+--- !u!223 &576527433 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 223489808284501040, guid: e9d0a1d24a6ac4b4ea5356d43c4dd127,
+    type: 2}
+  m_PrefabInternal: {fileID: 1650316050}
 --- !u!1 &591386575
 GameObject:
   m_ObjectHideFlags: 0

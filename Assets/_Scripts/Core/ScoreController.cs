@@ -64,7 +64,8 @@ public class ScoreController : MonoBehaviour {
 
         yield return new WaitForSeconds(3f);
 
-        SceneManager.LoadScene(0);
+        AkSoundEngine.StopAll();
+        GameController.Instance.SceneController.FadeAndLoadScene("MainMenu");
     }
     
     IEnumerator startNewRound() {

@@ -96,7 +96,9 @@ public class Menu_Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 	}
 
 	public void StartGame () {
-		SceneManager.LoadScene("Prototype");
+		// AkSoundEngine.PostEvent("Stop_MainMenuMusic", gameObject);
+		AkSoundEngine.StopAll();
+		Core.GameController.Instance.SceneController.FadeAndLoadScene("Prototype");
 	}
 
 	public void Credits () {
