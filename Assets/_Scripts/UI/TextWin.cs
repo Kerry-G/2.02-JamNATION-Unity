@@ -27,108 +27,71 @@ public class TextWin : MonoBehaviour {
 
 		
 		if (index == 2) {
-			shark.SetActive (true);
-			lion.SetActive (false);
-			cow.SetActive (false);
-			bear.SetActive (false);
-			draw.SetActive (false);
-//			for (int i = 0; i <= sharkWins; i++) {
-//				shark.transform.GetChild (i).gameObject.SetActive (true);
-//			}
+			setWinner("shark");
 		} else if (index == 3) {
-			shark.SetActive (false);
-			lion.SetActive (true);
-			cow.SetActive (false);
-			bear.SetActive (false);
-			draw.SetActive (false);
-//			for (int i = 0; i <= lionWins; i++) {
-//				lion.transform.GetChild (i).gameObject.SetActive (true);
-//			}
+			setWinner("lion");
+
 		} else if (index == 1) {
-			shark.SetActive (false);
-			lion.SetActive (false);
-			cow.SetActive (true);
-			bear.SetActive (false);
-			draw.SetActive (false);
-//			for (int i = 0; i <= cowWins; i++) {
-//				cow.transform.GetChild (i).gameObject.SetActive (true);
-//			}
+			setWinner("cow");
+
 		} else if (index == 0) {
-			shark.SetActive (false);
-			lion.SetActive (false);
-			cow.SetActive (false);
-			bear.SetActive (true);
-			draw.SetActive (false);
-//			for (int i = 0; i <= bearWins; i++) {
-//				bear.transform.GetChild (i).gameObject.SetActive (true);
-//			}
+			setWinner("bear");
 		}
 		//round draw
 		else if (index == -1) {
-			shark.SetActive (false);
-			lion.SetActive (false);
-			cow.SetActive (false);
-			bear.SetActive (false);
-			draw.SetActive (true);
+			setWinner("draw");
 		}
-
 		//Final winner
 		else if (index == 12) {
-			shark.SetActive (false);
-			lion.SetActive (false);
-			cow.SetActive (false);
-			bear.SetActive (false);
-			draw.SetActive (false);
-			sharkWin.SetActive (true);
-//			for (int i = 0; i <= sharkWins; i++) {
-//				shark.transform.GetChild (i).gameObject.SetActive (true);
-//			}
+			setBigWinner("shark");
 		} else if (index == 13) {
-			shark.SetActive (false);
-			lion.SetActive (false);
-			cow.SetActive (false);
-			bear.SetActive (false);
-			draw.SetActive (false);
-			lionWin.SetActive (true);
-//			for (int i = 0; i <= lionWins; i++) {
-//				lion.transform.GetChild (i).gameObject.SetActive (true);
-//			}
+			setBigWinner("lion");
 		} else if (index == 11) {
-			shark.SetActive (false);
-			lion.SetActive (false);
-			cow.SetActive (false);
-			bear.SetActive (false);
-			draw.SetActive (false);
-			cowWin.SetActive (true);
-//			for (int i = 0; i <= cowWins; i++) {
-//				cow.transform.GetChild (i).gameObject.SetActive (true);
-//			}
+			setBigWinner("cow");
 		} else if (index == 10) {
-			shark.SetActive (false);
-			lion.SetActive (false);
-			cow.SetActive (false);
-			bear.SetActive (false);
-			draw.SetActive (false);
-			bearWin.SetActive (true);
-//			for (int i = 0; i <= bearWins; i++) {
-//				bear.transform.GetChild (i).gameObject.SetActive (true);
-//			}
+			setBigWinner("bear");
 		}
 				
-		for (int i = 0; i <= sharkWins; i++) {
+		for (int i = 0; i < sharkWins; i++) {
 			shark.transform.GetChild (i).gameObject.SetActive (true);
 		}
-		for (int i = 0; i <= lionWins; i++) {
+		for (int i = 0; i < lionWins; i++) {
 			lion.transform.GetChild (i).gameObject.SetActive (true);
 		}
-		for (int i = 0; i <= cowWins; i++) {
+		for (int i = 0; i < cowWins; i++) {
 			cow.transform.GetChild (i).gameObject.SetActive (true);
 		}
-		for (int i = 0; i <= bearWins; i++) {
+		for (int i = 0; i < bearWins; i++) {
 			bear.transform.GetChild (i).gameObject.SetActive (true);
 		}
 
 	}
 
+
+	private void setWinner(string a) {
+		shark.transform.Find("SharkWin").gameObject.SetActive(false);
+		lion.transform.Find("LionWin").gameObject.SetActive(false);
+		cow.transform.Find("CowWin").gameObject.SetActive(false);
+		bear.transform.Find("BearWin").gameObject.SetActive(false);
+		draw.SetActive (false);
+		if (a == "shark") shark.transform.Find("SharkWin").gameObject.SetActive(true);
+		if (a == "lion") lion.transform.Find("LionWin").gameObject.SetActive(true);
+		if (a == "cow") cow.transform.Find("CowWin").gameObject.SetActive(true);
+		if (a == "bear") bear.transform.Find("BearWin").gameObject.SetActive(true);
+		if (a == "draw") draw.SetActive (true);
+	}
+	private void setBigWinner(string a) {
+		shark.transform.Find("SharkWin").gameObject.SetActive(false);
+		lion.transform.Find("LionWin").gameObject.SetActive(false);
+		cow.transform.Find("CowWin").gameObject.SetActive(false);
+		bear.transform.Find("BearWin").gameObject.SetActive(false);
+		draw.SetActive (false);
+		if (a == "shark") sharkWin.SetActive (true);
+		if (a == "lion") lionWin.SetActive (true);
+		if (a == "cow") cowWin.SetActive (true);
+		if (a == "bear") bearWin.SetActive (true);
+
+	
+	}
 	
 }
