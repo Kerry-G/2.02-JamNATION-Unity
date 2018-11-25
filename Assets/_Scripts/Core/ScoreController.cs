@@ -26,9 +26,11 @@ public class ScoreController : MonoBehaviour {
 
         
         if ( winner ) {
+            AkSoundEngine.PostEvent("Play_RoundWon", gameObject);
             _playerScore[winner.player]++;
             roundCanvas.transform.Find("Background").GetComponent<TextWin>().setMenu(winner.player);
         } else {
+            AkSoundEngine.PostEvent("Play_RoundDraw", gameObject);
             roundCanvas.transform.Find("Background").GetComponent<TextWin>().setMenu(-1);
         }
         

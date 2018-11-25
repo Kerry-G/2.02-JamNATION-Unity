@@ -91,6 +91,8 @@ namespace Entities.Player {
 //            StartCoroutine(dd());
             gameObject.SetActive(false);
             numberOfLives--;
+
+            AkSoundEngine.PostEvent("Play_PlayerKilled", gameObject);
         }
 
 

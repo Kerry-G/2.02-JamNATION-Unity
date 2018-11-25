@@ -36,16 +36,21 @@ namespace Core {
         /// </summary>
         /// <param name="phase"></param>
         private void ListenChangePhase(GamePhase phase) {
+            int rtpcValue = 25;
+
             if (phase == GamePhase.Shooting) {
                 // Play Audios
                 int alive = CountAlivePlayers();
                 int index = 0;
                 if ( alive == 3 ) {
                     index = 1;
+                    rtpcValue = 50;
                 } else if ( alive < 3 ) {
                     index = 2;
+                    rtpcValue = 100;
                 }
 
+                AkSoundEngine.SetRTPCValue("Intensity", rtpcValue);
                 AkSoundEngine.PostEvent(audioEventsNames[index], gameObject);
             }
         }
