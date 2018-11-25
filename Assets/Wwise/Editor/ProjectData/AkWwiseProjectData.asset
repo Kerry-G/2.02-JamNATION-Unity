@@ -11,14 +11,99 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6d8db65a80f44c41bcf3ba213bcd3e1, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 796f46a46b1fb043a8c1b4d512e5161f
+    m_lastTime: -8586585043034775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0c8fee4e7cfaee4d82a0e5ef3b5b361a
+    m_lastTime: -8586585043034775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: dbdcc31198309e49b203be46c09c9189
+    m_lastTime: -8586585041354775808
+    List:
+    - name: Bank_pour_noobies
+      guid: f64a689872fc2746a9762dd180218e1c
+      id: 3179254722
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Bank_pour_noobies
+        ObjectType: 7
+      Path: Default Work Unit/Bank_pour_noobies
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 1edbfe5f0db23348b10cc8678c268370
+    m_lastTime: -8586585018734775808
+    List:
+    - name: Play_Isaac_swees_Ageless_Samy_Burton_remix__
+      guid: 38bb8d3ed7f4fe43970652472d2feb84
+      id: 3588382252
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Isaac_swees_Ageless_Samy_Burton_remix__
+        ObjectType: 3
+      Path: Default Work Unit/Play_Isaac_swees_Ageless_Samy_Burton_remix__
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_SONGblend
+      guid: 281f139f3fdea84a93ddae90e67b5ec2
+      id: 1905062490
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SONGblend
+        ObjectType: 3
+      Path: Default Work Unit/Play_SONGblend
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 789c33cccc22a949a424d7e06f0cb367
+    m_lastTime: -8586585017334775808
+    List:
+    - name: Intensity
+      guid: dc5139575452664a98b1ba4026d0b1bb
+      id: 2470328564
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Intensity
+        ObjectType: 13
+      Path: Default Work Unit/Intensity
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 3fe068a1ac74e448b54086f6127f85f3
+    m_lastTime: -8586585043034775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: cb6582e155cd09458b850d3bd69e6f02
+    m_lastTime: -8586585043034775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c77dfcb8749abe42b8a569318acf4ed4
+    m_lastTime: -8586585043034775808
+    List: []
+  ExpandedItems:
+  - /JamNATION+Unity_WwiseProject
+  - /JamNATION+Unity_WwiseProject/Events
+  - /JamNATION+Unity_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
