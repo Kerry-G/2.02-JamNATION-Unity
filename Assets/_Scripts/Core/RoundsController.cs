@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -65,9 +66,13 @@ namespace Core {
                 PlayerController playerController = player.GetComponent<PlayerController>();
                 playerController.ResetState();
                 playerController.SpawnAt(pos);
+                playerController.transform.LookAt(Vector3.zero);
                 usedSpawn.Add(index++);
             }
-
+            
+            StartCoroutine(CountDownWithoutTimeScale(1,2));
+            Time.timeScale = 0;
+            
             roundRunning = true;
             beginRound.Invoke();
         }
@@ -77,6 +82,21 @@ namespace Core {
             if ( roundRunning ) {
                 roundRunning = false;
                 endRound.Invoke(winner);
+            }
+        }
+        
+        public static IEnumerator CountDownWithoutTimeScale(int interval, int duration)
+        {
+            while (true)
+            {
+                float pauseEndTime = Time.realtimeSinceStartup + duration;
+                while (Time.realtimeSinceStartup < pauseEndTime)
+                {
+                    Debug.Log(Time.realtimeSinceStartup + " : " + pauseEndTime);
+                    yield return 0;
+                }
+                Time.timeScale = 1;
+                break;
             }
         }
 
