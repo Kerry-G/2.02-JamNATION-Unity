@@ -21,7 +21,6 @@ public class ScoreController : MonoBehaviour {
 
 
     public void onEndRound([CanBeNull] Entities.Player.PlayerController winner) {
-
         TextWin textCanvas = roundCanvas.transform.Find("Background").GetComponent<TextWin>();
 
         
@@ -29,10 +28,14 @@ public class ScoreController : MonoBehaviour {
             AkSoundEngine.PostEvent("Play_RoundWon", gameObject);
             _playerScore[winner.player]++;
             roundCanvas.transform.Find("Background").GetComponent<TextWin>().setMenu(winner.player);
+
+            // AkSoundEngine.PostEvent("Play_GameWon", gameObject);
+
         } else {
             AkSoundEngine.PostEvent("Play_RoundDraw", gameObject);
             roundCanvas.transform.Find("Background").GetComponent<TextWin>().setMenu(-1);
         }
+
         
         textCanvas.bearWins  = _playerScore[0];
         textCanvas.cowWins   = _playerScore[1];
@@ -59,10 +62,12 @@ public class ScoreController : MonoBehaviour {
 
     IEnumerator EndGame(int winner) {
         yield return new WaitForSeconds(2f);
-        Debug.Log("OK");
+
         roundCanvas.transform.Find("Background").GetComponent<TextWin>().setMenu(10+winner);
+        AkSoundEngine.PostEvent("Play_GameWon", gameObject);
+
         yield return new WaitForSeconds(3f);
-        Debug.Log("6s");
+
         SceneManager.LoadScene(0);
     }
     
