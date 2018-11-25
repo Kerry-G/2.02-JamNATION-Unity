@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8a029c4168037b46a7a26de858e77a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: 2
+  player: 0
   numberOfLives: 1
   walkingSpeed: 7
   movementRotationSpeed: 240
