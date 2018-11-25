@@ -37,10 +37,6 @@ public class ScoreController : MonoBehaviour {
         }
 
         
-        textCanvas.bearWins  = _playerScore[0];
-        textCanvas.cowWins   = _playerScore[1];
-        textCanvas.sharkWins = _playerScore[2];
-        textCanvas.lionWins  = _playerScore[3];
         roundCanvas.enabled = true;
         bool isGameFinish = false;
             

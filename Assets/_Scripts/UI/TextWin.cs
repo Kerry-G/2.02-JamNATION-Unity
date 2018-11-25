@@ -28,14 +28,16 @@ public class TextWin : MonoBehaviour {
 		
 		if (index == 2) {
 			setWinner("shark");
+			sharkWins++;
 		} else if (index == 3) {
 			setWinner("lion");
-
+			lionWins++;
 		} else if (index == 1) {
 			setWinner("cow");
-
+			cowWins++;
 		} else if (index == 0) {
 			setWinner("bear");
+			bearWins++;
 		}
 		//round draw
 		else if (index == -1) {
