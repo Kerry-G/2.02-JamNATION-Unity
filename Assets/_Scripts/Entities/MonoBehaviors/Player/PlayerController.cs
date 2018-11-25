@@ -41,7 +41,7 @@ namespace Entities.Player {
         private void Update() {
             MoveForward();
             CheckForRotation();
-            StartCoroutine(KillEveryone());
+//            StartCoroutine(KillEveryone());
         }
 
 
@@ -118,7 +118,10 @@ namespace Entities.Player {
         }
 
 
-        public void ResetState() { numberOfLives = 1; }
+        public void ResetState() {
+            numberOfLives = 1;
+            
+        }
 
     }
 }
