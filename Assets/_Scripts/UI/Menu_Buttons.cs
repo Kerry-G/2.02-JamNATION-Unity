@@ -96,22 +96,18 @@ public class Menu_Buttons : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 	}
 
 	public void StartGame () {
-		Debug.Log ("Start");
-//		SceneManager.LoadScene (1);
+		SceneManager.LoadScene("Prototype");
 	}
 
 	public void Credits () {
-		Debug.Log ("Credits");
 		creditsScreen.GetComponent<Animator> ().SetBool ("CreditsOn", true);
 	}
 
 	public void Quit () {
-		Debug.Log ("Quit");
-	//	Application.Quit ();
+		Application.Quit ();
 	}
 
 	public void CredOff () {
-		Debug.Log ("CredOff");
 		creditsScreen.GetComponent<Animator> ().SetBool ("CreditsOn", false);
 	}
 

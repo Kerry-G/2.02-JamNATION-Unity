@@ -28,7 +28,7 @@ public class ScoreController : MonoBehaviour {
             _playerScore[winner.player]++;
             roundCanvas.transform.Find("Image").Find("t").GetComponent<TextWin>().setMenu(winner.player);
         } else {
-            //draw
+            roundCanvas.transform.Find("Image").Find("t").GetComponent<TextWin>().setMenu(-1);
         }
         
         textCanvas.bearWins  = _playerScore[0];
