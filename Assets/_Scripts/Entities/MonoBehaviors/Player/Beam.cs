@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using Core;
 using UnityEngine;
 using UnityEngine.Events;
@@ -11,8 +12,13 @@ public class Beam : MonoBehaviour {
 
 	public float laserWidth = 1.0f;
 	public float laserLenght = 100f;
+	private float inFadeLaser = 0.5f;
+	public float laserFadeTime = .002f;
 	private LineRenderer _lineRenderer;
 
+	private float _timerOut;
+	private float _timerIn;
+	
 	void Start() {
 		GameController.Instance.onChangePhase.AddListener(ChangePhaseListener);
 
@@ -36,7 +42,8 @@ public class Beam : MonoBehaviour {
 
 		RaycastHit hit;
 		Vector3    start = transform.position + Vector3.up;
-
+		
+		
 		if ( Physics.Raycast(start, transform.forward, out hit, laserLenght) ) {
 			if ( hit.collider.gameObject.transform.parent.name.Contains("Player")
 			     && hit.collider.gameObject.transform.parent.name != gameObject.name ) {
@@ -45,16 +52,48 @@ public class Beam : MonoBehaviour {
 
 				hit.collider.gameObject.transform.parent.gameObject.BroadcastMessage("Kill");
 			}
-
 			_lineRenderer.SetPosition(0, start);
-			_lineRenderer.SetPosition(1, hit.point);
-
-			Debug.Log("in");
+//			_lineRenderer.SetPosition(1, hit.point);
+			StartCoroutine(BeamLaunch(start, hit.point));
+			
 		} else {
 			_lineRenderer.SetPosition(0, start);
-			_lineRenderer.SetPosition(1, transform.forward * laserLenght);
-			Debug.Log("Not in");
+			StartCoroutine(BeamLaunch(start, transform.forward * laserLenght));
+		}
+
+	}
+
+	IEnumerator BeamLaunch(Vector3 start, Vector3 hit) {
+		while ( true ) {
+			_timerIn += Time.deltaTime;
+			Debug.Log("timerIn: " + _timerIn);
+			Vector3 h = Vector3.Lerp(start, hit, _timerIn*10);
+			_lineRenderer.SetPosition(1, h);
+			if ( _timerIn > inFadeLaser ) {
+				StartCoroutine(FadeBeam(start, hit));
+				_timerIn = 0f;
+				yield break;
+			}
+			yield return new WaitForEndOfFrame();
 		}
 	}
+	
+	IEnumerator FadeBeam(Vector3 start, Vector3 hit) {
+		while ( true ) {
+			
+			_timerOut += Time.deltaTime;
+			Vector3 h = Vector3.Lerp(start, hit, _timerOut * 8);
+			_lineRenderer.SetPosition(0, h);
+			
+			if ( _timerOut > laserFadeTime ) {
+				_lineRenderer.SetPosition(0, Vector3.zero);
+				_lineRenderer.SetPosition(1, Vector3.zero);
+				_timerOut = 0f;
+				yield break;
+			}
+			yield return new WaitForEndOfFrame();
+		}
+	}
+	
 
 }
