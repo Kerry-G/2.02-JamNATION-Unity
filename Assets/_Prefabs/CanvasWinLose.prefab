@@ -28,7 +28,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1100719895698408
 GameObject:
   m_ObjectHideFlags: 1
@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 114127352716486390}
   - component: {fileID: 114624016777604126}
   m_Layer: 5
-  m_Name: Text
+  m_Name: t
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1300,8 +1300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38cd0d95d4bd2c6438c16073eb525bea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whoWins: 
-  randomValue: 0
   sharkWins: 0
   lionWins: 0
   cowWins: 0
