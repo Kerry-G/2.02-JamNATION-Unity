@@ -280,6 +280,11 @@ MonoBehaviour:
   laserWidth: 1
   laserLenght: 100
   laserFadeTime: 0.3
+  roundsController: {fileID: 0}
+  audioEventsNames:
+  - 
+  - 
+  - 
 --- !u!120 &120479095970161778
 LineRenderer:
   m_ObjectHideFlags: 1

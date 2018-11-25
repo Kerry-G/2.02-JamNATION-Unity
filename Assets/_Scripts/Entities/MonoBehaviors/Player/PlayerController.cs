@@ -89,6 +89,7 @@ namespace Entities.Player {
         public void Kill() {
             // Spawn particles ???
             StartCoroutine(dd());
+
 //            gameObject.SetActive(false);
 //            numberOfLives--;
         }

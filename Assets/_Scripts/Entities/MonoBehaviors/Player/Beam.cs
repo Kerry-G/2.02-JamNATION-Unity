@@ -18,7 +18,7 @@ public class Beam : MonoBehaviour {
 
 	private float _timerOut;
 	private float _timerIn;
-	
+
 	void Start() {
 		GameController.Instance.onChangePhase.AddListener(ChangePhaseListener);
 
@@ -40,8 +40,7 @@ public class Beam : MonoBehaviour {
 	private void Shoot() {
 		RaycastHit hit;
 		Vector3    start = transform.position + Vector3.up;
-		
-		
+
 		if ( Physics.Raycast(start, transform.forward, out hit, laserLenght) ) {
 			if ( hit.collider.gameObject.transform.parent.name.Contains("Player")
 			     && hit.collider.gameObject.transform.parent.name != gameObject.name ) {
