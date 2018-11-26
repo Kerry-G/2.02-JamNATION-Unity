@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d8db65a80f44c41bcf3ba213bcd3e1, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 796f46a46b1fb043a8c1b4d512e5161f
+    m_lastTime: -8586585043034775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0c8fee4e7cfaee4d82a0e5ef3b5b361a
+    m_lastTime: -8586585043034775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: dbdcc31198309e49b203be46c09c9189
+    m_lastTime: -8586584421804775808
+    List:
+    - name: Bank_pour_noobies
+      guid: f64a689872fc2746a9762dd180218e1c
+      id: 3179254722
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Bank_pour_noobies
+        ObjectType: 7
+      Path: Default Work Unit/Bank_pour_noobies
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 1edbfe5f0db23348b10cc8678c268370
+    m_lastTime: -8586584422184775808
+    List:
+    - name: Play_GameWon
+      guid: 17d9794a29d7a64dac96599fe1fe1575
+      id: 260923124
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_GameWon
+        ObjectType: 3
+      Path: Default Work Unit/Play_GameWon
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Isaac_swees_Ageless_Samy_Burton_remix__
+      guid: 38bb8d3ed7f4fe43970652472d2feb84
+      id: 3588382252
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Isaac_swees_Ageless_Samy_Burton_remix__
+        ObjectType: 3
+      Path: Default Work Unit/Play_Isaac_swees_Ageless_Samy_Burton_remix__
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_LazerHigh
+      guid: 0e7a9e62dc742e459eb9cf4012a80b18
+      id: 1353017186
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_LazerHigh
+        ObjectType: 3
+      Path: Default Work Unit/Play_LazerHigh
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_LazerLow
+      guid: cbcb8d27bb8b3240afc6cc1497b4579b
+      id: 2173886884
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_LazerLow
+        ObjectType: 3
+      Path: Default Work Unit/Play_LazerLow
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_LazerMid
+      guid: 2fe5c97f92905742acc2cb7e1e82f3da
+      id: 2073368220
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_LazerMid
+        ObjectType: 3
+      Path: Default Work Unit/Play_LazerMid
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_MenuMusicLoop
+      guid: 4ef20fefc4a8c0429106fb04778d6eb1
+      id: 197499210
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MenuMusicLoop
+        ObjectType: 3
+      Path: Default Work Unit/Play_MenuMusicLoop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_PlayerKilled
+      guid: 56847eca399c4649b3c9a1c29babe23e
+      id: 309417658
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_PlayerKilled
+        ObjectType: 3
+      Path: Default Work Unit/Play_PlayerKilled
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_RoundDraw
+      guid: 5495ca524f2c6745bb696e444b673414
+      id: 4056392456
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_RoundDraw
+        ObjectType: 3
+      Path: Default Work Unit/Play_RoundDraw
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_RoundStarts
+      guid: 6390950d0f5be348a40676b989f55414
+      id: 3452095181
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_RoundStarts
+        ObjectType: 3
+      Path: Default Work Unit/Play_RoundStarts
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_RoundWon
+      guid: f2306786bdd2e847ac92049b858d8ea0
+      id: 1557566034
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_RoundWon
+        ObjectType: 3
+      Path: Default Work Unit/Play_RoundWon
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_ScoresheetPlus
+      guid: 5fa63a6ecf86bb45aee90c938fb36a5e
+      id: 1979267145
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_ScoresheetPlus
+        ObjectType: 3
+      Path: Default Work Unit/Play_ScoresheetPlus
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_SONGblend
+      guid: 281f139f3fdea84a93ddae90e67b5ec2
+      id: 1905062490
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SONGblend
+        ObjectType: 3
+      Path: Default Work Unit/Play_SONGblend
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_MenuMusicLoop
+      guid: 0287574eb437bb419eaaa51a121a89a5
+      id: 492823888
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_MenuMusicLoop
+        ObjectType: 3
+      Path: Default Work Unit/Stop_MenuMusicLoop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 789c33cccc22a949a424d7e06f0cb367
+    m_lastTime: -8586584422184775808
+    List:
+    - name: Intensity
+      guid: dc5139575452664a98b1ba4026d0b1bb
+      id: 2470328564
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Intensity
+        ObjectType: 13
+      Path: Default Work Unit/Intensity
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 3fe068a1ac74e448b54086f6127f85f3
+    m_lastTime: -8586585043034775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: cb6582e155cd09458b850d3bd69e6f02
+    m_lastTime: -8586585043034775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c77dfcb8749abe42b8a569318acf4ed4
+    m_lastTime: -8586585043034775808
+    List: []
+  ExpandedItems:
+  - /JamNATION+Unity_WwiseProject
+  - /JamNATION+Unity_WwiseProject/Events
+  - /JamNATION+Unity_WwiseProject/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

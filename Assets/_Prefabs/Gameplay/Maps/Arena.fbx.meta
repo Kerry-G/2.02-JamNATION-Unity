@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: 362b9c5303ad03744ba6af35e092c8cd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube (11)
+    100004: Cube (11)_1
+    100006: Cube (11)_10
+    100008: Cube (11)_11
+    100010: Cube (11)_12
+    100012: Cube (11)_13
+    100014: Cube (11)_14
+    100016: Cube (11)_15
+    100018: Cube (11)_16
+    100020: Cube (11)_17
+    100022: Cube (11)_18
+    100024: Cube (11)_19
+    100026: Cube (11)_2
+    100028: Cube (11)_20
+    100030: Cube (11)_21
+    100032: Cube (11)_22
+    100034: Cube (11)_23
+    100036: Cube (11)_24
+    100038: Cube (11)_25
+    100040: Cube (11)_26
+    100042: Cube (11)_27
+    100044: Cube (11)_28
+    100046: Cube (11)_29
+    100048: Cube (11)_3
+    100050: Cube (11)_30
+    100052: Cube (11)_31
+    100054: Cube (11)_32
+    100056: Cube (11)_33
+    100058: Cube (11)_34
+    100060: Cube (11)_35
+    100062: Cube (11)_36
+    100064: Cube (11)_37
+    100066: Cube (11)_38
+    100068: Cube (11)_4
+    100070: Cube (11)_5
+    100072: Cube (11)_6
+    100074: Cube (11)_7
+    100076: Cube (11)_8
+    100078: Cube (11)_9
+    100080: Cube (7)
+    100082: Cube (7)_1
+    100084: Cube (7)_10
+    100086: Cube (7)_11
+    100088: Cube (7)_12
+    100090: Cube (7)_13
+    100092: Cube (7)_14
+    100094: Cube (7)_15
+    100096: Cube (7)_16
+    100098: Cube (7)_17
+    100100: Cube (7)_18
+    100102: Cube (7)_19
+    100104: Cube (7)_2
+    100106: Cube (7)_20
+    100108: Cube (7)_21
+    100110: Cube (7)_22
+    100112: Cube (7)_23
+    100114: Cube (7)_24
+    100116: Cube (7)_25
+    100118: Cube (7)_26
+    100120: Cube (7)_27
+    100122: Cube (7)_28
+    100124: Cube (7)_29
+    100126: Cube (7)_3
+    100128: Cube (7)_30
+    100130: Cube (7)_31
+    100132: Cube (7)_32
+    100134: Cube (7)_33
+    100136: Cube (7)_34
+    100138: Cube (7)_35
+    100140: Cube (7)_36
+    100142: Cube (7)_37
+    100144: Cube (7)_38
+    100146: Cube (7)_4
+    100148: Cube (7)_5
+    100150: Cube (7)_6
+    100152: Cube (7)_7
+    100154: Cube (7)_8
+    100156: Cube (7)_9
+    100158: Cube (8)
+    100160: Cube (8)_1
+    100162: Cube (8)_2
+    100164: Cube (8)_3
+    100166: Cube (8)_4
+    100168: Cube (8)_5
+    100170: Plane
+    100172: Wall
+    100174: Wall (1)
+    100176: Wall (10)
+    100178: Wall (11)
+    100180: Wall (12)
+    100182: Wall (13)
+    100184: Wall (14)
+    100186: Wall (15)
+    100188: Wall (16)
+    100190: Wall (17)
+    100192: Wall (18)
+    100194: Wall (19)
+    100196: Wall (2)
+    100198: Wall (20)
+    100200: Wall (21)
+    100202: Wall (22)
+    100204: Wall (23)
+    100206: Wall (24)
+    100208: Wall (25)
+    100210: Wall (26)
+    100212: Wall (27)
+    100214: Wall (28)
+    100216: Wall (29)
+    100218: Wall (3)
+    100220: Wall (30)
+    100222: Wall (31)
+    100224: Wall (31)_1
+    100226: Wall (32)
+    100228: Wall (32)_1
+    100230: Wall (33)
+    100232: Wall (33)_1
+    100234: Wall (34)
+    100236: Wall (34)_1
+    100238: Wall (4)
+    100240: Wall (5)
+    100242: Wall (6)
+    100244: Wall (7)
+    100246: Wall (8)
+    100248: Wall (9)
+    100250: X_Wall
+    400000: //RootNode
+    400002: Cube (11)
+    400004: Cube (11)_1
+    400006: Cube (11)_10
+    400008: Cube (11)_11
+    400010: Cube (11)_12
+    400012: Cube (11)_13
+    400014: Cube (11)_14
+    400016: Cube (11)_15
+    400018: Cube (11)_16
+    400020: Cube (11)_17
+    400022: Cube (11)_18
+    400024: Cube (11)_19
+    400026: Cube (11)_2
+    400028: Cube (11)_20
+    400030: Cube (11)_21
+    400032: Cube (11)_22
+    400034: Cube (11)_23
+    400036: Cube (11)_24
+    400038: Cube (11)_25
+    400040: Cube (11)_26
+    400042: Cube (11)_27
+    400044: Cube (11)_28
+    400046: Cube (11)_29
+    400048: Cube (11)_3
+    400050: Cube (11)_30
+    400052: Cube (11)_31
+    400054: Cube (11)_32
+    400056: Cube (11)_33
+    400058: Cube (11)_34
+    400060: Cube (11)_35
+    400062: Cube (11)_36
+    400064: Cube (11)_37
+    400066: Cube (11)_38
+    400068: Cube (11)_4
+    400070: Cube (11)_5
+    400072: Cube (11)_6
+    400074: Cube (11)_7
+    400076: Cube (11)_8
+    400078: Cube (11)_9
+    400080: Cube (7)
+    400082: Cube (7)_1
+    400084: Cube (7)_10
+    400086: Cube (7)_11
+    400088: Cube (7)_12
+    400090: Cube (7)_13
+    400092: Cube (7)_14
+    400094: Cube (7)_15
+    400096: Cube (7)_16
+    400098: Cube (7)_17
+    400100: Cube (7)_18
+    400102: Cube (7)_19
+    400104: Cube (7)_2
+    400106: Cube (7)_20
+    400108: Cube (7)_21
+    400110: Cube (7)_22
+    400112: Cube (7)_23
+    400114: Cube (7)_24
+    400116: Cube (7)_25
+    400118: Cube (7)_26
+    400120: Cube (7)_27
+    400122: Cube (7)_28
+    400124: Cube (7)_29
+    400126: Cube (7)_3
+    400128: Cube (7)_30
+    400130: Cube (7)_31
+    400132: Cube (7)_32
+    400134: Cube (7)_33
+    400136: Cube (7)_34
+    400138: Cube (7)_35
+    400140: Cube (7)_36
+    400142: Cube (7)_37
+    400144: Cube (7)_38
+    400146: Cube (7)_4
+    400148: Cube (7)_5
+    400150: Cube (7)_6
+    400152: Cube (7)_7
+    400154: Cube (7)_8
+    400156: Cube (7)_9
+    400158: Cube (8)
+    400160: Cube (8)_1
+    400162: Cube (8)_2
+    400164: Cube (8)_3
+    400166: Cube (8)_4
+    400168: Cube (8)_5
+    400170: Plane
+    400172: Wall
+    400174: Wall (1)
+    400176: Wall (10)
+    400178: Wall (11)
+    400180: Wall (12)
+    400182: Wall (13)
+    400184: Wall (14)
+    400186: Wall (15)
+    400188: Wall (16)
+    400190: Wall (17)
+    400192: Wall (18)
+    400194: Wall (19)
+    400196: Wall (2)
+    400198: Wall (20)
+    400200: Wall (21)
+    400202: Wall (22)
+    400204: Wall (23)
+    400206: Wall (24)
+    400208: Wall (25)
+    400210: Wall (26)
+    400212: Wall (27)
+    400214: Wall (28)
+    400216: Wall (29)
+    400218: Wall (3)
+    400220: Wall (30)
+    400222: Wall (31)
+    400224: Wall (31)_1
+    400226: Wall (32)
+    400228: Wall (32)_1
+    400230: Wall (33)
+    400232: Wall (33)_1
+    400234: Wall (34)
+    400236: Wall (34)_1
+    400238: Wall (4)
+    400240: Wall (5)
+    400242: Wall (6)
+    400244: Wall (7)
+    400246: Wall (8)
+    400248: Wall (9)
+    400250: X_Wall
+    2100000: Base
+    2100002: GLow_Purple
+    2300000: Cube (11)
+    2300002: Cube (11)_1
+    2300004: Cube (11)_10
+    2300006: Cube (11)_11
+    2300008: Cube (11)_12
+    2300010: Cube (11)_13
+    2300012: Cube (11)_14
+    2300014: Cube (11)_15
+    2300016: Cube (11)_16
+    2300018: Cube (11)_17
+    2300020: Cube (11)_18
+    2300022: Cube (11)_19
+    2300024: Cube (11)_2
+    2300026: Cube (11)_20
+    2300028: Cube (11)_21
+    2300030: Cube (11)_22
+    2300032: Cube (11)_23
+    2300034: Cube (11)_24
+    2300036: Cube (11)_25
+    2300038: Cube (11)_26
+    2300040: Cube (11)_27
+    2300042: Cube (11)_28
+    2300044: Cube (11)_29
+    2300046: Cube (11)_3
+    2300048: Cube (11)_30
+    2300050: Cube (11)_31
+    2300052: Cube (11)_32
+    2300054: Cube (11)_33
+    2300056: Cube (11)_34
+    2300058: Cube (11)_35
+    2300060: Cube (11)_36
+    2300062: Cube (11)_37
+    2300064: Cube (11)_38
+    2300066: Cube (11)_4
+    2300068: Cube (11)_5
+    2300070: Cube (11)_6
+    2300072: Cube (11)_7
+    2300074: Cube (11)_8
+    2300076: Cube (11)_9
+    2300078: Cube (7)
+    2300080: Cube (7)_1
+    2300082: Cube (7)_10
+    2300084: Cube (7)_11
+    2300086: Cube (7)_12
+    2300088: Cube (7)_13
+    2300090: Cube (7)_14
+    2300092: Cube (7)_15
+    2300094: Cube (7)_16
+    2300096: Cube (7)_17
+    2300098: Cube (7)_18
+    2300100: Cube (7)_19
+    2300102: Cube (7)_2
+    2300104: Cube (7)_20
+    2300106: Cube (7)_21
+    2300108: Cube (7)_22
+    2300110: Cube (7)_23
+    2300112: Cube (7)_24
+    2300114: Cube (7)_25
+    2300116: Cube (7)_26
+    2300118: Cube (7)_27
+    2300120: Cube (7)_28
+    2300122: Cube (7)_29
+    2300124: Cube (7)_3
+    2300126: Cube (7)_30
+    2300128: Cube (7)_31
+    2300130: Cube (7)_32
+    2300132: Cube (7)_33
+    2300134: Cube (7)_34
+    2300136: Cube (7)_35
+    2300138: Cube (7)_36
+    2300140: Cube (7)_37
+    2300142: Cube (7)_38
+    2300144: Cube (7)_4
+    2300146: Cube (7)_5
+    2300148: Cube (7)_6
+    2300150: Cube (7)_7
+    2300152: Cube (7)_8
+    2300154: Cube (7)_9
+    2300156: Cube (8)
+    2300158: Cube (8)_1
+    2300160: Cube (8)_2
+    2300162: Cube (8)_3
+    2300164: Cube (8)_4
+    2300166: Cube (8)_5
+    2300168: Plane
+    3300000: Cube (11)
+    3300002: Cube (11)_1
+    3300004: Cube (11)_10
+    3300006: Cube (11)_11
+    3300008: Cube (11)_12
+    3300010: Cube (11)_13
+    3300012: Cube (11)_14
+    3300014: Cube (11)_15
+    3300016: Cube (11)_16
+    3300018: Cube (11)_17
+    3300020: Cube (11)_18
+    3300022: Cube (11)_19
+    3300024: Cube (11)_2
+    3300026: Cube (11)_20
+    3300028: Cube (11)_21
+    3300030: Cube (11)_22
+    3300032: Cube (11)_23
+    3300034: Cube (11)_24
+    3300036: Cube (11)_25
+    3300038: Cube (11)_26
+    3300040: Cube (11)_27
+    3300042: Cube (11)_28
+    3300044: Cube (11)_29
+    3300046: Cube (11)_3
+    3300048: Cube (11)_30
+    3300050: Cube (11)_31
+    3300052: Cube (11)_32
+    3300054: Cube (11)_33
+    3300056: Cube (11)_34
+    3300058: Cube (11)_35
+    3300060: Cube (11)_36
+    3300062: Cube (11)_37
+    3300064: Cube (11)_38
+    3300066: Cube (11)_4
+    3300068: Cube (11)_5
+    3300070: Cube (11)_6
+    3300072: Cube (11)_7
+    3300074: Cube (11)_8
+    3300076: Cube (11)_9
+    3300078: Cube (7)
+    3300080: Cube (7)_1
+    3300082: Cube (7)_10
+    3300084: Cube (7)_11
+    3300086: Cube (7)_12
+    3300088: Cube (7)_13
+    3300090: Cube (7)_14
+    3300092: Cube (7)_15
+    3300094: Cube (7)_16
+    3300096: Cube (7)_17
+    3300098: Cube (7)_18
+    3300100: Cube (7)_19
+    3300102: Cube (7)_2
+    3300104: Cube (7)_20
+    3300106: Cube (7)_21
+    3300108: Cube (7)_22
+    3300110: Cube (7)_23
+    3300112: Cube (7)_24
+    3300114: Cube (7)_25
+    3300116: Cube (7)_26
+    3300118: Cube (7)_27
+    3300120: Cube (7)_28
+    3300122: Cube (7)_29
+    3300124: Cube (7)_3
+    3300126: Cube (7)_30
+    3300128: Cube (7)_31
+    3300130: Cube (7)_32
+    3300132: Cube (7)_33
+    3300134: Cube (7)_34
+    3300136: Cube (7)_35
+    3300138: Cube (7)_36
+    3300140: Cube (7)_37
+    3300142: Cube (7)_38
+    3300144: Cube (7)_4
+    3300146: Cube (7)_5
+    3300148: Cube (7)_6
+    3300150: Cube (7)_7
+    3300152: Cube (7)_8
+    3300154: Cube (7)_9
+    3300156: Cube (8)
+    3300158: Cube (8)_1
+    3300160: Cube (8)_2
+    3300162: Cube (8)_3
+    3300164: Cube (8)_4
+    3300166: Cube (8)_5
+    3300168: Plane
+    4300000: Plane
+    4300002: Cube (7)
+    4300004: Cube (11)
+    4300006: Cube (8)
+    6400000: Cube (11)
+    6400002: Cube (11)_1
+    6400004: Cube (11)_10
+    6400006: Cube (11)_11
+    6400008: Cube (11)_12
+    6400010: Cube (11)_13
+    6400012: Cube (11)_14
+    6400014: Cube (11)_15
+    6400016: Cube (11)_16
+    6400018: Cube (11)_17
+    6400020: Cube (11)_18
+    6400022: Cube (11)_19
+    6400024: Cube (11)_2
+    6400026: Cube (11)_20
+    6400028: Cube (11)_21
+    6400030: Cube (11)_22
+    6400032: Cube (11)_23
+    6400034: Cube (11)_24
+    6400036: Cube (11)_25
+    6400038: Cube (11)_26
+    6400040: Cube (11)_27
+    6400042: Cube (11)_28
+    6400044: Cube (11)_29
+    6400046: Cube (11)_3
+    6400048: Cube (11)_30
+    6400050: Cube (11)_31
+    6400052: Cube (11)_32
+    6400054: Cube (11)_33
+    6400056: Cube (11)_34
+    6400058: Cube (11)_35
+    6400060: Cube (11)_36
+    6400062: Cube (11)_37
+    6400064: Cube (11)_38
+    6400066: Cube (11)_4
+    6400068: Cube (11)_5
+    6400070: Cube (11)_6
+    6400072: Cube (11)_7
+    6400074: Cube (11)_8
+    6400076: Cube (11)_9
+    6400078: Cube (7)
+    6400080: Cube (7)_1
+    6400082: Cube (7)_10
+    6400084: Cube (7)_11
+    6400086: Cube (7)_12
+    6400088: Cube (7)_13
+    6400090: Cube (7)_14
+    6400092: Cube (7)_15
+    6400094: Cube (7)_16
+    6400096: Cube (7)_17
+    6400098: Cube (7)_18
+    6400100: Cube (7)_19
+    6400102: Cube (7)_2
+    6400104: Cube (7)_20
+    6400106: Cube (7)_21
+    6400108: Cube (7)_22
+    6400110: Cube (7)_23
+    6400112: Cube (7)_24
+    6400114: Cube (7)_25
+    6400116: Cube (7)_26
+    6400118: Cube (7)_27
+    6400120: Cube (7)_28
+    6400122: Cube (7)_29
+    6400124: Cube (7)_3
+    6400126: Cube (7)_30
+    6400128: Cube (7)_31
+    6400130: Cube (7)_32
+    6400132: Cube (7)_33
+    6400134: Cube (7)_34
+    6400136: Cube (7)_35
+    6400138: Cube (7)_36
+    6400140: Cube (7)_37
+    6400142: Cube (7)_38
+    6400144: Cube (7)_4
+    6400146: Cube (7)_5
+    6400148: Cube (7)_6
+    6400150: Cube (7)_7
+    6400152: Cube (7)_8
+    6400154: Cube (7)_9
+    6400156: Cube (8)
+    6400158: Cube (8)_1
+    6400160: Cube (8)_2
+    6400162: Cube (8)_3
+    6400164: Cube (8)_4
+    6400166: Cube (8)_5
+    6400168: Plane
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: 0c711250dea17b643a05eec281415c8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GLow_Purple
+    second: {fileID: 2100000, guid: c0d67dc1825935d4988471fce6005ec7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

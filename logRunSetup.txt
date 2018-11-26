@@ -1,0 +1,2856 @@
+
+LICENSE SYSTEM [20181124 18:35:1] Next license update check is after 2018-10-11T19:04:03
+
+DisplayProgressbar: Unity license
+[Package Manager] Server::Start -- Port 50198 was selected
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MacOS/Unity
+-batchmode
+-nographics
+-logFile
+logRunSetup.txt
+-projectPath
+/Users/isaacdore/Documents/GameDev/Jams/JamNATION+Unity_WwiseIntegrationTemp
+-executeMethod
+WwiseSetupWizard.RunSetup
+-quit
+Successfully changed project path to: /Users/isaacdore/Documents/GameDev/Jams/JamNATION+Unity_WwiseIntegrationTemp
+/Users/isaacdore/Documents/GameDev/Jams/JamNATION+Unity_WwiseIntegrationTemp
+Loading GUID <-> Path mappings...0.000352 seconds
+Loading Asset Database...0.047782 seconds
+Audio: FMOD Profiler initialized on port 54900
+AssetDatabase consistency checks...0.049740 seconds
+Refreshing native plugins compatible for Editor in 112.41 ms, found 20 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Unity Package Manager
+[Package Manager] Done resolving packages in 0.27s seconds
+[Package Manager] Registering 40 packages:
+[Package Manager]  * Package :  com.unity.ads@2.0.8
+    (location: /Users/isaacdore/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8)
+[Package Manager]  * Package :  com.unity.analytics@2.0.16
+    (location: /Users/isaacdore/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16)
+[Package Manager]  * Package :  com.unity.package-manager-ui@1.9.11
+    (location: /Users/isaacdore/Library/Unity/cache/packages/packages.unity.com/com.unity.package-manager-ui@1.9.11)
+[Package Manager]  * Package :  com.unity.postprocessing@2.0.17-preview
+    (location: /Users/isaacdore/Library/Unity/cache/packages/packages.unity.com/com.unity.postprocessing@2.0.17-preview)
+[Package Manager]  * Package :  com.unity.purchasing@2.0.3
+    (location: /Users/isaacdore/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3)
+[Package Manager]  * Package :  com.unity.render-pipelines.core@3.0.0-preview
+    (location: /Users/isaacdore/Library/Unity/cache/packages/packages.unity.com/com.unity.render-pipelines.core@3.0.0-preview)
+[Package Manager]  * Package :  com.unity.render-pipelines.lightweight@3.0.0-preview
+    (location: /Users/isaacdore/Library/Unity/cache/packages/packages.unity.com/com.unity.render-pipelines.lightweight@3.0.0-preview)
+[Package Manager]  * Package :  com.unity.shadergraph@3.0.0-preview
+    (location: /Users/isaacdore/Library/Unity/cache/packages/packages.unity.com/com.unity.shadergraph@3.0.0-preview)
+[Package Manager]  * Package :  com.unity.textmeshpro@1.2.4
+    (location: /Users/isaacdore/Library/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4)
+[Package Manager]  * Package :  com.unity.modules.ai@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai)
+[Package Manager]  * Package :  com.unity.modules.animation@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation)
+[Package Manager]  * Package :  com.unity.modules.assetbundle@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle)
+[Package Manager]  * Package :  com.unity.modules.audio@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio)
+[Package Manager]  * Package :  com.unity.modules.cloth@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth)
+[Package Manager]  * Package :  com.unity.modules.director@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.director)
+[Package Manager]  * Package :  com.unity.modules.imageconversion@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion)
+[Package Manager]  * Package :  com.unity.modules.imgui@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui)
+[Package Manager]  * Package :  com.unity.modules.jsonserialize@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize)
+[Package Manager]  * Package :  com.unity.modules.particlesystem@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem)
+[Package Manager]  * Package :  com.unity.modules.physics@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics)
+[Package Manager]  * Package :  com.unity.modules.physics2d@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d)
+[Package Manager]  * Package :  com.unity.modules.screencapture@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture)
+[Package Manager]  * Package :  com.unity.modules.terrain@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain)
+[Package Manager]  * Package :  com.unity.modules.terrainphysics@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics)
+[Package Manager]  * Package :  com.unity.modules.tilemap@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap)
+[Package Manager]  * Package :  com.unity.modules.ui@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui)
+[Package Manager]  * Package :  com.unity.modules.uielements@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements)
+[Package Manager]  * Package :  com.unity.modules.umbra@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra)
+[Package Manager]  * Package :  com.unity.modules.unityanalytics@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequest@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestassetbundle@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestaudio@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequesttexture@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestwww@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww)
+[Package Manager]  * Package :  com.unity.modules.vehicles@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles)
+[Package Manager]  * Package :  com.unity.modules.video@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.video)
+[Package Manager]  * Package :  com.unity.modules.vr@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr)
+[Package Manager]  * Package :  com.unity.modules.wind@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind)
+[Package Manager]  * Package :  com.unity.modules.xr@1.0.0
+    (location: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr)
+[Package Manager]  * Package :  com.unity.standardevents@1.0.13
+    (location: /Users/isaacdore/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13)
+[Package Manager] Done registering packages in 0.01s seconds
+Initialize engine version: 2018.2.17f1 (88933597c842)
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+WARNING: Shader Unsupported: 'Hidden/FrameDebuggerRenderTargetDisplay' - Pass '' has no vertex shader
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Mono/lib/mono/2.0'
+Mono config path = '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56675
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.2.17 for Unity v2018.2.17f1
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000970 seconds.
+Registering precompiled user dll's ...
+Registered in 0.192579 seconds.
+Registering platform support modules:
+Registered platform support modules in: 0.202001s.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 24.64 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.023 seconds
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.2.17 for Unity v2018.2.17f1
+Registering platform support modules:
+Registered platform support modules in: 0.103381s.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.54 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.17 ms.
+18:35:09.306 |V| UnitTesting.EntryPoint         | <unnamed-thread>:1             | EntryPoint
+Refreshing native plugins compatible for Editor in 1.45 ms, found 24 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.196 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.015162 seconds.
+Refresh: detecting if any assets need to be imported or removed ...
+Refresh: elapses 0.331087 seconds
+Refresh: trashing asset 2471458079897407d892e047000a7aac
+Refresh: trashing asset 63721fc193d144270a3baf3d3ae511b9
+Refresh: trashing asset db5d7eb81cb634d2fb82451aa61adcde
+Refresh: trashing asset 46c352a93ad5449a4abf2af9c11967f3
+Refresh: trashing asset 91291adc172c54b9c8fad23b74f9c841
+Refresh: trashing asset 3d59c60dabafd47039e97987d32b9e43
+Updating Assets/StreamingAssets/desc.txt - GUID: e9f61b0c5b9594b39976a6c20eac8a20...
+----- Compute hash for Assets/StreamingAssets/desc.txt.
+ done. [Time: 453.987647 ms] 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 321.2 MB.
+System memory in use after: 259.4 MB.
+
+Unloading 306 unused Assets to reduce memory usage. Loaded Objects now: 1789.
+Total: 31.356408 ms (FindLiveObjects: 1.975049 ms CreateObjectMapping: 0.253521 ms MarkObjects: 6.051999 ms  DeleteObjects: 23.074674 ms)
+
+Updating Assets/Wwise/Tools/WwiseIDConverter.py - GUID: ca55959107b9b4a889319e9fcb8d66d7...
+----- Compute hash for Assets/Wwise/Tools/WwiseIDConverter.py.
+ done. [Time: 203.608392 ms] 
+Updating Assets/Wwise/Documentation/AppleCommon/en/WwiseUnityIntegrationHelp_en.zip - GUID: 777ab60c9e0314388bc1870831622cdb...
+----- Compute hash for Assets/Wwise/Documentation/AppleCommon/en/WwiseUnityIntegrationHelp_en.zip.
+ done. [Time: 399.359563 ms] 
+Updating Assets/Wwise/Documentation/Windows/en/WwiseUnityIntegrationHelp_en.chm - GUID: 7c2e79082eb3a4c3ea093434bfc63a2b...
+----- Compute hash for Assets/Wwise/Documentation/Windows/en/WwiseUnityIntegrationHelp_en.chm.
+ done. [Time: 199.251038 ms] 
+Updating Assets/Wwise/Documentation/Windows/zh/WwiseUnityIntegrationHelp_zh.chm - GUID: 875e4a11de5bd48a1a868b7ffba11742...
+----- Compute hash for Assets/Wwise/Documentation/Windows/zh/WwiseUnityIntegrationHelp_zh.chm.
+ done. [Time: 21.314585 ms] 
+Updating Assets/Wwise/Documentation/AppleCommon/ja/WwiseUnityIntegrationHelp_ja.zip - GUID: ca69b4625ac83484a91268998f75f00b...
+----- Compute hash for Assets/Wwise/Documentation/AppleCommon/ja/WwiseUnityIntegrationHelp_ja.zip.
+ done. [Time: 29.091571 ms] 
+Updating Assets/Wwise/Documentation/AppleCommon/zh/WwiseUnityIntegrationHelp_zh.zip - GUID: d766addf090e547f0bf9bdc9d3163220...
+----- Compute hash for Assets/Wwise/Documentation/AppleCommon/zh/WwiseUnityIntegrationHelp_zh.zip.
+ done. [Time: 21.106913 ms] 
+Updating Assets/Wwise/Documentation/Windows/ja/WwiseUnityIntegrationHelp_ja.chm - GUID: de7edaacecd9d46bdb3c0e889558dfdd...
+----- Compute hash for Assets/Wwise/Documentation/Windows/ja/WwiseUnityIntegrationHelp_ja.chm.
+ done. [Time: 29.472888 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkSoundEngine.pdb - GUID: 0d98890334be243268d9423a944058f9...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkSoundEngine.pdb.
+ done. [Time: 341.605008 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkSoundEngine.pdb - GUID: 2e1620234beb8460194603557836f465...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkSoundEngine.pdb.
+ done. [Time: 71.376577 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkWaapiClient.ilk - GUID: 43dc515e3d89547ca8202c0cc9f9ec77...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkWaapiClient.ilk.
+ done. [Time: 285.185331 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkWaapiClient.ilk - GUID: 4ab31078853584806aaa23b77f9b45fd...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkWaapiClient.ilk.
+ done. [Time: 30.789903 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkSoundEngine.pdb - GUID: 5da7b9c7fe59d49f5a66984577e029e9...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkSoundEngine.pdb.
+ done. [Time: 68.674587 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkWaapiClient.pdb - GUID: 64d329071f45f497087292655f9f1910...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkWaapiClient.pdb.
+ done. [Time: 35.886956 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Release/AkSoundEngine.pdb - GUID: 6e17822d2ba564bef8e1d11cce3c16c6...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Release/AkSoundEngine.pdb.
+ done. [Time: 12.950526 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkSoundEngine.pdb - GUID: 862dd89dc87f34cb4a7f38e2f006b05d...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkSoundEngine.pdb.
+ done. [Time: 69.233633 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Release/AkSoundEngine.pdb - GUID: a53513dd5005a44eeb9f7f364e4a56fe...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Release/AkSoundEngine.pdb.
+ done. [Time: 14.817689 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkWaapiClient.pdb - GUID: aec7034ff23aa41a584f44f17e44026e...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkWaapiClient.pdb.
+ done. [Time: 73.559608 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkWaapiClient.pdb - GUID: c23d54aa39c024203b981802a6818104...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkWaapiClient.pdb.
+ done. [Time: 76.251176 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkSoundEngine.idb - GUID: ce0b856118a0948caa2e70d6a51d659e...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkSoundEngine.idb.
+ done. [Time: 306.187521 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkWaapiClient.pdb - GUID: d9ea7f750cb1d494f98f5abc7d86091a...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkWaapiClient.pdb.
+ done. [Time: 41.695230 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkSoundEngine.idb - GUID: ec24a4bdc24fb4630bed7589397b6bdb...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkSoundEngine.idb.
+ done. [Time: 13.834388 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkWaapiClient.bundle/Contents/Info.plist - GUID: 010f38288628246278f2af390ba48a21...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Profile/AkWaapiClient.bundle/Contents/Info.plist.
+ done. [Time: 569.782265 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle/Contents/Info.plist - GUID: 7326293e1ba804cbe92e87f6f30efcff...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle/Contents/Info.plist.
+ done. [Time: 11.704844 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle/Contents/Info.plist - GUID: 79e4a8256d166420ea9eb2caf48b6692...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle/Contents/Info.plist.
+ done. [Time: 6.892441 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkWaapiClient.bundle/Contents/Info.plist - GUID: ab9c68d01176b4b059ae623c13c08c6f...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Debug/AkWaapiClient.bundle/Contents/Info.plist.
+ done. [Time: 11.455161 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkWaapiClient.bundle/Contents/Info.plist - GUID: cf0754e9d65354609ac571fe96ef6a95...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Release/AkWaapiClient.bundle/Contents/Info.plist.
+ done. [Time: 12.049309 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle/Contents/Info.plist - GUID: dfa1048c9398d4b4e9e64ad3f52e4691...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle/Contents/Info.plist.
+ done. [Time: 6.819100 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkWaapiClient.bundle/Contents/MacOS/AkWaapiClient - GUID: 0c2b9f21e23d147458236a407b2f12c5...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Profile/AkWaapiClient.bundle/Contents/MacOS/AkWaapiClient.
+ done. [Time: 10.991941 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle/Contents/MacOS/AkSoundEngine - GUID: 11f18fbe10cd9477db72d26c828859a9...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle/Contents/MacOS/AkSoundEngine.
+ done. [Time: 22.319469 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle/Contents/Resources/readme.txt - GUID: 15c662b9c65a845f59632991c0f5241f...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle/Contents/Resources/readme.txt.
+ done. [Time: 11.866553 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkWaapiClient.bundle/Contents/MacOS/AkWaapiClient - GUID: 2421963995e254c25a61106e52f7fa4d...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Release/AkWaapiClient.bundle/Contents/MacOS/AkWaapiClient.
+ done. [Time: 6.406910 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle/Contents/MacOS/AkSoundEngine - GUID: 2fa46cb244475479e8b147be89e8e223...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle/Contents/MacOS/AkSoundEngine.
+ done. [Time: 24.218591 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkWaapiClient.bundle/Contents/MacOS/AkWaapiClient - GUID: 54843dc6bed434297bcd9da0cefba5c3...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Debug/AkWaapiClient.bundle/Contents/MacOS/AkWaapiClient.
+ done. [Time: 8.092986 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle/Contents/MacOS/AkSoundEngine - GUID: 94aafd25eb39548628a6b52bd8c5d99d...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle/Contents/MacOS/AkSoundEngine.
+ done. [Time: 42.155465 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle/Contents/Resources/readme.txt - GUID: c78124451f87f42c7aa1cff6358cb2d9...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle/Contents/Resources/readme.txt.
+ done. [Time: 6.719039 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle/Contents/Resources/readme.txt - GUID: f2aa7f1b994974bbfb75d088129e3932...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle/Contents/Resources/readme.txt.
+ done. [Time: 11.724750 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle/Contents/Resources/en.lproj/InfoPlist.strings - GUID: 0e95b7a2df4c548d09fd2488bc709956...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle/Contents/Resources/en.lproj/InfoPlist.strings.
+ done. [Time: 285.898611 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle/Contents/Resources/en.lproj/InfoPlist.strings - GUID: 66bfe1d1c7caf42f4b3a5362ae492774...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle/Contents/Resources/en.lproj/InfoPlist.strings.
+ done. [Time: 12.684769 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle/Contents/Resources/en.lproj/InfoPlist.strings - GUID: eae2745a963394a6781e6d27322a3311...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle/Contents/Resources/en.lproj/InfoPlist.strings.
+ done. [Time: 16.851244 ms] 
+Updating Assets/Wwise/Deployment/Components/AkTriggerCollisionEnter.cs - GUID: 00e88c3356d4843ff84908030c39ad63...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkTriggerCollisionEnter.cs.
+ done. [Time: 171.208375 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkVertexArray.cs - GUID: 019458c28864c4ee9bfeb49d475c8c43...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkVertexArray.cs.
+ done. [Time: 27.399366 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Windows/AkUnityPlatformSpecificSettings_Windows.cs - GUID: 038611d231beb4fd4816832e54072dd9...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Windows/AkUnityPlatformSpecificSettings_Windows.cs.
+ done. [Time: 9.601335 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseRtpcReference.cs - GUID: 052c2e5b257a2464298f1051d0691486...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseRtpcReference.cs.
+ done. [Time: 15.990501 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMIDIPost.cs - GUID: 06050a8bc0ee648c7831ef4fa1ff3f32...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMIDIPost.cs.
+ done. [Time: 65.274749 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkBusHierarchyFlags.cs - GUID: 0621b0e3f05db4a0a91716e09c705f0a...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkBusHierarchyFlags.cs.
+ done. [Time: 32.099666 ms] 
+Updating Assets/Wwise/Deployment/Components/AkTriggerMouseDown.cs - GUID: 06d7b537189194bebad730f68b763c8d...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkTriggerMouseDown.cs.
+ done. [Time: 12.292906 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseBankReference.cs - GUID: 06e73a1eb2aa842779e8f1540146fde6...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseBankReference.cs.
+ done. [Time: 6.690558 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkAmbientInspector.cs - GUID: 0820cc275c0cd4736931d4606175a7ee...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkAmbientInspector.cs.
+ done. [Time: 29.923542 ms] 
+Updating Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs - GUID: 0878806cb42cb4201b5bdb7722117530...
+----- Compute hash for Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs.
+ done. [Time: 24.847104 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMusicPlaylistCallbackInfo.cs - GUID: 09f1bed28bdd44a8292a05aa15e44a41...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMusicPlaylistCallbackInfo.cs.
+ done. [Time: 7.876874 ms] 
+Updating Assets/Wwise/Editor/WwiseMenu/Common/AkWwiseIdConverter.cs - GUID: 0a32a28f100694c659b9dcbac4e027ae...
+----- Compute hash for Assets/Wwise/Editor/WwiseMenu/Common/AkWwiseIdConverter.cs.
+ done. [Time: 14.668002 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMIDIEventTypes.cs - GUID: 0a682b1cbdfc84ac299ba3df87c86bf1...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMIDIEventTypes.cs.
+ done. [Time: 8.892200 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMIDICcTypes.cs - GUID: 0ac9228f54dfb48dd9a72d1344b28cee...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMIDICcTypes.cs.
+ done. [Time: 9.208363 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkRTPCPlayableInspector.cs - GUID: 0cbfa658fe4ef47e59f0c69c7d6ce3a3...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkRTPCPlayableInspector.cs.
+ done. [Time: 11.544879 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkDiffractionFlags.cs - GUID: 0dca32265afb6489dac61611a47fcc4c...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkDiffractionFlags.cs.
+ done. [Time: 6.621924 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkAudioDeviceState.cs - GUID: 0e411307eb89841c99b5f00c20f5d67c...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkAudioDeviceState.cs.
+ done. [Time: 11.531710 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseEvent.cs - GUID: 0f3c43ce3185644a49c3540a59e94545...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseEvent.cs.
+ done. [Time: 17.202964 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkStreamMgrSettings.cs - GUID: 0f4639878b5074c0bacc236f06ae5117...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkStreamMgrSettings.cs.
+ done. [Time: 6.891680 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolSpatialAudio.cs - GUID: 0f4eeaa55ab7c4a9b9432106b776b31c...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolSpatialAudio.cs.
+ done. [Time: 10.865451 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMemSettings.cs - GUID: 104211c61e9304e5aac3fbd6e0ac7c01...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMemSettings.cs.
+ done. [Time: 10.712782 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkInitSettings.cs - GUID: 107a64dc95ffd44a69c7cc6b2de26507...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkInitSettings.cs.
+ done. [Time: 8.934810 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/WAAPI/AkWaapiClient.cs - GUID: 107fe51749d694e2cb776b512b2fa7d4...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/WAAPI/AkWaapiClient.cs.
+ done. [Time: 13.774873 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkChannelConfigType.cs - GUID: 10b3f2e3d7f3b493cb9454f143521fc1...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkChannelConfigType.cs.
+ done. [Time: 9.571545 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkRoomPortalInspector.cs - GUID: 12a079ed914f8481c9ed971aa911f894...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkRoomPortalInspector.cs.
+ done. [Time: 10.028094 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseStateGroupReference.cs - GUID: 133bd078030584aaaa5b3e5bd073cde1...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseStateGroupReference.cs.
+ done. [Time: 11.544001 ms] 
+Updating Assets/Wwise/Deployment/Components/AkTriggerExit.cs - GUID: 14587c083f60740848eb467481cc2cb1...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkTriggerExit.cs.
+ done. [Time: 7.797221 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkDurationCallbackInfo.cs - GUID: 14e72b1ad81bc4fe59e141276953791b...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkDurationCallbackInfo.cs.
+ done. [Time: 11.624304 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkEventCallbackDataDrawer.cs - GUID: 14f25fc86dedd4599a567aacf6172fb1...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkEventCallbackDataDrawer.cs.
+ done. [Time: 17.509499 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Mac/AkPlatformInitSettings_Mac.cs - GUID: 15ad89b1f08bd467688344aa7344416e...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Mac/AkPlatformInitSettings_Mac.cs.
+ done. [Time: 13.746171 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkBasePathGetter.cs - GUID: 16d726c7b89f046e497e498d100f2006...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkBasePathGetter.cs.
+ done. [Time: 14.170265 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkImageSourceSettings.cs - GUID: 19f70c0cafece4e428ab944cc2e3921c...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkImageSourceSettings.cs.
+ done. [Time: 7.596707 ms] 
+Updating Assets/Wwise/Deployment/Components/AkEnvironmentPortal.cs - GUID: 1be5aa812db794b45a6763217ce794d1...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkEnvironmentPortal.cs.
+ done. [Time: 12.744614 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseTriggerReference.cs - GUID: 2141bdffd46ec4e0698578b49cc1c141...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseTriggerReference.cs.
+ done. [Time: 11.309054 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolDefault.cs - GUID: 227ebabbb70d04193b02fff5203fa7cc...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolDefault.cs.
+ done. [Time: 6.622061 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkAcousticSurface.cs - GUID: 2293b9bab1a8844f48739fce1b2dd39b...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkAcousticSurface.cs.
+ done. [Time: 12.108653 ms] 
+Updating Assets/Wwise/Deployment/Components/AkGameObjPositionOffsetData.cs - GUID: 2316948816daa427688cc14ce1cdac31...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkGameObjPositionOffsetData.cs.
+ done. [Time: 6.046824 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Mac/AkThreadProperties_Mac.cs - GUID: 24281af99d0204cd1be662f5b4ffdd85...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Mac/AkThreadProperties_Mac.cs.
+ done. [Time: 11.991009 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkAuxSendArray.cs - GUID: 242ea6207a73b43a199cd10a619ddc34...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkAuxSendArray.cs.
+ done. [Time: 17.000993 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs - GUID: 27043067e8d2e46c89a0d7833bff8e63...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs.
+ done. [Time: 16.009812 ms] 
+Updating Assets/Wwise/Deployment/Components/AkGameObjPosOffsetData.cs - GUID: 276d888885cd44457a631ad9ac11729a...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkGameObjPosOffsetData.cs.
+ done. [Time: 6.548000 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseSwitchGroupReference.cs - GUID: 287e26d8e39d242e68cc2a508c277e0f...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseSwitchGroupReference.cs.
+ done. [Time: 11.045056 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkActionOnEventType.cs - GUID: 29572ddbad01a40a7b22562134c3f73f...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkActionOnEventType.cs.
+ done. [Time: 8.208640 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkDeviceSettings.cs - GUID: 29acf421781f6432f9345e8003057848...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkDeviceSettings.cs.
+ done. [Time: 11.097250 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkGameObjectInspector.cs - GUID: 2a64a3b1ab75348c08b766c29ed3d62c...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkGameObjectInspector.cs.
+ done. [Time: 12.530792 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseBank.cs - GUID: 2a978bab7ffec4444a76db6efb7abd90...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseBank.cs.
+ done. [Time: 7.175649 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkBaseInspector.cs - GUID: 2b60b41410e86465fac50ba0ec0fd64c...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkBaseInspector.cs.
+ done. [Time: 12.175512 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkCallbackType.cs - GUID: 2bf6f2fc1f37447649ea9482dc4d71cc...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkCallbackType.cs.
+ done. [Time: 12.258011 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkChannelOrdering.cs - GUID: 2da42e02aad8d4165a73c42554b7857f...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkChannelOrdering.cs.
+ done. [Time: 12.709819 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkSourceSettings.cs - GUID: 2ee0df092c875483787eb8a7df4afcd0...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkSourceSettings.cs.
+ done. [Time: 7.926710 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Mac/AkSoundEngine_Mac.cs - GUID: 2f872a77f15d149c9928ee6b94860adb...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Mac/AkSoundEngine_Mac.cs.
+ done. [Time: 90.131452 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkAudioInterruptionCallbackInfo.cs - GUID: 3349afc16fe6a4187beaba233c03c531...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkAudioInterruptionCallbackInfo.cs.
+ done. [Time: 9.133674 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseObjectReference.cs - GUID: 34151e831c94d4b538cf59cea32e4cda...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseObjectReference.cs.
+ done. [Time: 15.635817 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Mac/AkMemPoolAttributes_Mac.cs - GUID: 3446884379d1348c0b43d000d1c06c72...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Mac/AkMemPoolAttributes_Mac.cs.
+ done. [Time: 14.395509 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkPluginType.cs - GUID: 352db47c5841c4471b8993b2fb84af19...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkPluginType.cs.
+ done. [Time: 5.862284 ms] 
+Updating Assets/Wwise/Deployment/Components/AkSpatialAudioBase.cs - GUID: 3706a163da0f544e08d83fe6f41e6881...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkSpatialAudioBase.cs.
+ done. [Time: 12.254125 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkPositioningInfo.cs - GUID: 38bdf8b46654e441c9346979183961e2...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkPositioningInfo.cs.
+ done. [Time: 13.322822 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Mac/AkCommunicationSettings_Mac.cs - GUID: 3a900cb1abde542708d459a6b9484589...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Mac/AkCommunicationSettings_Mac.cs.
+ done. [Time: 7.566531 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkChannelEmitterArray.cs - GUID: 3d2c2e3b51a104cf28d04d0c1d20aedb...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkChannelEmitterArray.cs.
+ done. [Time: 12.886916 ms] 
+Updating Assets/Wwise/Deployment/Components/AkEnvironment.cs - GUID: 3d386ea27c0684f4f81fe14ddcc008c8...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkEnvironment.cs.
+ done. [Time: 13.659427 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkPathParams.cs - GUID: 3f9341c84ab864210851c9a9da8c454a...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkPathParams.cs.
+ done. [Time: 7.583548 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseSwitch.cs - GUID: 40b2e81a8274a4c2c8248bc043c7fa7c...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseSwitch.cs.
+ done. [Time: 11.275344 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMusicSyncCallbackInfo.cs - GUID: 40d35e60b951846e8a137d28f12307b0...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMusicSyncCallbackInfo.cs.
+ done. [Time: 12.058673 ms] 
+Updating Assets/Wwise/Deployment/Components/AkTriggerEnter.cs - GUID: 4124d167cbfbd4b8383e4e8e3e3800dd...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkTriggerEnter.cs.
+ done. [Time: 9.856535 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkSoundEngine.cs - GUID: 41a49defa14b547aca572aa55c47db6a...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkSoundEngine.cs.
+ done. [Time: 12.816280 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkInitializationSettings.cs - GUID: 43851a1bd4a03474e85222f3457271df...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkInitializationSettings.cs.
+ done. [Time: 13.239163 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseBaseType.cs - GUID: 439ab9b53180d41cb8bfed47bd677375...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseBaseType.cs.
+ done. [Time: 7.413476 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkSpeakerPanningType.cs - GUID: 44ef988827d5b4257a0ab2b43f749851...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkSpeakerPanningType.cs.
+ done. [Time: 11.819805 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkWwiseInitializationSettings.cs - GUID: 459141e1e28e44d07bcd1368db8b6973...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkWwiseInitializationSettings.cs.
+ done. [Time: 40.322563 ms] 
+Updating Assets/Wwise/Deployment/Components/AkEvent.cs - GUID: 46dd563552dd8477391eb9a8cc3a3aa5...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkEvent.cs.
+ done. [Time: 10.913442 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMeteringFlags.cs - GUID: 46e9e505ce1e0498eb9e467b56b06e95...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMeteringFlags.cs.
+ done. [Time: 11.242653 ms] 
+Updating Assets/Wwise/Deployment/Components/AkTriggerEnable.cs - GUID: 4919202dd01754f23947e07df54504c2...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkTriggerEnable.cs.
+ done. [Time: 6.579174 ms] 
+Updating Assets/Wwise/Extensions/AkSoundEngine.extensions.cs - GUID: 49e8ec170555d4f91854e889ef8f9e80...
+----- Compute hash for Assets/Wwise/Extensions/AkSoundEngine.extensions.cs.
+ done. [Time: 11.770618 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Windows/AkMemPoolAttributes_Windows.cs - GUID: 4cc7634785514494a98faf9c5b73a639...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Windows/AkMemPoolAttributes_Windows.cs.
+ done. [Time: 6.782351 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkBaseArray.cs - GUID: 4d53c344799e54669a3ca6c542208894...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkBaseArray.cs.
+ done. [Time: 11.152403 ms] 
+Updating Assets/Wwise/Deployment/Components/AkEventCallbackData.cs - GUID: 4e8a3bb3fbb75424e9d3d97aabf380bb...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkEventCallbackData.cs.
+ done. [Time: 8.164554 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMarkerCallbackInfo.cs - GUID: 4ed1a002dad9a4666886307691e8f64d...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMarkerCallbackInfo.cs.
+ done. [Time: 9.919099 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkVector.cs - GUID: 4f28e1bf5587949e4b14bba20feaf703...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkVector.cs.
+ done. [Time: 10.958601 ms] 
+Updating Assets/Wwise/Deployment/Components/AkTriggerCollisionExit.cs - GUID: 4f2f7fd14123443bb803cc444f3912d0...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkTriggerCollisionExit.cs.
+ done. [Time: 8.292135 ms] 
+Updating Assets/Wwise/Deployment/Components/AkGameObjListenerList.cs - GUID: 4f5d9158026164ce19d9a5977b43f4ea...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkGameObjListenerList.cs.
+ done. [Time: 12.202122 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkBankManager.cs - GUID: 4fd54d93e94bc4402b06fc07ddca9b9e...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkBankManager.cs.
+ done. [Time: 10.418891 ms] 
+Updating Assets/Wwise/Deployment/Components/AkTriggerBase.cs - GUID: 50eb23afecd5d41a68e600f71e449ffe...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkTriggerBase.cs.
+ done. [Time: 8.724359 ms] 
+Updating Assets/Wwise/Editor/WwiseTypes/AcousticTextureDrawer.cs - GUID: 5108629286d694455943d35cc1635472...
+----- Compute hash for Assets/Wwise/Editor/WwiseTypes/AcousticTextureDrawer.cs.
+ done. [Time: 11.431255 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkSwitchInspector.cs - GUID: 513422a1c15fc47cab50484ea8133370...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkSwitchInspector.cs.
+ done. [Time: 7.109676 ms] 
+Updating Assets/Wwise/Editor/WwiseSetupWizard/AkPluginActivator.cs - GUID: 51cd9bf80cacb485ebc587b449342679...
+----- Compute hash for Assets/Wwise/Editor/WwiseSetupWizard/AkPluginActivator.cs.
+ done. [Time: 24.506992 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkTransform.cs - GUID: 51d1649f256c74e609279c55f9676aac...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkTransform.cs.
+ done. [Time: 8.160143 ms] 
+Updating Assets/Wwise/Deployment/Components/AkSpatialAudioEmitter.cs - GUID: 531e6d6dcc3db4e298726d39eb7d03d8...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkSpatialAudioEmitter.cs.
+ done. [Time: 15.773381 ms] 
+Updating Assets/Wwise/Deployment/Components/AkEmitterObstructionOcclusion.cs - GUID: 54931f93d2df346ea9cec65a9fd13131...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkEmitterObstructionOcclusion.cs.
+ done. [Time: 12.139905 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkTaskContext.cs - GUID: 561a3334296d64c6c9a395926a7abc6d...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkTaskContext.cs.
+ done. [Time: 7.942737 ms] 
+Updating Assets/Wwise/Deployment/Components/AkTriggerMouseEnter.cs - GUID: 56ad3c8e4fc1946dd8c7448a3f2f982b...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkTriggerMouseEnter.cs.
+ done. [Time: 10.828145 ms] 
+Updating Assets/Wwise/Deployment/Components/AkUnityEventHandler.cs - GUID: 5787dda249dad4de3b2e279420ac01ce...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkUnityEventHandler.cs.
+ done. [Time: 13.640331 ms] 
+Updating Assets/Wwise/Editor/WwiseTypes/TriggerDrawer.cs - GUID: 57da62126580a4c9e8a0f1a24303924f...
+----- Compute hash for Assets/Wwise/Editor/WwiseTypes/TriggerDrawer.cs.
+ done. [Time: 6.704843 ms] 
+Updating Assets/Wwise/Deployment/Components/AkSwitch.cs - GUID: 58a722f1651dd42baa3962a97ca2d48b...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkSwitch.cs.
+ done. [Time: 11.349995 ms] 
+Updating Assets/Wwise/Deployment/Components/AkSpatialAudioListener.cs - GUID: 58bc65ff3690745aab4a1e9044742e34...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkSpatialAudioListener.cs.
+ done. [Time: 12.185466 ms] 
+Updating Assets/Wwise/Deployment/Components/AkState.cs - GUID: 591d97879e9984c3a90e0c9b0c5d2ce8...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkState.cs.
+ done. [Time: 7.315315 ms] 
+Updating Assets/Wwise/Editor/WwiseTypes/BankDrawer.cs - GUID: 592dc405a2d4c4996a4ae31faf6cf3a7...
+----- Compute hash for Assets/Wwise/Editor/WwiseTypes/BankDrawer.cs.
+ done. [Time: 10.938170 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/WAAPI/AkWaapiClient_PINVOKE.cs - GUID: 593a860de0ae04cf48194fa8d3e16f94...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/WAAPI/AkWaapiClient_PINVOKE.cs.
+ done. [Time: 7.562694 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkReflectionPathInfo.cs - GUID: 596c8808d9b804de7b774edf03f4a930...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkReflectionPathInfo.cs.
+ done. [Time: 15.243245 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkCommonPlatformSettings.cs - GUID: 597bcdc315ce243c2873a8bdc127306e...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkCommonPlatformSettings.cs.
+ done. [Time: 17.765507 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkTriangle.cs - GUID: 5d17873bc2a374655981a9176ebe64c2...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkTriangle.cs.
+ done. [Time: 12.210246 ms] 
+Updating Assets/Wwise/Deployment/Components/AkRTPCPlayable.cs - GUID: 5e2736a2a383f478caac7e5721608264...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkRTPCPlayable.cs.
+ done. [Time: 13.258909 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkMIDIPostArray.cs - GUID: 5fdc7d92b14594ff39e5c3f16ee4586a...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkMIDIPostArray.cs.
+ done. [Time: 7.324976 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkDiffractionPathInfoArray.cs - GUID: 609e5bdf070b1475981055737294fb82...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkDiffractionPathInfoArray.cs.
+ done. [Time: 12.100734 ms] 
+Updating Assets/Wwise/Deployment/Components/AkGameObj.cs - GUID: 612678a57297a4c4293d4c4a6822b851...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkGameObj.cs.
+ done. [Time: 15.590113 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/TreeViewControl.cs - GUID: 62cc29e4754594e679a3b00537213b9b...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/TreeViewControl.cs.
+ done. [Time: 19.376234 ms] 
+Updating Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSettingsWindow.cs - GUID: 678d38a654e124293b092777d8f84c35...
+----- Compute hash for Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSettingsWindow.cs.
+ done. [Time: 16.026396 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkDiffractionPathInfo.cs - GUID: 67fa366d4e7fd48a19589ccd60da762f...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkDiffractionPathInfo.cs.
+ done. [Time: 12.392336 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseRtpc.cs - GUID: 6853b556b85b84183aa7ec2f47c0b418...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseRtpc.cs.
+ done. [Time: 7.704200 ms] 
+Updating Assets/Wwise/Editor/WwiseSetupWizard/AkWwisePostImportCallbackSetup.cs - GUID: 69db03a8fdef446f5875338ab6f2f03e...
+----- Compute hash for Assets/Wwise/Editor/WwiseSetupWizard/AkWwisePostImportCallbackSetup.cs.
+ done. [Time: 14.170891 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkDynamicSequenceItemCallbackInfo.cs - GUID: 69efd549e253840948cc16df1210577a...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkDynamicSequenceItemCallbackInfo.cs.
+ done. [Time: 11.312925 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkBankCallbackInfo.cs - GUID: 6a647a8530c9a4dd38f339ca6250de6c...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkBankCallbackInfo.cs.
+ done. [Time: 7.164903 ms] 
+Updating Assets/Wwise/Deployment/Components/AkObstructionOcclusion.cs - GUID: 6aac1f73e673541db811751d9caf7ced...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkObstructionOcclusion.cs.
+ done. [Time: 12.391470 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolLEngineDefault.cs - GUID: 6b11e5cf5bdc2482bbd2dfc967c2a37a...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolLEngineDefault.cs.
+ done. [Time: 9.337230 ms] 
+Updating Assets/Wwise/Deployment/Components/AkInitializer.cs - GUID: 6b131b5ea7ec94c3598cfc6559ef5ce5...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkInitializer.cs.
+ done. [Time: 18.704432 ms] 
+Updating Assets/Wwise/Editor/WwiseTypes/CallbackFlagsDrawer.cs - GUID: 6c1be940cd3cb40769a970d71a1ad817...
+----- Compute hash for Assets/Wwise/Editor/WwiseTypes/CallbackFlagsDrawer.cs.
+ done. [Time: 8.769660 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkVertex.cs - GUID: 6ef644f65a64d40f288b1b9f40e79717...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkVertex.cs.
+ done. [Time: 11.789180 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseTrigger.cs - GUID: 6f386d36ce670472b9471c1a86f7e119...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseTrigger.cs.
+ done. [Time: 6.301432 ms] 
+Updating Assets/Wwise/Deployment/Components/AkTriggerDisable.cs - GUID: 7082ea656834949d79a91825b17b5dc3...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkTriggerDisable.cs.
+ done. [Time: 12.126967 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkCurveInterpolation.cs - GUID: 7177234c00f48479294687b4e7c9e29d...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkCurveInterpolation.cs.
+ done. [Time: 8.679458 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkGlobalCallbackLocation.cs - GUID: 71826b507176e40eb9403b39aca15226...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkGlobalCallbackLocation.cs.
+ done. [Time: 10.111361 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkEventPlayableInspector.cs - GUID: 744521068b1d04268a0b4a88f126e3c3...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkEventPlayableInspector.cs.
+ done. [Time: 11.533290 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkEnvironmentInspector.cs - GUID: 74c88002b427944a7a4039681fbdc7ee...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkEnvironmentInspector.cs.
+ done. [Time: 7.153894 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkGroupType.cs - GUID: 74f44dd1ce8044f609f0317d8af606ed...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkGroupType.cs.
+ done. [Time: 11.031206 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkLogger.cs - GUID: 7518c27cc6b074b34b0334dc3ddf26a7...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkLogger.cs.
+ done. [Time: 8.933582 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkDynamicSequenceType.cs - GUID: 75e3baa72b36d47d987e3d85a7379a53...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkDynamicSequenceType.cs.
+ done. [Time: 9.616919 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkExternalSourceInfo.cs - GUID: 76ac2405f430547f9853a54c9e9016c8...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkExternalSourceInfo.cs.
+ done. [Time: 12.554369 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkPanningRule.cs - GUID: 77110dd9859ad49cdbec5e68f65ee2bc...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkPanningRule.cs.
+ done. [Time: 7.541372 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkBankContent.cs - GUID: 772bda92e20d641bdb82c22bad116ad4...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkBankContent.cs.
+ done. [Time: 11.544576 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkSerializedCallbackHeader.cs - GUID: 7788e6fdf9d8646fc94110fa5d344a55...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkSerializedCallbackHeader.cs.
+ done. [Time: 10.952609 ms] 
+Updating Assets/Wwise/Editor/WwiseMenu/Windows/AkWwiseMenu_Windows.cs - GUID: 793a60cb973d44c84ac4e354060b0e7e...
+----- Compute hash for Assets/Wwise/Editor/WwiseMenu/Windows/AkWwiseMenu_Windows.cs.
+ done. [Time: 7.393155 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Windows/AkCommunicationSettings_Windows.cs - GUID: 7a4a59e9cd25f4ad3aec2821c82fc322...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Windows/AkCommunicationSettings_Windows.cs.
+ done. [Time: 11.827361 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseAcousticTextureReference.cs - GUID: 7b504147148694e70a24ab7502cfb7d4...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseAcousticTextureReference.cs.
+ done. [Time: 8.591078 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkCallbackInfo.cs - GUID: 7c127ae6e45f346caad2bff33a2258b7...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkCallbackInfo.cs.
+ done. [Time: 13.656928 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkImageSourceParams.cs - GUID: 7c2db2d4c59194a57b74f86adf2b1a6d...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkImageSourceParams.cs.
+ done. [Time: 12.421689 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkTriangleArray.cs - GUID: 7ff5b75e71a4b47579935a716ea17ecb...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkTriangleArray.cs.
+ done. [Time: 6.446781 ms] 
+Updating Assets/Wwise/Deployment/Components/AkSoundEngineController.cs - GUID: 802cd73a53f4f4c62a14d8f7f3590e9b...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkSoundEngineController.cs.
+ done. [Time: 13.048685 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/AkWwisePicker.cs - GUID: 804cf49a2fd60440cb7e23b7c085dada...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/AkWwisePicker.cs.
+ done. [Time: 12.394313 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs - GUID: 81c19f2ddc2074847a3d50bc7be2cc8a...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs.
+ done. [Time: 7.446066 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/TreeViewItem.cs - GUID: 828d07e1b4e704258badc567dc6f33dc...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/TreeViewItem.cs.
+ done. [Time: 14.281480 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseState.cs - GUID: 842f65f5496f64cc5a5e640d1efb7248...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseState.cs.
+ done. [Time: 11.050826 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkCallbackSerializer.cs - GUID: 84bec8a9ddb594715bbbde356434b5f6...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkCallbackSerializer.cs.
+ done. [Time: 8.030217 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkSegmentInfo.cs - GUID: 871efcb26ca8c4fc5b63c5622a73df68...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkSegmentInfo.cs.
+ done. [Time: 12.333379 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkRoomParams.cs - GUID: 87e8e062032e94d0587dcd284685631b...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkRoomParams.cs.
+ done. [Time: 12.150786 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkUnityEventHandlerInspector.cs - GUID: 89defd831a6aa4680b96aeaaa7923b60...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkUnityEventHandlerInspector.cs.
+ done. [Time: 12.238917 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMultiPositionType.cs - GUID: 8ac9fd5f246ba4dc29c1aaf5ccc9b1f3...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMultiPositionType.cs.
+ done. [Time: 10.546601 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/Ak3DSpatializationMode.cs - GUID: 8bcfc82481f6a4a348729af6adebfb87...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/Ak3DSpatializationMode.cs.
+ done. [Time: 11.586675 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMonitorErrorLevel.cs - GUID: 8c1882f67459d4612bac8daee5012f9e...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMonitorErrorLevel.cs.
+ done. [Time: 6.291605 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkAudioSettings.cs - GUID: 8cb55ef0a198f4284840417cf055287e...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkAudioSettings.cs.
+ done. [Time: 12.609525 ms] 
+Updating Assets/Wwise/Editor/WwiseTypes/StateDrawer.cs - GUID: 8d4bb3392007d41b9897e73a97808b5f...
+----- Compute hash for Assets/Wwise/Editor/WwiseTypes/StateDrawer.cs.
+ done. [Time: 5.887093 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkEnvironmentPortalInspector.cs - GUID: 8d980973131a3407b9f2342ba94eb92d...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkEnvironmentPortalInspector.cs.
+ done. [Time: 12.369023 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseSwitchReference.cs - GUID: 8dd4d29820b214518a1ed13415d1079c...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseSwitchReference.cs.
+ done. [Time: 10.503929 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkReflectionPathInfoArray.cs - GUID: 8e1ebb4667d824d3abd78c04cf043dbb...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkReflectionPathInfoArray.cs.
+ done. [Time: 7.010617 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Mac/AkSoundEnginePINVOKE_Mac.cs - GUID: 8e81b1edb7a3340babd7034715a04f29...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Mac/AkSoundEnginePINVOKE_Mac.cs.
+ done. [Time: 138.665521 ms] 
+Updating Assets/Wwise/Deployment/Components/AkAmbient.cs - GUID: 8edb6308a0f6f40ffb511fd93698817f...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkAmbient.cs.
+ done. [Time: 12.545915 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkOutputSettings.cs - GUID: 8fe897d8005654897ab3e16e8b7044cb...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkOutputSettings.cs.
+ done. [Time: 12.446525 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkObstructionOcclusionValues.cs - GUID: 90ee3fc153d1a40ba99ade5abe505019...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkObstructionOcclusionValues.cs.
+ done. [Time: 6.582580 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseObjectType.cs - GUID: 91ef11a6bd08e415b8aae4a34fa28d9b...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseObjectType.cs.
+ done. [Time: 11.309537 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkPositionArray.cs - GUID: 92f189fec8d594947be96a07d0659102...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkPositionArray.cs.
+ done. [Time: 12.816788 ms] 
+Updating Assets/Wwise/Editor/WwiseTypes/SwitchDrawer.cs - GUID: 94ca5df9c4e724a0d9bced612ae0711f...
+----- Compute hash for Assets/Wwise/Editor/WwiseTypes/SwitchDrawer.cs.
+ done. [Time: 9.654642 ms] 
+Updating Assets/Wwise/Deployment/Components/AkRoomPortalObstruction.cs - GUID: 9764bde4449c5463f9415b180ecb07b4...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkRoomPortalObstruction.cs.
+ done. [Time: 10.888713 ms] 
+Updating Assets/Wwise/Editor/WwiseMenu/Common/AkUnityPluginInstallerBase.cs - GUID: 979ab61acecf44df6bf3dc9f1439cbea...
+----- Compute hash for Assets/Wwise/Editor/WwiseMenu/Common/AkUnityPluginInstallerBase.cs.
+ done. [Time: 13.314294 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkAuxSendValue.cs - GUID: 9818d0bce380d4d7397fe7e9b9830af3...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkAuxSendValue.cs.
+ done. [Time: 7.330885 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Windows/AkAudioAPI_Windows.cs - GUID: 98aedc32676e8490bbed905f355a638d...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Windows/AkAudioAPI_Windows.cs.
+ done. [Time: 10.799610 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkCallbackManager.cs - GUID: 98cf28e7743aa46a0b2e208ab420758e...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkCallbackManager.cs.
+ done. [Time: 16.610534 ms] 
+Updating Assets/Wwise/Editor/WwiseSetupWizard/AkSceneUtils.cs - GUID: 99bdf2126d73f4a5bade0f06ca13faeb...
+----- Compute hash for Assets/Wwise/Editor/WwiseSetupWizard/AkSceneUtils.cs.
+ done. [Time: 6.831876 ms] 
+Updating Assets/Wwise/Editor/WwiseSetupWizard/AkWSAUtils.cs - GUID: 9b71b802b6dcc43a7b82f40fac268683...
+----- Compute hash for Assets/Wwise/Editor/WwiseSetupWizard/AkWSAUtils.cs.
+ done. [Time: 10.713030 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Windows/AkSoundEnginePINVOKE_Windows.cs - GUID: 9cd408236c72a4b04a69fac3234183c5...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Windows/AkSoundEnginePINVOKE_Windows.cs.
+ done. [Time: 50.505553 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Windows/AkSoundEngine_Windows.cs - GUID: 9cd4f69b4d1aa4855bfc1e2e6a6974ef...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Windows/AkSoundEngine_Windows.cs.
+ done. [Time: 29.018762 ms] 
+Updating Assets/Wwise/Deployment/Components/AkTerminator.cs - GUID: 9f6fcf6b1a941417aa2b9e60d77a7d2f...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkTerminator.cs.
+ done. [Time: 6.721141 ms] 
+Updating Assets/Wwise/Deployment/Components/AkGameObjEnvironmentData.cs - GUID: a0197ae3bbc5b4670815eea9e2227113...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkGameObjEnvironmentData.cs.
+ done. [Time: 13.306612 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkAudioFormat.cs - GUID: a12e4228d03544a2e9a8653dcc4d9d2f...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkAudioFormat.cs.
+ done. [Time: 12.855802 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkAcousticSurfaceArray.cs - GUID: a3b00c86f5cad4318bedd379ab50a4f4...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkAcousticSurfaceArray.cs.
+ done. [Time: 7.123523 ms] 
+Updating Assets/Wwise/Deployment/Components/AkRTPCTrack.cs - GUID: a41b39be982c249d6a94aced44e8f51c...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkRTPCTrack.cs.
+ done. [Time: 12.343097 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkBankInspector.cs - GUID: a4c9e04e2f27f49828bb9fa8145d01ff...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkBankInspector.cs.
+ done. [Time: 8.390014 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkQueryRTPCValue.cs - GUID: a62e2946ed87d4c11b186432735f271e...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkQueryRTPCValue.cs.
+ done. [Time: 10.029586 ms] 
+Updating Assets/Wwise/Deployment/Components/AkRoomPortal.cs - GUID: a78c6a82ab6ec4e53861cb21f1f999c4...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkRoomPortal.cs.
+ done. [Time: 14.633293 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkConnectionType.cs - GUID: a7963b1329d594b169d8d43df814469a...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkConnectionType.cs.
+ done. [Time: 5.851668 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/AkWwiseXMLBuilder.cs - GUID: a9941fed080a84e07ba631ef7aa46e89...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/AkWwiseXMLBuilder.cs.
+ done. [Time: 15.383240 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkPreparationType.cs - GUID: aa18956e1b6e64a8783bec27c8b7be68...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkPreparationType.cs.
+ done. [Time: 11.670977 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseStateReference.cs - GUID: aa8e0aac04a4f4615a0547687b338bd1...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseStateReference.cs.
+ done. [Time: 6.811021 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseEventReference.cs - GUID: aa954cf17c6524afcb9536f674ce2b0c...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseEventReference.cs.
+ done. [Time: 11.655736 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMIDIEvent.cs - GUID: abe38d973dcce46b0ba17a727f7015b4...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMIDIEvent.cs.
+ done. [Time: 17.486561 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkChannelConfig.cs - GUID: ad2852754b1554d6c90899508fdb3bbb...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkChannelConfig.cs.
+ done. [Time: 12.598362 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMusicSettings.cs - GUID: adb01a427ba764473b9ce6026f7da69b...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMusicSettings.cs.
+ done. [Time: 7.226829 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkEmitterSettings.cs - GUID: b0818f4288cad4622a6b40ad0be2f61e...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkEmitterSettings.cs.
+ done. [Time: 12.783700 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/AkWwiseTreeView.cs - GUID: b23be011cfb3a464ebcd5ca2aaac989e...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/AkWwiseTreeView.cs.
+ done. [Time: 24.143947 ms] 
+Updating Assets/Wwise/Deployment/Components/AkTriggerMouseUp.cs - GUID: b306c6ee1a8154068aeedc5f3d7759c2...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkTriggerMouseUp.cs.
+ done. [Time: 9.597386 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkPlaylist.cs - GUID: b32b541e4962e40f99280d9639a5b514...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkPlaylist.cs.
+ done. [Time: 11.786646 ms] 
+Updating Assets/Wwise/Deployment/Components/AkDragDropHelper.cs - GUID: b37d232f1aa914e4eabca13754aa27dd...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkDragDropHelper.cs.
+ done. [Time: 9.335489 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AKRESULT.cs - GUID: b4acbde1dba7c4fe4886816e616a1c98...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AKRESULT.cs.
+ done. [Time: 11.356367 ms] 
+Updating Assets/Wwise/Editor/WwiseTypes/RTPCDrawer.cs - GUID: b4d22867bada340ff8090125379c41a6...
+----- Compute hash for Assets/Wwise/Editor/WwiseTypes/RTPCDrawer.cs.
+ done. [Time: 7.343379 ms] 
+Updating Assets/Wwise/Editor/WwiseTypes/EventDrawer.cs - GUID: b5c1ce73393364ea1b96fe0ba29d0868...
+----- Compute hash for Assets/Wwise/Editor/WwiseTypes/EventDrawer.cs.
+ done. [Time: 9.336747 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Windows/AkWindowsSettings.cs - GUID: b657a1ad126304b4e9a20389c751661d...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Windows/AkWindowsSettings.cs.
+ done. [Time: 11.219519 ms] 
+Updating Assets/Wwise/Deployment/Components/AkEventTrack.cs - GUID: b6585a13aa0424b989c2c9b1cb27b806...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkEventTrack.cs.
+ done. [Time: 8.878288 ms] 
+Updating Assets/Wwise/Editor/WwiseSetupWizard/AkBuildPreprocessor.cs - GUID: b6585e95ecdc04c04880a3e5106740e6...
+----- Compute hash for Assets/Wwise/Editor/WwiseSetupWizard/AkBuildPreprocessor.cs.
+ done. [Time: 12.958421 ms] 
+Updating Assets/Wwise/Deployment/Components/AkMemBankLoader.cs - GUID: b68cefcdec61b48caa8e1c8258b2150c...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkMemBankLoader.cs.
+ done. [Time: 12.389189 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkSourceChannelOrdering.cs - GUID: b9400f529c2c74a24b8585e0e4a90ce1...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkSourceChannelOrdering.cs.
+ done. [Time: 7.662610 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseAcousticTexture.cs - GUID: ba0eaeea2007044a483a5cca937c3e81...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseAcousticTexture.cs.
+ done. [Time: 11.353747 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkStateInspector.cs - GUID: bb2a69dfbbef646e099e487e05d041a7...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkStateInspector.cs.
+ done. [Time: 5.852892 ms] 
+Updating Assets/Wwise/Deployment/Components/AkBank.cs - GUID: bbf7736068e1444a5bc660f3d2d0a53e...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkBank.cs.
+ done. [Time: 11.502472 ms] 
+Updating Assets/Wwise/Editor/WwiseMenu/Mac/AkWwiseMenu_Mac.cs - GUID: bf0e7d4a92a984ed28d318914f3c5b9e...
+----- Compute hash for Assets/Wwise/Editor/WwiseMenu/Mac/AkWwiseMenu_Mac.cs.
+ done. [Time: 6.603529 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseCallbackFlags.cs - GUID: c04cf18ff10f34d5ba68b54c75315344...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseCallbackFlags.cs.
+ done. [Time: 12.214669 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkEventCallbackInfo.cs - GUID: c38a051880bff4e9ca993e60dc218b3d...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkEventCallbackInfo.cs.
+ done. [Time: 11.939948 ms] 
+Updating Assets/Wwise/Deployment/Components/AkRoom.cs - GUID: c54a0077650e24c11ac70a64550877ec...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkRoom.cs.
+ done. [Time: 15.894627 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkPlaylistArray.cs - GUID: c721d1ce4a27f4126a80a879100e1259...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkPlaylistArray.cs.
+ done. [Time: 9.774235 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Windows/AkThreadProperties_Windows.cs - GUID: c8a576f9c81e34b58bf52e9aa4183048...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Windows/AkThreadProperties_Windows.cs.
+ done. [Time: 10.769933 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkGameObjListenerListDrawer.cs - GUID: c99b5e1564dbb4e12bf9c7fa062a0ca3...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkGameObjListenerListDrawer.cs.
+ done. [Time: 12.723340 ms] 
+Updating Assets/Wwise/Deployment/Components/AkAudioListener.cs - GUID: ca8bf95719915449f863a64e45629278...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkAudioListener.cs.
+ done. [Time: 9.177697 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkObjectInfo.cs - GUID: cb4e23a9ef1b448e083b38aab690029f...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkObjectInfo.cs.
+ done. [Time: 11.513004 ms] 
+Updating Assets/Wwise/Deployment/Components/AkTriggerMouseExit.cs - GUID: cb7564b97ecdd49aea118f9cc8f5f79a...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkTriggerMouseExit.cs.
+ done. [Time: 10.246408 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Mac/AkMacSettings.cs - GUID: ccdf35211acfa4ea79e6f502cf5d6bed...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Mac/AkMacSettings.cs.
+ done. [Time: 7.036030 ms] 
+Updating Assets/Wwise/Editor/WwiseSetupWizard/AkXboxOneUtils.cs - GUID: ccf060875ac3947118b4c1ca801a25ab...
+----- Compute hash for Assets/Wwise/Editor/WwiseSetupWizard/AkXboxOneUtils.cs.
+ done. [Time: 10.918276 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkUtilities.cs - GUID: cd2ed4f021ece4bccbf253dc9e988486...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkUtilities.cs.
+ done. [Time: 9.278615 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/Ak3DPositionType.cs - GUID: cd59813de178244a7b8407e9f81183ba...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/Ak3DPositionType.cs.
+ done. [Time: 11.430171 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMIDIEventCallbackInfo.cs - GUID: ce64c2578ca354ce49f728671ad472a7...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMIDIEventCallbackInfo.cs.
+ done. [Time: 11.589261 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkSpatialAudioListenerInspector.cs - GUID: cfdc4ede323174d40adf73bdc5e4ce3e...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkSpatialAudioListenerInspector.cs.
+ done. [Time: 8.041695 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseBaseGroupType.cs - GUID: d04d760ca2785494bb4f20ec651ed851...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseBaseGroupType.cs.
+ done. [Time: 15.375555 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMonitoringCallbackInfo.cs - GUID: d3088993de96c4451804ad63cfae862e...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMonitoringCallbackInfo.cs.
+ done. [Time: 11.847029 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkEventInspector.cs - GUID: d4d18faceccd1495199f6fb2a2e27eb9...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkEventInspector.cs.
+ done. [Time: 9.566789 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkPlaylistItem.cs - GUID: d521ff06371754581931b6e6c78b14c7...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkPlaylistItem.cs.
+ done. [Time: 13.942457 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkPropagationPathInfo.cs - GUID: d7e2ba17b5b524799a624a29492c19f7...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkPropagationPathInfo.cs.
+ done. [Time: 13.003559 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/AkWwiseComponentPicker.cs - GUID: dad1c19c25ded4156838ba87a52b76d7...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/AkWwiseComponentPicker.cs.
+ done. [Time: 14.698774 ms] 
+Updating Assets/Wwise/Editor/WwiseSetupWizard/AkUnitySettingsParser.cs - GUID: db4bebb75fa4e4137a05c62ff246a6b2...
+----- Compute hash for Assets/Wwise/Editor/WwiseSetupWizard/AkUnitySettingsParser.cs.
+ done. [Time: 8.298298 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Mac/AkUnityPlatformSpecificSettings_Mac.cs - GUID: de6dbc88cee1143e6a3a0f2a26da40e5...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Mac/AkUnityPlatformSpecificSettings_Mac.cs.
+ done. [Time: 10.831950 ms] 
+Updating Assets/Wwise/Editor/WwiseTypes/AuxBusDrawer.cs - GUID: df2a5f3973c004755a33dcc1c28d6243...
+----- Compute hash for Assets/Wwise/Editor/WwiseTypes/AuxBusDrawer.cs.
+ done. [Time: 12.665010 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkSpatialAudioInitSettings.cs - GUID: df9bff749797d4313be7dedeb6efb2e5...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkSpatialAudioInitSettings.cs.
+ done. [Time: 7.863857 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkWwiseXMLWatcher.cs - GUID: e004b1d9d0f05486cb5a1ea1f4c48cc3...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkWwiseXMLWatcher.cs.
+ done. [Time: 11.692572 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkAudioSourceChangeCallbackInfo.cs - GUID: e20ebab2941034516b2cb9867282619a...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkAudioSourceChangeCallbackInfo.cs.
+ done. [Time: 8.173184 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkIterator.cs - GUID: e3857bd269e5048ffa9837174f9f4482...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkIterator.cs.
+ done. [Time: 11.710378 ms] 
+Updating Assets/Wwise/Editor/WwiseTypes/BaseTypeDrawer.cs - GUID: e40a07191a8514f5085539b9a8329e00...
+----- Compute hash for Assets/Wwise/Editor/WwiseTypes/BaseTypeDrawer.cs.
+ done. [Time: 18.043404 ms] 
+Updating Assets/Wwise/Deployment/Components/AkEventPlayable.cs - GUID: e60d3dabd92dd4797811fa7550910f76...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkEventPlayable.cs.
+ done. [Time: 17.734462 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkRoomInspector.cs - GUID: e65728f6b4141414db5f473c35a18b6f...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkRoomInspector.cs.
+ done. [Time: 10.943343 ms] 
+Updating Assets/Wwise/Deployment/Components/AkGameObjPositionData.cs - GUID: e7d3db1762aa14452adbdfe765484403...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkGameObjPositionData.cs.
+ done. [Time: 11.991451 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseAuxBusReference.cs - GUID: e8161460b7fc642f8964335a88daf27a...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseAuxBusReference.cs.
+ done. [Time: 8.355749 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkEnumFlagAttribute.cs - GUID: e85b53c987b6c45dfb88612b74057468...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkEnumFlagAttribute.cs.
+ done. [Time: 13.247488 ms] 
+Updating Assets/Wwise/Deployment/Components/AkSurfaceReflector.cs - GUID: e89581ea6ec2a4d3b8157aa6f8fb1edd...
+----- Compute hash for Assets/Wwise/Deployment/Components/AkSurfaceReflector.cs.
+ done. [Time: 12.878514 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkAudioInputManager.cs - GUID: eaf776e05e1404526ada79a7570d0f71...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkAudioInputManager.cs.
+ done. [Time: 11.298576 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkPortalManager.cs - GUID: ebb6bfed36b34440cb5998087b1dbbde...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkPortalManager.cs.
+ done. [Time: 14.458079 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkMonitorErrorCode.cs - GUID: ec452f8d4c14342198b1c73b857a21df...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkMonitorErrorCode.cs.
+ done. [Time: 10.554340 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Windows/AkPlatformInitSettings_Windows.cs - GUID: ed2bd4ffc8e8c4a9bbabd793545e8e2d...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Windows/AkPlatformInitSettings_Windows.cs.
+ done. [Time: 14.273953 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkRTPCTrackInspector.cs - GUID: ee340e46325094555b838c24cd2756aa...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkRTPCTrackInspector.cs.
+ done. [Time: 7.696965 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkChannelEmitter.cs - GUID: f2a6857796996426c9e5d311e99228c7...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkChannelEmitter.cs.
+ done. [Time: 11.226916 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseAuxBus.cs - GUID: f30ec2ba2c1ff4aa2830770b8fb2003a...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseAuxBus.cs.
+ done. [Time: 7.099790 ms] 
+Updating Assets/Wwise/Editor/WwiseMenu/Common/AkUnityBuilderBase.cs - GUID: f461e74fd4c8940b6a0e8ba3c87f990b...
+----- Compute hash for Assets/Wwise/Editor/WwiseMenu/Common/AkUnityBuilderBase.cs.
+ done. [Time: 12.247413 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkFloorPlane.cs - GUID: f49276e8d2a3d4b9886437501e5de63d...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkFloorPlane.cs.
+ done. [Time: 11.352485 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkPropagationPathInfoArray.cs - GUID: f4ab4f5652b494f0ca1a61e3d7bdb26e...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkPropagationPathInfoArray.cs.
+ done. [Time: 6.567713 ms] 
+Updating Assets/Wwise/Deployment/API/Generated/Common/AkRamp.cs - GUID: f4fe0dec2d4f347b9ba213080340b3d6...
+----- Compute hash for Assets/Wwise/Deployment/API/Generated/Common/AkRamp.cs.
+ done. [Time: 12.096022 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectData.cs - GUID: f6d8db65a80f44c41bcf3ba213bcd3e1...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectData.cs.
+ done. [Time: 14.925423 ms] 
+Updating Assets/Wwise/Deployment/API/Handwritten/Common/AkShowOnlyAttribute.cs - GUID: f74134b98b0ab4178b9ed9eed318879c...
+----- Compute hash for Assets/Wwise/Deployment/API/Handwritten/Common/AkShowOnlyAttribute.cs.
+ done. [Time: 6.440205 ms] 
+Updating Assets/Wwise/Editor/WwiseComponents/AkAudioListenerInspector.cs - GUID: f77c9b2bcde334cf59d041550673140b...
+----- Compute hash for Assets/Wwise/Editor/WwiseComponents/AkAudioListenerInspector.cs.
+ done. [Time: 11.269170 ms] 
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+
+-----Compiler Commandline Arguments:
+Filename: /Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/bin/mono
+Arguments: '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-2df37e6daf2a04e628c33c0326cc4d3b
+index: 104
+Responsefile: Temp/UnityTempFile-2df37e6daf2a04e628c33c0326cc4d3b Contents: 
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp.dll'
+-nostdlib
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.BaselibModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.FacebookModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TimelineModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/Unity.Locator.dll'
+-r:'Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll'
+-r:'Library/ScriptAssemblies/UnityEditor.StandardEvents.dll'
+-r:'Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll'
+-r:'Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll'
+-r:'Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.TextMeshPro.dll'
+-r:'Library/ScriptAssemblies/Unity.RenderPipelines.Core.IncludePaths.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'
+-r:'Assets/Rewired/Internal/Libraries/Runtime/Rewired_Core.dll'
+-r:'Assets/Rewired/Internal/Libraries/Runtime/Rewired_OSX_Lib.dll'
+-r:'/Users/isaacdore/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll'
+-r:'/Users/isaacdore/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Core.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_2_17
+-define:UNITY_2018_2
+-define:UNITY_2018
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_VIDEO
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_OSX
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_POST_PROCESSING_STACK_V2
+'Assets/_Scripts/Core/GameController.cs'
+'Assets/_Scripts/Core/Inputs/ActionsMapsHelper.cs'
+'Assets/_Scripts/Core/Inputs/ContextualInputsState.cs'
+'Assets/_Scripts/Core/Inputs/RewiredConsts.cs'
+'Assets/_Scripts/Core/LoadingScreen.cs'
+'Assets/_Scripts/Core/PauseScreen.cs'
+'Assets/_Scripts/Core/RoundsController.cs'
+'Assets/_Scripts/Core/SceneControl/SceneController.cs'
+'Assets/_Scripts/Core/Types/TypesHelper.cs'
+'Assets/_Scripts/Core/Types/Utils.cs'
+'Assets/_Scripts/Entities/MonoBehaviors/Player/Beam.cs'
+'Assets/_Scripts/Entities/MonoBehaviors/Player/PlayerController.cs'
+'Assets/_Scripts/UI/DialoguesController.cs'
+'Assets/_Scripts/UI/FPSCounter.cs'
+'Assets/_Scripts/UI/UILogicBridge.cs'
+'Assets/_Scripts/Utils/Position.cs'
+'Assets/Rewired/Examples/ControlRemapping1/Scripts/ControlRemappingDemo1.cs'
+'Assets/Rewired/Examples/CustomControllersTilt/Scripts/CustomControllersTiltDemo.cs'
+'Assets/Rewired/Examples/CustomControllersTouch/Scripts/CustomControllerDemo.cs'
+'Assets/Rewired/Examples/CustomControllersTouch/Scripts/CustomControllerDemo_Player.cs'
+'Assets/Rewired/Examples/CustomControllersTouch/Scripts/TouchButtonExample.cs'
+'Assets/Rewired/Examples/CustomControllersTouch/Scripts/TouchJoystickExample.cs'
+'Assets/Rewired/Examples/DualShock4SpecialFeatures/Scripts/DualShock4SpecialFeaturesExample.cs'
+'Assets/Rewired/Examples/EightPlayers/Scripts/EightPlayersExample_Player.cs'
+'Assets/Rewired/Examples/FallbackJoystickIdentification/Scripts/FallbackJoystickIdentificationDemo.cs'
+'Assets/Rewired/Examples/GamepadTemplateUI/Scripts/ControllerUIEffect.cs'
+'Assets/Rewired/Examples/GamepadTemplateUI/Scripts/ControllerUIElement.cs'
+'Assets/Rewired/Examples/GamepadTemplateUI/Scripts/GamepadTemplateUI.cs'
+'Assets/Rewired/Examples/PlayerMouseSprite/Scripts/PlayerMouseSpriteExample.cs'
+'Assets/Rewired/Examples/PlayerMouseUnityUI/Scripts/PlayerPointerEventHandlerExample.cs'
+'Assets/Rewired/Examples/PlayerMouseUnityUI/Scripts/UIPointer.cs'
+'Assets/Rewired/Examples/PressAnyButtonToJoin/Scripts/PressAnyButtonToJoinExample_Assigner.cs'
+'Assets/Rewired/Examples/PressAnyButtonToJoin/Scripts/PressAnyButtonToJoinExample_GamePlayer.cs'
+'Assets/Rewired/Examples/PressStartToJoin/Scripts/PressStartToJoinExample_Assigner.cs'
+'Assets/Rewired/Examples/PressStartToJoin/Scripts/PressStartToJoinExample_GamePlayer.cs'
+'Assets/Rewired/Examples/Shared/Scripts/Bullet.cs'
+'Assets/Rewired/Examples/SimpleCombinedKeyboardMouseRemapping/Scripts/SimpleCombinedKeyboardMouseRemapping.cs'
+'Assets/Rewired/Examples/SimpleControlRemapping/Scripts/SimpleControlRemapping.cs'
+'Assets/Rewired/Integration/UnityUI/PlayerPointerEventData.cs'
+'Assets/Rewired/Integration/UnityUI/RewiredPointerInputModule.cs'
+'Assets/Rewired/Integration/UnityUI/RewiredStandaloneInputModule.cs'
+'Assets/Rewired/Internal/Scripts/ControllerTemplates/ControllerTemplates.cs'
+'Assets/Rewired/Internal/Scripts/DataStorage/UserDataStore_PlayerPrefs.cs'
+'Assets/Rewired/Internal/Scripts/InputManager.cs'
+'Assets/Rewired/Internal/Scripts/Misc/ExternalTools.cs'
+'Assets/Rewired/Internal/Scripts/Platforms/Ouya/OuyaInputSource.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolDefault.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolLEngineDefault.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/_ArrayPoolSpatialAudio.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/Ak3DPositionType.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/Ak3DSpatializationMode.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkAcousticSurface.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkActionOnEventType.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkAudioDeviceState.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkAudioFormat.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkAudioInterruptionCallbackInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkAudioSettings.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkAudioSourceChangeCallbackInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkAuxSendValue.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkBankCallbackInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkBankContent.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkBusHierarchyFlags.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkCallbackInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkCallbackSerializer.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkCallbackType.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkChannelConfig.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkChannelConfigType.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkChannelEmitter.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkChannelOrdering.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkConnectionType.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkCurveInterpolation.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkDeviceSettings.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkDiffractionFlags.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkDiffractionPathInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkDurationCallbackInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkDynamicSequenceItemCallbackInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkDynamicSequenceType.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkEmitterSettings.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkEventCallbackInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkExternalSourceInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkFloorPlane.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkGlobalCallbackLocation.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkGroupType.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkImageSourceParams.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkImageSourceSettings.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkInitializationSettings.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkInitSettings.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkIterator.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMarkerCallbackInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMemSettings.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMeteringFlags.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMIDICcTypes.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMIDIEvent.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMIDIEventCallbackInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMIDIEventTypes.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMIDIPost.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMonitorErrorCode.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMonitorErrorLevel.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMonitoringCallbackInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMultiPositionType.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMusicPlaylistCallbackInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMusicSettings.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkMusicSyncCallbackInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkObjectInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkObstructionOcclusionValues.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkOutputSettings.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkPanningRule.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkPathParams.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkPlaylist.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkPlaylistArray.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkPlaylistItem.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkPluginType.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkPositioningInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkPreparationType.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkPropagationPathInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkQueryRTPCValue.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkRamp.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkReflectionPathInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AKRESULT.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkRoomParams.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkSegmentInfo.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkSerializedCallbackHeader.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkSourceChannelOrdering.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkSourceSettings.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkSpatialAudioInitSettings.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkSpeakerPanningType.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkStreamMgrSettings.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkTaskContext.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkTransform.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkTriangle.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkVector.cs'
+'Assets/Wwise/Deployment/API/Generated/Common/AkVertex.cs'
+'Assets/Wwise/Deployment/API/Generated/Mac/AkCommunicationSettings_Mac.cs'
+'Assets/Wwise/Deployment/API/Generated/Mac/AkMemPoolAttributes_Mac.cs'
+'Assets/Wwise/Deployment/API/Generated/Mac/AkPlatformInitSettings_Mac.cs'
+'Assets/Wwise/Deployment/API/Generated/Mac/AkSoundEngine_Mac.cs'
+'Assets/Wwise/Deployment/API/Generated/Mac/AkSoundEnginePINVOKE_Mac.cs'
+'Assets/Wwise/Deployment/API/Generated/Mac/AkThreadProperties_Mac.cs'
+'Assets/Wwise/Deployment/API/Generated/Mac/AkUnityPlatformSpecificSettings_Mac.cs'
+'Assets/Wwise/Deployment/API/Generated/Windows/AkAudioAPI_Windows.cs'
+'Assets/Wwise/Deployment/API/Generated/Windows/AkCommunicationSettings_Windows.cs'
+'Assets/Wwise/Deployment/API/Generated/Windows/AkMemPoolAttributes_Windows.cs'
+'Assets/Wwise/Deployment/API/Generated/Windows/AkPlatformInitSettings_Windows.cs'
+'Assets/Wwise/Deployment/API/Generated/Windows/AkSoundEngine_Windows.cs'
+'Assets/Wwise/Deployment/API/Generated/Windows/AkSoundEnginePINVOKE_Windows.cs'
+'Assets/Wwise/Deployment/API/Generated/Windows/AkThreadProperties_Windows.cs'
+'Assets/Wwise/Deployment/API/Generated/Windows/AkUnityPlatformSpecificSettings_Windows.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkAcousticSurfaceArray.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkAudioInputManager.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkAuxSendArray.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkBankManager.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkBaseArray.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkBasePathGetter.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkCallbackManager.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkChannelEmitterArray.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkCommonPlatformSettings.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkDiffractionPathInfoArray.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkEnumFlagAttribute.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkLogger.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkMIDIPostArray.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkPositionArray.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkPropagationPathInfoArray.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkReflectionPathInfoArray.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkShowOnlyAttribute.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkSoundEngine.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkTriangleArray.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkUtilities.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkVertexArray.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/AkWwiseInitializationSettings.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseAcousticTextureReference.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseAuxBusReference.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseBankReference.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseEventReference.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseObjectReference.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseObjectType.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseRtpcReference.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseStateGroupReference.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseStateReference.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseSwitchGroupReference.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseSwitchReference.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseObjects/WwiseTriggerReference.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseAcousticTexture.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseAuxBus.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseBank.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseBaseGroupType.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseBaseType.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseCallbackFlags.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseEvent.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseRtpc.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseState.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseSwitch.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Common/WwiseTypes/AkWwiseTrigger.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Mac/AkMacSettings.cs'
+'Assets/Wwise/Deployment/API/Handwritten/WAAPI/AkWaapiClient.cs'
+'Assets/Wwise/Deployment/API/Handwritten/WAAPI/AkWaapiClient_PINVOKE.cs'
+'Assets/Wwise/Deployment/API/Handwritten/Windows/AkWindowsSettings.cs'
+'Assets/Wwise/Deployment/Components/AkAmbient.cs'
+'Assets/Wwise/Deployment/Components/AkAudioListener.cs'
+'Assets/Wwise/Deployment/Components/AkBank.cs'
+'Assets/Wwise/Deployment/Components/AkDragDropHelper.cs'
+'Assets/Wwise/Deployment/Components/AkEmitterObstructionOcclusion.cs'
+'Assets/Wwise/Deployment/Components/AkEnvironment.cs'
+'Assets/Wwise/Deployment/Components/AkEnvironmentPortal.cs'
+'Assets/Wwise/Deployment/Components/AkEvent.cs'
+'Assets/Wwise/Deployment/Components/AkEventCallbackData.cs'
+'Assets/Wwise/Deployment/Components/AkEventPlayable.cs'
+'Assets/Wwise/Deployment/Components/AkEventTrack.cs'
+'Assets/Wwise/Deployment/Components/AkGameObj.cs'
+'Assets/Wwise/Deployment/Components/AkGameObjEnvironmentData.cs'
+'Assets/Wwise/Deployment/Components/AkGameObjListenerList.cs'
+'Assets/Wwise/Deployment/Components/AkGameObjPositionData.cs'
+'Assets/Wwise/Deployment/Components/AkGameObjPositionOffsetData.cs'
+'Assets/Wwise/Deployment/Components/AkGameObjPosOffsetData.cs'
+'Assets/Wwise/Deployment/Components/AkInitializer.cs'
+'Assets/Wwise/Deployment/Components/AkMemBankLoader.cs'
+'Assets/Wwise/Deployment/Components/AkObstructionOcclusion.cs'
+'Assets/Wwise/Deployment/Components/AkRoom.cs'
+'Assets/Wwise/Deployment/Components/AkRoomPortal.cs'
+'Assets/Wwise/Deployment/Components/AkRoomPortalObstruction.cs'
+'Assets/Wwise/Deployment/Components/AkRTPCPlayable.cs'
+'Assets/Wwise/Deployment/Components/AkRTPCTrack.cs'
+'Assets/Wwise/Deployment/Components/AkSoundEngineController.cs'
+'Assets/Wwise/Deployment/Components/AkSpatialAudioBase.cs'
+'Assets/Wwise/Deployment/Components/AkSpatialAudioEmitter.cs'
+'Assets/Wwise/Deployment/Components/AkSpatialAudioListener.cs'
+'Assets/Wwise/Deployment/Components/AkState.cs'
+'Assets/Wwise/Deployment/Components/AkSurfaceReflector.cs'
+'Assets/Wwise/Deployment/Components/AkSwitch.cs'
+'Assets/Wwise/Deployment/Components/AkTerminator.cs'
+'Assets/Wwise/Deployment/Components/AkTriggerBase.cs'
+'Assets/Wwise/Deployment/Components/AkTriggerCollisionEnter.cs'
+'Assets/Wwise/Deployment/Components/AkTriggerCollisionExit.cs'
+'Assets/Wwise/Deployment/Components/AkTriggerDisable.cs'
+'Assets/Wwise/Deployment/Components/AkTriggerEnable.cs'
+'Assets/Wwise/Deployment/Components/AkTriggerEnter.cs'
+'Assets/Wwise/Deployment/Components/AkTriggerExit.cs'
+'Assets/Wwise/Deployment/Components/AkTriggerMouseDown.cs'
+'Assets/Wwise/Deployment/Components/AkTriggerMouseEnter.cs'
+'Assets/Wwise/Deployment/Components/AkTriggerMouseExit.cs'
+'Assets/Wwise/Deployment/Components/AkTriggerMouseUp.cs'
+'Assets/Wwise/Deployment/Components/AkUnityEventHandler.cs'
+'Assets/Wwise/Extensions/AkSoundEngine.extensions.cs'
+
+-----CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp.dll
+Compilation succeeded - 2 warning(s)
+-----CompilerOutput:-stderr----------
+Assets/_Scripts/Entities/MonoBehaviors/Player/PlayerController.cs(99,19): warning CS0219: The variable `vertical' is assigned but its value is never used
+Assets/_Scripts/Core/RoundsController.cs(11,22): warning CS0414: The private field `Core.RoundsController.roundRunning' is assigned but its value is never used
+-----EndCompilerOutput---------------
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp/Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 88 milliseconds
+Pass: 1 took 48 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Assets/_Scripts/Entities/MonoBehaviors/Player/PlayerController.cs(99,19): warning CS0219: The variable `vertical' is assigned but its value is never used
+ 
+(Filename: Assets/_Scripts/Entities/MonoBehaviors/Player/PlayerController.cs Line: 99)
+
+Assets/_Scripts/Core/RoundsController.cs(11,22): warning CS0414: The private field `Core.RoundsController.roundRunning' is assigned but its value is never used
+ 
+(Filename: Assets/_Scripts/Core/RoundsController.cs Line: 11)
+
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.2.17 for Unity v2018.2.17f1
+Registering platform support modules:
+Registered platform support modules in: 0.093455s.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 107.05 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.24 ms.
+Refreshing native plugins compatible for Editor in 1.43 ms, found 24 plugins.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.276 seconds
+Platform modules already initialized, skipping
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/middle_sibling_collapsed.png - GUID: 1002484ca8af24cec9f7b943c013af92...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/middle_sibling_collapsed.png.
+ done. [Time: 171.839669 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/last_sibling_expanded.png - GUID: 1b39fc7ef848e4476a14a960c1c3f7bb...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/last_sibling_expanded.png.
+ done. [Time: 10.614561 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/middle_sibling_nochild.png - GUID: 221fa1a7af9b04a2291c335256297d19...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/middle_sibling_nochild.png.
+ done. [Time: 6.116514 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/normal_unchecked.png - GUID: 2c22ffaa2184b44df848b2431e412cfb...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/normal_unchecked.png.
+ done. [Time: 10.262588 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/stategroup_nor.png - GUID: 3b2a58c9112644c0ab8f38b05d687d5c...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/stategroup_nor.png.
+ done. [Time: 7.899231 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/state_nor.png - GUID: 3f8195adb9f8446c6bab24974d4e43aa...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/state_nor.png.
+ done. [Time: 9.266157 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/switch_nor.png - GUID: 472fdd0bd7a6a4c15b196438f61b1a0b...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/switch_nor.png.
+ done. [Time: 5.772970 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/wproj.png - GUID: 4b790f10f8222411a86d5f347283647b...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/wproj.png.
+ done. [Time: 9.680818 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/bus_nor.png - GUID: 4ba0e8d630b344bf0b38c09006c156bf...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/bus_nor.png.
+ done. [Time: 5.533668 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/event_nor.png - GUID: 4e3206b422050481190f4a063c3becac...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/event_nor.png.
+ done. [Time: 9.679941 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/last_sibling_nochild.png - GUID: 4ff650108cacf4c9296d3618e86c507f...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/last_sibling_nochild.png.
+ done. [Time: 5.204550 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/auxbus_nor.png - GUID: 5ec6718a6ba1a47068c543bc45ea599c...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/auxbus_nor.png.
+ done. [Time: 9.583060 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/physical_folder_nor.png - GUID: 624789fc79a3148c790fdb066f6bdfe3...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/physical_folder_nor.png.
+ done. [Time: 5.671489 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/normal_checked.png - GUID: 6d7978cff2d8a48d4b1ffc6da22ad956...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/normal_checked.png.
+ done. [Time: 9.830358 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/guide.png - GUID: 71a6656c82bd546c5af00eb19b655e01...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/guide.png.
+ done. [Time: 5.926837 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/soundbank_nor.png - GUID: 7e384147b650741af848b0c1375226a2...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/soundbank_nor.png.
+ done. [Time: 9.087176 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/folder_nor.png - GUID: 87a73b9eeb11f49a087fc8a16c1a5280...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/folder_nor.png.
+ done. [Time: 6.189806 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/selected_background_color.png - GUID: 8c5ec026bcbc1436fb4c0d44eb2a0ca6...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/selected_background_color.png.
+ done. [Time: 9.252828 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/middle_sibling_expanded.png - GUID: b22d20cb5959041bf8ecf8b8ae97cc3b...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/middle_sibling_expanded.png.
+ done. [Time: 6.530716 ms] 
+Updating Assets/Wwise/Gizmos/wwise_white_on_gray.png - GUID: cc42986e93b79447fb10da3c571677a0...
+----- Compute hash for Assets/Wwise/Gizmos/wwise_white_on_gray.png.
+ done. [Time: 13.474464 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/last_sibling_collapsed.png - GUID: d8b98edc52b604bf181938d27614aac6...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/last_sibling_collapsed.png.
+ done. [Time: 5.544550 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/blank.png - GUID: db8290f622142476685979e8537fd016...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/blank.png.
+ done. [Time: 9.758991 ms] 
+Updating Assets/Wwise/Gizmos/WwiseAudioSpeaker.png - GUID: e9130f007d72f4a0aa8502406bf96774...
+----- Compute hash for Assets/Wwise/Gizmos/WwiseAudioSpeaker.png.
+ done. [Time: 7.328171 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/switchgroup_nor.png - GUID: f4dbe06bddfac4aceb55772e2b4a8a84...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/switchgroup_nor.png.
+ done. [Time: 10.162161 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/workunit_nor.png - GUID: ff1e698248f36456c9ed22a6f26439f9...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/workunit_nor.png.
+ done. [Time: 5.894360 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/TreeViewSelectedSkin.guiskin - GUID: 049e1f272b6924843839293513bae91a...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/TreeViewSelectedSkin.guiskin.
+ done. [Time: 15.699864 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/TreeViewUnselectedSkin.guiskin - GUID: 916bad25ea9f944c8b47a88d91720419...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/TreeViewUnselectedSkin.guiskin.
+ done. [Time: 10.883474 ms] 
+Updating Assets/Wwise/Editor/WwiseWindows/TreeViewControl/TreeViewHoverSkin.guiskin - GUID: a6a23457450e442729584fbb3fe5bed0...
+----- Compute hash for Assets/Wwise/Editor/WwiseWindows/TreeViewControl/TreeViewHoverSkin.guiskin.
+ done. [Time: 6.347067 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkRecorder.dll - GUID: 0053042833d5c4d3ea5fa983ad128121...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkRecorder.dll.
+ done. [Time: 7.530369 ms] 
+Updating Assets/Wwise/Version.txt - GUID: 0073c1cbfde3d47d2ab9c506812d0b12...
+----- Compute hash for Assets/Wwise/Version.txt.
+ done. [Time: 3.413517 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSoundSeedAir.dll - GUID: 0e5c093cd08074ff68bda9a4b88111ba...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSoundSeedAir.dll.
+ done. [Time: 3.530632 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkTimeStretch.dll - GUID: 13625e6ab9fd34ba69fe409326c7a24f...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkTimeStretch.dll.
+ done. [Time: 4.257784 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSoundSeedImpact.dll - GUID: 17e6aaa73541e4a70bc1c665f0e5f874...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSoundSeedImpact.dll.
+ done. [Time: 6.847932 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/CrankcaseAudioREVModelPlayer.dll - GUID: 1dfc5e98e6e25487c967e46722bedb14...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/CrankcaseAudioREVModelPlayer.dll.
+ done. [Time: 4.040214 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkPitchShifter.dll - GUID: 1e20dc0292e3649159b523355af2a9da...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkPitchShifter.dll.
+ done. [Time: 4.648360 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSynthOne.dll - GUID: 21a7dee4b8299404190c126a0c2b14fa...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSynthOne.dll.
+ done. [Time: 8.872983 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libMcDSP.bundle - GUID: 21d5c1f144de443a28e9c05471614fb8...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libMcDSP.bundle.
+ done. [Time: 4.028616 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkMotion.dll - GUID: 28e2404b1da8f4bf18c750ec18bfdbfa...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkMotion.dll.
+ done. [Time: 6.725518 ms] 
+Updating Assets/WwiseSettings.xml - GUID: 295974cf02c2a47e79462392d21e7443...
+----- Compute hash for Assets/WwiseSettings.xml.
+ done. [Time: 3.942265 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkSoundEngine.dll - GUID: 357d96c68a2574249aad4d758d5d22c5...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkSoundEngine.dll.
+ done. [Time: 13.983942 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkPitchShifter.dll - GUID: 3a14b1ed810154d03a4e2ec68c7f35c5...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkPitchShifter.dll.
+ done. [Time: 4.410882 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkReflect.dll - GUID: 3b8f793f341d1464fb663e6c3865254a...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkReflect.dll.
+ done. [Time: 3.773911 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkMotion.dll - GUID: 4064ebcd3849b432394239d86d00587c...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkMotion.dll.
+ done. [Time: 7.222725 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkSoundEngine.dll - GUID: 42212dcafbf12481495c75b958f55f09...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkSoundEngine.dll.
+ done. [Time: 8.079709 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkWaapiClient.dll - GUID: 45c36b66c93b24793b5be27f3c5818d9...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkWaapiClient.dll.
+ done. [Time: 7.829591 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkFlanger.dll - GUID: 48aa60306438a4c32804cbddaf07ad5d...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkFlanger.dll.
+ done. [Time: 4.536057 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkWaapiClient.dll - GUID: 493da5b920b464dadbabc2036b0d0eb9...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkWaapiClient.dll.
+ done. [Time: 11.657293 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.dll - GUID: 4a51eeae7acff4d16befaf1477acbd18...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.dll.
+ done. [Time: 4.616044 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/McDSP.dll - GUID: 4d31c2e0a82104478bdfd3034337ef34...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/McDSP.dll.
+ done. [Time: 4.745255 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/McDSP.dll - GUID: 4d8501c12ade349408ae13f563baa80c...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/McDSP.dll.
+ done. [Time: 7.216055 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Release/AkWaapiClient.dll - GUID: 54b6fb3b5a30d4097871f20b4b3321e9...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Release/AkWaapiClient.dll.
+ done. [Time: 5.158996 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSoundSeedImpact.dll - GUID: 5842afda80fcd4dfbaef9716b4556249...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSoundSeedImpact.dll.
+ done. [Time: 3.446130 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libCrankcaseAudioREVModelPlayer.bundle - GUID: 5dfee5908281d47e4ad88692ede54fa0...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libCrankcaseAudioREVModelPlayer.bundle.
+ done. [Time: 6.882525 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSoundSeedImpact.bundle - GUID: 636286d1812c14c06b79c3a81cdbb847...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSoundSeedImpact.bundle.
+ done. [Time: 3.941369 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkWaapiClient.dll - GUID: 63b7bc1a5089d41339cd53f6c6b77047...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkWaapiClient.dll.
+ done. [Time: 16.549147 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/MSSpatial.dll - GUID: 63d0db0fdb72948e6adb75f9c9eb57c0...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/MSSpatial.dll.
+ done. [Time: 4.434608 ms] 
+Updating Assets/Wwise/Deployment/AkWwiseSDKVersion.h - GUID: 67ac02eb5a06a489fb114c641d2e4749...
+----- Compute hash for Assets/Wwise/Deployment/AkWwiseSDKVersion.h.
+ done. [Time: 4.197088 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/Auro.dll - GUID: 71dd6f3a5182447e8a658ea993db438c...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/Auro.dll.
+ done. [Time: 15.093143 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkStereoDelay.dll - GUID: 739f086cbe58c4befbc37b25166b6cc3...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkStereoDelay.dll.
+ done. [Time: 9.594672 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkConvolutionReverb.dll - GUID: 78e10e8a4876040f5a1eed63f2090a2b...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkConvolutionReverb.dll.
+ done. [Time: 3.401559 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkGuitarDistortion.bundle - GUID: 7f74310ddc270407f861914d294fd852...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkGuitarDistortion.bundle.
+ done. [Time: 6.507936 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkTimeStretch.dll - GUID: 82ce7c5ef9fce4729b589ecfcb85e193...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkTimeStretch.dll.
+ done. [Time: 4.461870 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkFlanger.bundle - GUID: 850b3eb10b0fe49a792cff493fc47c3c...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkFlanger.bundle.
+ done. [Time: 3.217442 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkPitchShifter.bundle - GUID: 969c96c82abd343a0a718963013d49f5...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkPitchShifter.bundle.
+ done. [Time: 3.268054 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkTimeStretch.bundle - GUID: 96be34a9db53f430784ef05c5ce9b7ba...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkTimeStretch.bundle.
+ done. [Time: 6.487079 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/Auro.dll - GUID: 98169cb25a59a4cc5934bb8c837e3d96...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/Auro.dll.
+ done. [Time: 11.031554 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkFlanger.dll - GUID: 9828804376c3448bc9e9b2429126fe1f...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkFlanger.dll.
+ done. [Time: 7.735023 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkHarmonizer.bundle - GUID: 98f356088f01048da89a3024e64b379b...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkHarmonizer.bundle.
+ done. [Time: 3.097339 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkSoundEngine.dll - GUID: 9b4ec5d056f2d44ebbfe372ef27ac258...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkSoundEngine.dll.
+ done. [Time: 15.593045 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkHarmonizer.dll - GUID: 9d3cd583853534eadbd5156cc4c1e6e5...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkHarmonizer.dll.
+ done. [Time: 3.959620 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkWaapiClient.dll - GUID: a1d5207889e774167a32f8735c881de2...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkWaapiClient.dll.
+ done. [Time: 9.580870 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkStereoDelay.dll - GUID: a2ff8a6d11f0548f290a19ac4856fb5f...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkStereoDelay.dll.
+ done. [Time: 4.933026 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkGuitarDistortion.dll - GUID: ac5bb65097fd642bf96dc3b0b406e4a5...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkGuitarDistortion.dll.
+ done. [Time: 7.246546 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSoundSeedAir.bundle - GUID: ad3c03994e7c34fc584470907baeaa78...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSoundSeedAir.bundle.
+ done. [Time: 5.158796 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSynthOne.bundle - GUID: b132857a616754f25a322bea8929d873...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSynthOne.bundle.
+ done. [Time: 2.890967 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/iZotope.dll - GUID: b4db6e0372d1241409ee370310cebe6b...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/iZotope.dll.
+ done. [Time: 7.556571 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkRecorder.bundle - GUID: b976d0f02cd3d4279980bd1bee6c5334...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkRecorder.bundle.
+ done. [Time: 4.868051 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkReflect.bundle - GUID: b9c4c324bfded4a8fa8aad7e9d4f92d0...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkReflect.bundle.
+ done. [Time: 3.400896 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAuro.bundle - GUID: bae27e55da6884bf1b03447233849144...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAuro.bundle.
+ done. [Time: 20.127334 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkTremolo.bundle - GUID: c0ca2c1e9d0b04d309b07ad45c48a34c...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkTremolo.bundle.
+ done. [Time: 6.598814 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkReflect.dll - GUID: c2026720a0ed04a1b9b8ff517169ef2d...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkReflect.dll.
+ done. [Time: 4.910698 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Release/AkSoundEngine.dll - GUID: c7cfb0d1525054ce5aa2a9cb81e32340...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Release/AkSoundEngine.dll.
+ done. [Time: 10.927330 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Release/AkWaapiClient.dll - GUID: ca58d3f013d194f58807d865bfa576b8...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/Release/AkWaapiClient.dll.
+ done. [Time: 5.467675 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSynthOne.dll - GUID: ca93a7863f21847b4a1d534223aabb3e...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSynthOne.dll.
+ done. [Time: 18.879269 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkTremolo.dll - GUID: cc98d51984fe34e61834ba8659d2a00d...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkTremolo.dll.
+ done. [Time: 12.710043 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkRecorder.dll - GUID: cd12707d498674c01a4bf6512082f856...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkRecorder.dll.
+ done. [Time: 11.819624 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Release/AkSoundEngine.dll - GUID: ce0a99f9f044c47dfabbb1c39f05b2a8...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Release/AkSoundEngine.dll.
+ done. [Time: 7.683000 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkTremolo.dll - GUID: d10339ec83d0b4108a485d02a0ae852e...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkTremolo.dll.
+ done. [Time: 4.587219 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkGuitarDistortion.dll - GUID: d114ef2576dde469294a58e1867b84eb...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkGuitarDistortion.dll.
+ done. [Time: 4.443360 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/MSSpatial.dll - GUID: d2d4aa73db6774542a84fae44d416e55...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/MSSpatial.dll.
+ done. [Time: 3.543819 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/CrankcaseAudioREVModelPlayer.dll - GUID: db9fc7a88e36048af875d289010c7d0a...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/CrankcaseAudioREVModelPlayer.dll.
+ done. [Time: 7.965597 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkStereoDelay.bundle - GUID: e4192f1ba619c46a6931dc796e4b7073...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkStereoDelay.bundle.
+ done. [Time: 4.083113 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkSoundEngine.dll - GUID: e5eb6f3edd1c446378d70181c50df852...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkSoundEngine.dll.
+ done. [Time: 9.289244 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkConvolutionReverb.dll - GUID: e826ee0389f7b44a1beb8918228a8937...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkConvolutionReverb.dll.
+ done. [Time: 8.891600 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkConvolutionReverb.bundle - GUID: e87b6f65b2be44c34bdf8bca79f4947c...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkConvolutionReverb.bundle.
+ done. [Time: 7.072310 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkHarmonizer.dll - GUID: e914587b30fe14a4bb1f1794e1638e2a...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkHarmonizer.dll.
+ done. [Time: 6.965285 ms] 
+Updating Assets/Wwise/InstallConfig.json - GUID: ead6b4068751b4341b8db01ce0049dd8...
+----- Compute hash for Assets/Wwise/InstallConfig.json.
+ done. [Time: 2.442715 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkRoomVerb.bundle - GUID: f6fcad7f8dec3455aacafb1e9a2c3991...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkRoomVerb.bundle.
+ done. [Time: 4.083782 ms] 
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/iZotope.dll - GUID: fdb967832c5d84d05b6f1d00024709e5...
+----- Compute hash for Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/iZotope.dll.
+ done. [Time: 6.236640 ms] 
+Unloading 491 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 303.9 MB.
+System memory in use after: 303.9 MB.
+
+Unloading 569 unused Assets to reduce memory usage. Loaded Objects now: 1807.
+Total: 3.485804 ms (FindLiveObjects: 0.920560 ms CreateObjectMapping: 0.190564 ms MarkObjects: 2.019045 ms  DeleteObjects: 0.354677 ms)
+
+Refreshing native plugins compatible for Editor in 56.68 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.67 ms.
+
+----- Total AssetImport time: 17.501238s, AssetImport time: 17.078996s, Asset hashing: 0.839478s [229.6 MB, 273.501953 mb/s]
+
+Refresh completed in 17.599541 seconds.
+WARNING: Shader Unsupported: 'Hidden/FrameDebuggerRenderTargetDisplay' - Pass '' has no vertex shader
+Warming cache for 2598 main assets: 0.005168 seconds elapsed
+Initializing Unity extensions:
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ '/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Unloading 263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 300.9 MB.
+System memory in use after: 300.9 MB.
+
+Unloading 207 unused Assets to reduce memory usage. Loaded Objects now: 1848.
+Total: 5.419595 ms (FindLiveObjects: 2.948814 ms CreateObjectMapping: 0.078498 ms MarkObjects: 2.193636 ms  DeleteObjects: 0.197055 ms)
+
+WwiseUnity: Running install setup...
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WwiseSetupWizard:RunSetup() (at Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs:46)
+ 
+(Filename: Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 46)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 300.8 MB.
+System memory in use after: 300.9 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1856.
+Total: 3.679934 ms (FindLiveObjects: 0.693548 ms CreateObjectMapping: 0.054213 ms MarkObjects: 2.912519 ms  DeleteObjects: 0.018680 ms)
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.139 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkReflect.dll - GUID: c2026720a0ed04a1b9b8ff517169ef2d...
+ done. [Time: 4.312197 ms] 
+Refreshing native plugins compatible for Editor in 1.42 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.74 ms.
+
+----- Total AssetImport time: 0.273637s, AssetImport time: 0.102835s, Asset hashing: 0.000658s [141.9 KB, 210.723007 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.118 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkFlanger.dll - GUID: 48aa60306438a4c32804cbddaf07ad5d...
+ done. [Time: 2.806524 ms] 
+Refreshing native plugins compatible for Editor in 1.57 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.25 ms.
+
+----- Total AssetImport time: 0.285499s, AssetImport time: 0.103721s, Asset hashing: 0.000469s [120.4 KB, 250.685028 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.115 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkGuitarDistortion.dll - GUID: ac5bb65097fd642bf96dc3b0b406e4a5...
+ done. [Time: 2.165713 ms] 
+Refreshing native plugins compatible for Editor in 1.81 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 4.37 ms.
+
+----- Total AssetImport time: 0.285859s, AssetImport time: 0.113415s, Asset hashing: 0.000766s [117.9 KB, 150.344025 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.119 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libCrankcaseAudioREVModelPlayer.bundle - GUID: 5dfee5908281d47e4ad88692ede54fa0...
+ done. [Time: 5.799468 ms] 
+Refreshing native plugins compatible for Editor in 1.43 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.71 ms.
+
+----- Total AssetImport time: 0.274630s, AssetImport time: 0.104734s, Asset hashing: 0.000825s [121.8 KB, 144.170807 mb/s]
+
+
+Hashing assets (1 files)... 0.007 seconds
+  file read: 0.007 seconds (4.003 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.007 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkSoundEngine.dll - GUID: 9b4ec5d056f2d44ebbfe372ef27ac258...
+ done. [Time: 5.532585 ms] 
+Refreshing native plugins compatible for Editor in 1.47 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.62 ms.
+
+----- Total AssetImport time: 0.281327s, AssetImport time: 0.102457s, Asset hashing: 0.007418s [4.0 MB, 539.601562 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.258 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/McDSP.dll - GUID: 4d31c2e0a82104478bdfd3034337ef34...
+ done. [Time: 3.696697 ms] 
+Refreshing native plugins compatible for Editor in 2.43 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.39 ms.
+
+----- Total AssetImport time: 0.280104s, AssetImport time: 0.107681s, Asset hashing: 0.000639s [263.9 KB, 403.523987 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.037 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkRecorder.bundle - GUID: b976d0f02cd3d4279980bd1bee6c5334...
+ done. [Time: 2.211675 ms] 
+Refreshing native plugins compatible for Editor in 1.44 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.82 ms.
+
+----- Total AssetImport time: 0.273707s, AssetImport time: 0.101613s, Asset hashing: 0.000332s [38.4 KB, 112.663002 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.394 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Release/AkWaapiClient.dll - GUID: ca58d3f013d194f58807d865bfa576b8...
+ done. [Time: 2.922430 ms] 
+Refreshing native plugins compatible for Editor in 1.46 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.18 ms.
+
+----- Total AssetImport time: 0.284223s, AssetImport time: 0.109382s, Asset hashing: 0.002414s [403.9 KB, 163.382812 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.043 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkFlanger.bundle - GUID: 850b3eb10b0fe49a792cff493fc47c3c...
+ done. [Time: 6.673016 ms] 
+Refreshing native plugins compatible for Editor in 1.54 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.79 ms.
+
+----- Total AssetImport time: 0.277344s, AssetImport time: 0.108965s, Asset hashing: 0.000428s [44.4 KB, 101.226677 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.203 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/McDSP.dll - GUID: 4d8501c12ade349408ae13f563baa80c...
+ done. [Time: 5.879752 ms] 
+Refreshing native plugins compatible for Editor in 1.46 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.68 ms.
+
+----- Total AssetImport time: 0.283127s, AssetImport time: 0.103363s, Asset hashing: 0.000589s [207.9 KB, 344.997498 mb/s]
+
+
+Hashing assets (1 files)... 0.002 seconds
+  file read: 0.000 seconds (1.477 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.002 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Release/AkSoundEngine.dll - GUID: c7cfb0d1525054ce5aa2a9cb81e32340...
+ done. [Time: 2.228668 ms] 
+Refreshing native plugins compatible for Editor in 3.50 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.46 ms.
+
+----- Total AssetImport time: 0.278368s, AssetImport time: 0.105155s, Asset hashing: 0.002315s [1.5 MB, 637.920349 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.027 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSoundSeedImpact.bundle - GUID: 636286d1812c14c06b79c3a81cdbb847...
+ done. [Time: 2.866528 ms] 
+Refreshing native plugins compatible for Editor in 1.54 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.68 ms.
+
+----- Total AssetImport time: 0.289672s, AssetImport time: 0.104092s, Asset hashing: 0.000408s [27.9 KB, 66.799568 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.245 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libMcDSP.bundle - GUID: 21d5c1f144de443a28e9c05471614fb8...
+ done. [Time: 2.068879 ms] 
+Refreshing native plugins compatible for Editor in 3.75 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.50 ms.
+
+----- Total AssetImport time: 0.292628s, AssetImport time: 0.117634s, Asset hashing: 0.000766s [251.2 KB, 320.312256 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.102 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkPitchShifter.dll - GUID: 1e20dc0292e3649159b523355af2a9da...
+ done. [Time: 4.864929 ms] 
+Refreshing native plugins compatible for Editor in 1.88 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.77 ms.
+
+----- Total AssetImport time: 0.269966s, AssetImport time: 0.107100s, Asset hashing: 0.000475s [104.9 KB, 215.799484 mb/s]
+
+Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkWaapiClient.bundle - GUID: 4302e08204910464a8029b9af5358a6e...
+ done. [Time: 2.316463 ms] 
+Refreshing native plugins compatible for Editor in 2.01 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.66 ms.
+
+----- Total AssetImport time: 0.316598s, AssetImport time: 0.142170s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets (1 files)... 0.003 seconds
+  file read: 0.001 seconds (2.368 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.003 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/Auro.dll - GUID: 98169cb25a59a4cc5934bb8c837e3d96...
+ done. [Time: 2.301495 ms] 
+Refreshing native plugins compatible for Editor in 1.85 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.23 ms.
+
+----- Total AssetImport time: 0.281287s, AssetImport time: 0.106303s, Asset hashing: 0.003551s [2.4 MB, 666.683716 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.428 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/iZotope.dll - GUID: b4db6e0372d1241409ee370310cebe6b...
+ done. [Time: 2.261891 ms] 
+Refreshing native plugins compatible for Editor in 4.28 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.02 ms.
+
+----- Total AssetImport time: 0.280792s, AssetImport time: 0.101757s, Asset hashing: 0.000899s [437.9 KB, 475.957306 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.142 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkConvolutionReverb.dll - GUID: e826ee0389f7b44a1beb8918228a8937...
+ done. [Time: 2.396259 ms] 
+Refreshing native plugins compatible for Editor in 3.05 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 3.28 ms.
+
+----- Total AssetImport time: 0.282093s, AssetImport time: 0.114806s, Asset hashing: 0.000739s [144.9 KB, 191.500259 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.106 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkFlanger.dll - GUID: 9828804376c3448bc9e9b2429126fe1f...
+ done. [Time: 3.591326 ms] 
+Refreshing native plugins compatible for Editor in 1.44 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.64 ms.
+
+----- Total AssetImport time: 0.271720s, AssetImport time: 0.106305s, Asset hashing: 0.000631s [108.4 KB, 167.715210 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.075 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/MSSpatial.dll - GUID: d2d4aa73db6774542a84fae44d416e55...
+ done. [Time: 2.346927 ms] 
+Refreshing native plugins compatible for Editor in 2.00 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 4.90 ms.
+
+----- Total AssetImport time: 0.293672s, AssetImport time: 0.105272s, Asset hashing: 0.000360s [76.9 KB, 208.590530 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.118 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkHarmonizer.dll - GUID: 9d3cd583853534eadbd5156cc4c1e6e5...
+ done. [Time: 3.316287 ms] 
+Refreshing native plugins compatible for Editor in 1.50 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.68 ms.
+
+----- Total AssetImport time: 0.274619s, AssetImport time: 0.110553s, Asset hashing: 0.000560s [120.9 KB, 211.085999 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.312 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/iZotope.dll - GUID: fdb967832c5d84d05b6f1d00024709e5...
+ done. [Time: 2.939107 ms] 
+Refreshing native plugins compatible for Editor in 2.03 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.65 ms.
+
+----- Total AssetImport time: 0.280464s, AssetImport time: 0.101589s, Asset hashing: 0.000913s [319.4 KB, 341.588470 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.067 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkReflect.bundle - GUID: b9c4c324bfded4a8fa8aad7e9d4f92d0...
+ done. [Time: 3.297605 ms] 
+Refreshing native plugins compatible for Editor in 1.43 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.65 ms.
+
+----- Total AssetImport time: 0.269290s, AssetImport time: 0.106830s, Asset hashing: 0.001105s [69.1 KB, 61.058994 mb/s]
+
+Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkWaapiClient.bundle - GUID: e49293a4f1cee453c98c80a5133d32e8...
+ done. [Time: 2.041214 ms] 
+Refreshing native plugins compatible for Editor in 2.46 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 4.40 ms.
+
+----- Total AssetImport time: 0.308521s, AssetImport time: 0.136410s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.122 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSynthOne.dll - GUID: 21a7dee4b8299404190c126a0c2b14fa...
+ done. [Time: 2.205880 ms] 
+Refreshing native plugins compatible for Editor in 2.27 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 4.15 ms.
+
+----- Total AssetImport time: 0.281680s, AssetImport time: 0.109017s, Asset hashing: 0.000601s [124.9 KB, 202.882980 mb/s]
+
+Updating Assets/Wwise/Deployment/Plugins/Mac/Profile/AkSoundEngine.bundle - GUID: d0f592f44ad3f4f5b823795e57e39832...
+ done. [Time: 2.269095 ms] 
+Refreshing native plugins compatible for Editor in 2.33 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.69 ms.
+
+----- Total AssetImport time: 0.306657s, AssetImport time: 0.142422s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.104 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.001 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkGuitarDistortion.dll - GUID: d114ef2576dde469294a58e1867b84eb...
+ done. [Time: 7.581230 ms] 
+Refreshing native plugins compatible for Editor in 1.47 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.69 ms.
+
+----- Total AssetImport time: 0.284828s, AssetImport time: 0.105548s, Asset hashing: 0.001370s [106.4 KB, 75.882294 mb/s]
+
+
+Hashing assets (1 files)... 0.013 seconds
+  file read: 0.003 seconds (6.447 MB)
+  wait for write: 0.004 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.012 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAuro.bundle - GUID: bae27e55da6884bf1b03447233849144...
+ done. [Time: 3.355257 ms] 
+Refreshing native plugins compatible for Editor in 1.46 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.65 ms.
+
+----- Total AssetImport time: 0.299893s, AssetImport time: 0.114674s, Asset hashing: 0.013082s [6.4 MB, 492.786896 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.079 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkConvolutionReverb.bundle - GUID: e87b6f65b2be44c34bdf8bca79f4947c...
+ done. [Time: 2.573817 ms] 
+Refreshing native plugins compatible for Editor in 3.64 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.36 ms.
+
+----- Total AssetImport time: 0.277608s, AssetImport time: 0.104389s, Asset hashing: 0.000374s [81.3 KB, 212.509842 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.395 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkWaapiClient.dll - GUID: 45c36b66c93b24793b5be27f3c5818d9...
+ done. [Time: 3.890865 ms] 
+Refreshing native plugins compatible for Editor in 1.44 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.79 ms.
+
+----- Total AssetImport time: 0.290091s, AssetImport time: 0.106697s, Asset hashing: 0.001707s [404.0 KB, 231.118454 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.113 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSynthOne.dll - GUID: ca93a7863f21847b4a1d534223aabb3e...
+ done. [Time: 2.735577 ms] 
+Refreshing native plugins compatible for Editor in 2.17 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 3.80 ms.
+
+----- Total AssetImport time: 0.271907s, AssetImport time: 0.102471s, Asset hashing: 0.000463s [115.9 KB, 244.305420 mb/s]
+
+
+Hashing assets (1 files)... 0.004 seconds
+  file read: 0.001 seconds (2.962 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.004 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkSoundEngine.dll - GUID: 357d96c68a2574249aad4d758d5d22c5...
+ done. [Time: 3.996152 ms] 
+Refreshing native plugins compatible for Editor in 3.73 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.20 ms.
+
+----- Total AssetImport time: 0.286181s, AssetImport time: 0.105880s, Asset hashing: 0.004358s [3.0 MB, 679.583435 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.103 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSoundSeedImpact.dll - GUID: 17e6aaa73541e4a70bc1c665f0e5f874...
+ done. [Time: 2.422762 ms] 
+Refreshing native plugins compatible for Editor in 1.41 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.91 ms.
+
+----- Total AssetImport time: 0.275501s, AssetImport time: 0.105213s, Asset hashing: 0.000424s [105.9 KB, 243.966644 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.070 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkHarmonizer.bundle - GUID: 98f356088f01048da89a3024e64b379b...
+ done. [Time: 3.574368 ms] 
+Refreshing native plugins compatible for Editor in 2.15 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.66 ms.
+
+----- Total AssetImport time: 0.243244s, AssetImport time: 0.093131s, Asset hashing: 0.000390s [71.7 KB, 179.664429 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.075 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkRecorder.dll - GUID: 0053042833d5c4d3ea5fa983ad128121...
+ done. [Time: 2.717897 ms] 
+Refreshing native plugins compatible for Editor in 1.52 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.63 ms.
+
+----- Total AssetImport time: 0.252894s, AssetImport time: 0.090854s, Asset hashing: 0.001055s [76.4 KB, 70.726875 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.515 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkWaapiClient.dll - GUID: a1d5207889e774167a32f8735c881de2...
+ done. [Time: 2.205065 ms] 
+Refreshing native plugins compatible for Editor in 1.41 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.62 ms.
+
+----- Total AssetImport time: 0.249382s, AssetImport time: 0.095281s, Asset hashing: 0.001044s [0.5 MB, 492.823944 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.130 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/CrankcaseAudioREVModelPlayer.dll - GUID: 1dfc5e98e6e25487c967e46722bedb14...
+ done. [Time: 2.320282 ms] 
+Refreshing native plugins compatible for Editor in 1.40 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.87 ms.
+
+----- Total AssetImport time: 0.269622s, AssetImport time: 0.095702s, Asset hashing: 0.000456s [133.4 KB, 285.574585 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.145 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/CrankcaseAudioREVModelPlayer.dll - GUID: db9fc7a88e36048af875d289010c7d0a...
+ done. [Time: 2.492471 ms] 
+Refreshing native plugins compatible for Editor in 1.59 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.38 ms.
+
+----- Total AssetImport time: 0.267507s, AssetImport time: 0.103264s, Asset hashing: 0.000497s [148.9 KB, 292.862488 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.041 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkPitchShifter.bundle - GUID: 969c96c82abd343a0a718963013d49f5...
+ done. [Time: 6.089090 ms] 
+Refreshing native plugins compatible for Editor in 1.51 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.62 ms.
+
+----- Total AssetImport time: 0.276366s, AssetImport time: 0.106661s, Asset hashing: 0.000623s [41.5 KB, 65.046555 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.100 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkTremolo.dll - GUID: cc98d51984fe34e61834ba8659d2a00d...
+ done. [Time: 5.612903 ms] 
+Refreshing native plugins compatible for Editor in 1.43 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.75 ms.
+
+----- Total AssetImport time: 0.284540s, AssetImport time: 0.103425s, Asset hashing: 0.000502s [101.9 KB, 198.329788 mb/s]
+
+Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkWaapiClient.bundle - GUID: cc54032980af044dc8eba54e670758ff...
+ done. [Time: 3.620805 ms] 
+Refreshing native plugins compatible for Editor in 1.49 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.82 ms.
+
+----- Total AssetImport time: 0.319436s, AssetImport time: 0.141765s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.103 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSoundSeedAir.bundle - GUID: ad3c03994e7c34fc584470907baeaa78...
+ done. [Time: 2.776187 ms] 
+Refreshing native plugins compatible for Editor in 3.85 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.24 ms.
+
+----- Total AssetImport time: 0.292426s, AssetImport time: 0.106540s, Asset hashing: 0.000479s [105.5 KB, 214.814636 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.049 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkTimeStretch.bundle - GUID: 96be34a9db53f430784ef05c5ce9b7ba...
+ done. [Time: 2.149847 ms] 
+Refreshing native plugins compatible for Editor in 1.58 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.59 ms.
+
+----- Total AssetImport time: 0.276196s, AssetImport time: 0.108606s, Asset hashing: 0.000430s [50.0 KB, 113.471558 mb/s]
+
+
+Hashing assets (1 files)... 0.004 seconds
+  file read: 0.001 seconds (2.247 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.004 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Debug/AkWaapiClient.dll - GUID: 493da5b920b464dadbabc2036b0d0eb9...
+ done. [Time: 3.030312 ms] 
+Refreshing native plugins compatible for Editor in 1.74 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 4.58 ms.
+
+----- Total AssetImport time: 0.285623s, AssetImport time: 0.106644s, Asset hashing: 0.004677s [2.2 MB, 480.322968 mb/s]
+
+
+Hashing assets (1 files)... 0.003 seconds
+  file read: 0.001 seconds (1.891 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.003 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Release/AkSoundEngine.dll - GUID: ce0a99f9f044c47dfabbb1c39f05b2a8...
+ done. [Time: 2.194820 ms] 
+Refreshing native plugins compatible for Editor in 4.66 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.39 ms.
+
+----- Total AssetImport time: 0.286429s, AssetImport time: 0.102879s, Asset hashing: 0.002832s [1.9 MB, 667.737793 mb/s]
+
+
+Hashing assets (1 files)... 0.004 seconds
+  file read: 0.001 seconds (2.928 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.004 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Debug/AkWaapiClient.dll - GUID: 63b7bc1a5089d41339cd53f6c6b77047...
+ done. [Time: 4.093824 ms] 
+Refreshing native plugins compatible for Editor in 2.24 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.66 ms.
+
+----- Total AssetImport time: 0.284828s, AssetImport time: 0.109845s, Asset hashing: 0.004302s [2.9 MB, 680.474731 mb/s]
+
+
+Hashing assets (1 files)... 0.004 seconds
+  file read: 0.001 seconds (2.425 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.003 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/Auro.dll - GUID: 71dd6f3a5182447e8a658ea993db438c...
+ done. [Time: 3.042088 ms] 
+Refreshing native plugins compatible for Editor in 1.90 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.42 ms.
+
+----- Total AssetImport time: 0.300092s, AssetImport time: 0.108980s, Asset hashing: 0.003701s [2.4 MB, 655.105042 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.119 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkTimeStretch.dll - GUID: 13625e6ab9fd34ba69fe409326c7a24f...
+ done. [Time: 6.940550 ms] 
+Refreshing native plugins compatible for Editor in 1.46 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.73 ms.
+
+----- Total AssetImport time: 0.283767s, AssetImport time: 0.112201s, Asset hashing: 0.000418s [121.9 KB, 285.139771 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.051 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkSynthOne.bundle - GUID: b132857a616754f25a322bea8929d873...
+ done. [Time: 4.319842 ms] 
+Refreshing native plugins compatible for Editor in 1.44 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.72 ms.
+
+----- Total AssetImport time: 0.269174s, AssetImport time: 0.101703s, Asset hashing: 0.000369s [52.2 KB, 138.235870 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.001 seconds (0.127 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkConvolutionReverb.dll - GUID: 78e10e8a4876040f5a1eed63f2090a2b...
+ done. [Time: 5.754345 ms] 
+Refreshing native plugins compatible for Editor in 1.47 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.64 ms.
+
+----- Total AssetImport time: 0.280583s, AssetImport time: 0.104067s, Asset hashing: 0.002897s [130.4 KB, 43.969849 mb/s]
+
+
+Hashing assets (1 files)... 0.002 seconds
+  file read: 0.000 seconds (1.679 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.002 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/Profile/AkSoundEngine.dll - GUID: 42212dcafbf12481495c75b958f55f09...
+ done. [Time: 2.262009 ms] 
+Refreshing native plugins compatible for Editor in 1.73 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 3.81 ms.
+
+----- Total AssetImport time: 0.275918s, AssetImport time: 0.102319s, Asset hashing: 0.002540s [1.7 MB, 660.869446 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.102 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSoundSeedImpact.dll - GUID: 5842afda80fcd4dfbaef9716b4556249...
+ done. [Time: 2.241170 ms] 
+Refreshing native plugins compatible for Editor in 3.09 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.10 ms.
+
+----- Total AssetImport time: 0.285356s, AssetImport time: 0.104637s, Asset hashing: 0.000455s [103.9 KB, 223.233978 mb/s]
+
+Updating Assets/Wwise/Deployment/Plugins/Mac/Debug/AkSoundEngine.bundle - GUID: 27aa97ea6a6794207bd23111b15fdd00...
+ done. [Time: 3.386121 ms] 
+Refreshing native plugins compatible for Editor in 1.52 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.68 ms.
+
+----- Total AssetImport time: 0.324353s, AssetImport time: 0.150008s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.043 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkStereoDelay.bundle - GUID: e4192f1ba619c46a6931dc796e4b7073...
+ done. [Time: 4.926310 ms] 
+Refreshing native plugins compatible for Editor in 2.01 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.77 ms.
+
+----- Total AssetImport time: 0.281571s, AssetImport time: 0.105796s, Asset hashing: 0.001505s [43.8 KB, 28.431152 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.001 seconds (0.515 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Release/AkWaapiClient.dll - GUID: 54b6fb3b5a30d4097871f20b4b3321e9...
+ done. [Time: 6.103415 ms] 
+Refreshing native plugins compatible for Editor in 1.47 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.64 ms.
+
+----- Total AssetImport time: 0.281439s, AssetImport time: 0.103523s, Asset hashing: 0.002970s [0.5 MB, 173.242264 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.116 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkMotion.dll - GUID: 28e2404b1da8f4bf18c750ec18bfdbfa...
+ done. [Time: 2.243446 ms] 
+Refreshing native plugins compatible for Editor in 2.28 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 3.58 ms.
+
+----- Total AssetImport time: 0.275212s, AssetImport time: 0.102511s, Asset hashing: 0.000480s [118.4 KB, 241.101807 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.138 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkHarmonizer.dll - GUID: e914587b30fe14a4bb1f1794e1638e2a...
+ done. [Time: 2.600778 ms] 
+Refreshing native plugins compatible for Editor in 1.45 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.63 ms.
+
+----- Total AssetImport time: 0.276092s, AssetImport time: 0.106183s, Asset hashing: 0.000745s [140.9 KB, 184.832397 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.126 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkSoundSeedAir.dll - GUID: 0e5c093cd08074ff68bda9a4b88111ba...
+ done. [Time: 6.391448 ms] 
+Refreshing native plugins compatible for Editor in 1.45 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.63 ms.
+
+----- Total AssetImport time: 0.313945s, AssetImport time: 0.113658s, Asset hashing: 0.000463s [128.9 KB, 271.951691 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.117 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkStereoDelay.dll - GUID: 739f086cbe58c4befbc37b25166b6cc3...
+ done. [Time: 2.555080 ms] 
+Refreshing native plugins compatible for Editor in 2.36 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.18 ms.
+
+----- Total AssetImport time: 0.296485s, AssetImport time: 0.097013s, Asset hashing: 0.000477s [119.4 KB, 244.430099 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.116 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkTremolo.dll - GUID: d10339ec83d0b4108a485d02a0ae852e...
+ done. [Time: 5.815793 ms] 
+Refreshing native plugins compatible for Editor in 2.34 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 4.45 ms.
+
+----- Total AssetImport time: 0.378666s, AssetImport time: 0.134423s, Asset hashing: 0.000423s [118.4 KB, 273.345764 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.038 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkGuitarDistortion.bundle - GUID: 7f74310ddc270407f861914d294fd852...
+ done. [Time: 4.468085 ms] 
+Refreshing native plugins compatible for Editor in 1.46 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.63 ms.
+
+----- Total AssetImport time: 0.328922s, AssetImport time: 0.158531s, Asset hashing: 0.000370s [38.8 KB, 102.381325 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.105 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkStereoDelay.dll - GUID: a2ff8a6d11f0548f290a19ac4856fb5f...
+ done. [Time: 3.329505 ms] 
+Refreshing native plugins compatible for Editor in 1.55 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.68 ms.
+
+----- Total AssetImport time: 0.312734s, AssetImport time: 0.101778s, Asset hashing: 0.000428s [107.4 KB, 245.256775 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.089 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkRecorder.dll - GUID: cd12707d498674c01a4bf6512082f856...
+ done. [Time: 3.430283 ms] 
+Refreshing native plugins compatible for Editor in 1.45 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.64 ms.
+
+----- Total AssetImport time: 0.283133s, AssetImport time: 0.113008s, Asset hashing: 0.000419s [90.9 KB, 211.706345 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.120 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkMotion.dll - GUID: 4064ebcd3849b432394239d86d00587c...
+ done. [Time: 2.304300 ms] 
+Refreshing native plugins compatible for Editor in 1.45 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.65 ms.
+
+----- Total AssetImport time: 0.300426s, AssetImport time: 0.113533s, Asset hashing: 0.000595s [122.4 KB, 201.063049 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.111 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.001 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkPitchShifter.dll - GUID: 3a14b1ed810154d03a4e2ec68c7f35c5...
+ done. [Time: 3.045112 ms] 
+Refreshing native plugins compatible for Editor in 2.62 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.18 ms.
+
+----- Total AssetImport time: 0.276943s, AssetImport time: 0.100660s, Asset hashing: 0.001919s [113.4 KB, 57.739220 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.032 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkTremolo.bundle - GUID: c0ca2c1e9d0b04d309b07ad45c48a34c...
+ done. [Time: 7.644794 ms] 
+Refreshing native plugins compatible for Editor in 2.20 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.10 ms.
+
+----- Total AssetImport time: 0.287621s, AssetImport time: 0.126325s, Asset hashing: 0.000442s [32.3 KB, 71.367836 mb/s]
+
+
+Hashing assets (1 files)... 0.003 seconds
+  file read: 0.001 seconds (2.164 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.003 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/Profile/AkSoundEngine.dll - GUID: e5eb6f3edd1c446378d70181c50df852...
+ done. [Time: 2.381682 ms] 
+Refreshing native plugins compatible for Editor in 3.01 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.22 ms.
+
+----- Total AssetImport time: 0.344528s, AssetImport time: 0.103305s, Asset hashing: 0.003388s [2.2 MB, 638.670227 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.108 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkTimeStretch.dll - GUID: 82ce7c5ef9fce4729b589ecfcb85e193...
+ done. [Time: 2.256015 ms] 
+Refreshing native plugins compatible for Editor in 1.45 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.37 ms.
+
+----- Total AssetImport time: 0.275236s, AssetImport time: 0.108541s, Asset hashing: 0.000524s [110.9 KB, 206.941605 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.151 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.dll - GUID: 4a51eeae7acff4d16befaf1477acbd18...
+ done. [Time: 2.466488 ms] 
+Refreshing native plugins compatible for Editor in 1.89 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.05 ms.
+
+----- Total AssetImport time: 0.274713s, AssetImport time: 0.106719s, Asset hashing: 0.000478s [154.4 KB, 315.409729 mb/s]
+
+
+Hashing assets (1 files)... 0.001 seconds
+  file read: 0.000 seconds (0.089 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86_64/DSP/MSSpatial.dll - GUID: 63d0db0fdb72948e6adb75f9c9eb57c0...
+ done. [Time: 2.154512 ms] 
+Refreshing native plugins compatible for Editor in 1.66 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.31 ms.
+
+----- Total AssetImport time: 0.292018s, AssetImport time: 0.110829s, Asset hashing: 0.001386s [91.4 KB, 64.424629 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.123 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Windows/x86/DSP/AkReflect.dll - GUID: 3b8f793f341d1464fb663e6c3865254a...
+ done. [Time: 2.190940 ms] 
+Refreshing native plugins compatible for Editor in 2.04 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 3.97 ms.
+
+----- Total AssetImport time: 0.267785s, AssetImport time: 0.101229s, Asset hashing: 0.000436s [125.9 KB, 282.158356 mb/s]
+
+
+Hashing assets (1 files)... 0.000 seconds
+  file read: 0.000 seconds (0.126 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Wwise/Deployment/Plugins/Mac/DSP/libAkRoomVerb.bundle - GUID: f6fcad7f8dec3455aacafb1e9a2c3991...
+ done. [Time: 3.150891 ms] 
+Refreshing native plugins compatible for Editor in 1.44 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.65 ms.
+
+----- Total AssetImport time: 0.273329s, AssetImport time: 0.100198s, Asset hashing: 0.000476s [129.5 KB, 265.511536 mb/s]
+
+Updating Assets/Wwise/Deployment/Plugins/Mac/Release/AkSoundEngine.bundle - GUID: 940189cf78a9945c5a11680f0463658e...
+ done. [Time: 2.166577 ms] 
+Refreshing native plugins compatible for Editor in 3.94 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.89 ms.
+
+----- Total AssetImport time: 0.310836s, AssetImport time: 0.141081s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Updating Assets/Wwise/Resources - GUID: 63721fc193d144270a3baf3d3ae511b9...
+ done. [Time: 6.012873 ms] 
+Updating Assets/Wwise/Resources/AkWwiseInitializationSettings.asset - GUID: 3d59c60dabafd47039e97987d32b9e43...
+----- Compute hash for Assets/Wwise/Resources/AkWwiseInitializationSettings.asset.
+ done. [Time: 3.482878 ms] 
+Refreshing native plugins compatible for Editor in 2.05 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.06 ms.
+
+----- Total AssetImport time: 0.475541s, AssetImport time: 0.140263s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Updating Assets/Wwise/Editor/ProjectData - GUID: 91291adc172c54b9c8fad23b74f9c841...
+ done. [Time: 6.049358 ms] 
+Updating Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset - GUID: db5d7eb81cb634d2fb82451aa61adcde...
+----- Compute hash for Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset.
+ done. [Time: 6.039112 ms] 
+Refreshing native plugins compatible for Editor in 1.56 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 2.33 ms.
+
+----- Total AssetImport time: 0.499699s, AssetImport time: 0.138459s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+WwiseUnity: Refreshing asset database.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WwiseSetupWizard:RunSetup() (at Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs:52)
+ 
+(Filename: Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 52)
+
+Refresh: detecting if any assets need to be imported or removed ...
+Refresh: elapses 0.249081 seconds
+Updating Assets/StreamingAssets/Audio - GUID: 2471458079897407d892e047000a7aac...
+ done. [Time: 1.949225 ms] 
+Updating Assets/StreamingAssets/Audio/GeneratedSoundBanks - GUID: 46c352a93ad5449a4abf2af9c11967f3...
+ done. [Time: 2.078353 ms] 
+Refreshing native plugins compatible for Editor in 2.14 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.63 ms.
+
+----- Total AssetImport time: 0.395454s, AssetImport time: 0.144531s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Refresh completed in 0.483601 seconds.
+WwiseUnity: End of setup, exiting Unity.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WwiseSetupWizard:RunSetup() (at Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs:56)
+ 
+(Filename: Assets/Wwise/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 56)
+
+Batchmode quit successfully invoked - shutting down!
+Refresh: detecting if any assets need to be imported or removed ...
+Refresh: elapses 0.086795 seconds (Nothing changed)
+Refresh completed in 0.086848 seconds.
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 2.576667 ms] 
+Refreshing native plugins compatible for Editor in 2.08 ms, found 24 plugins.
+Preloading 2 native plugins for Editor in 1.63 ms.
+
+----- Total AssetImport time: 0.363306s, AssetImport time: 0.107684s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Refresh: detecting if any assets need to be imported or removed ...
+Refresh: elapses 0.093541 seconds (Nothing changed)
+Refresh completed in 0.093599 seconds.
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+Exiting batchmode successfully now!

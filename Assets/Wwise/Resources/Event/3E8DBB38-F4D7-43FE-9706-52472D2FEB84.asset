@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa954cf17c6524afcb9536f674ce2b0c, type: 3}
+  m_Name: 3E8DBB38-F4D7-43FE-9706-52472D2FEB84
+  m_EditorClassIdentifier: 
+  objectName: Play_Isaac_swees_Ageless_Samy_Burton_remix__
+  id: 3588382252
+  guid: 3E8DBB38-F4D7-43FE-9706-52472D2FEB84
