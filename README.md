@@ -32,6 +32,6 @@ This game was made by JAMKIS
 * Jean-Francois Morin,
 * André Bray
 * Marc-Antoine Giguère 
-* [Kerry Gougeon] (https://github.com/Kerry-G) 
-* [Isaac Doré] (https://github.com/Swess)
+* [Kerry Gougeon](https://github.com/Kerry-G) 
+* [Isaac Doré](https://github.com/Swess)
 * Sophie Tetreault.
