@@ -28,7 +28,7 @@ Diversity // Non-human: Animals captured by Aliens.
 The game is easily played with 4 controllers. (Mouse for the menu as for now)
 
 
-This game was made by JAMKIS
+This game was made by [JAMKIS](https://jamkis.itch.io/)
 * Jean-Francois Morin,
 * André Bray
 * Marc-Antoine Giguère 
